@@ -5,6 +5,12 @@ export const SITE = {
   origin: 'https://stripchat.su',
   name: 'Stripchat.su',
   themeColor: '#0f0f14',
+  // Ссылки в подвале всех разделов
+  infoLinks: [
+    ['/o-sajte/', 'О сайте'],
+    ['/politika-konfidencialnosti/', 'Политика конфиденциальности'],
+    ['/otkaz-ot-otvetstvennosti/', 'Отказ от ответственности'],
+  ],
 };
 
 const IFRAME_BASE = 'https://creative.world-webcam.com/LPAkira?userId=b69f1e454a7b497f99182f84c66c6398682a5b7f5fb47e8d30521d8a44aff9c9&targetDomain=world-webcam.com';

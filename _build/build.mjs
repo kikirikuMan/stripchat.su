@@ -101,6 +101,23 @@ fs.mkdirSync(path.join(ROOT, 'assets'), { recursive: true });
 fs.writeFileSync(path.join(ROOT, 'assets', 'site.css'), css);
 
 const abs = (u) => SITE.origin + u;
+
+// Иллюстрации страниц: адрес страницы -> { src, og, w, h, alt }. Файл пишет _build/images.py
+const IMAGES_FILE = path.join(ROOT, '_src', 'images.json');
+const IMAGES = fs.existsSync(IMAGES_FILE) ? JSON.parse(fs.readFileSync(IMAGES_FILE, 'utf8')) : {};
+for (const u of Object.keys(IMAGES)) if (!byUrl.has(u)) errors.push(`_src/images.json: нет страницы ${u}`);
+
+function ogImage(p) {
+  const img = IMAGES[p.urlPath];
+  return img ? { url: abs(img.og), type: 'image/jpeg' } : { url: abs(SECTIONS[p.section].ogImage), type: 'image/png' };
+}
+
+function figure(p, lazy) {
+  const img = IMAGES[p.urlPath];
+  if (!img) return '';
+  const load = lazy ? 'loading="lazy"' : 'fetchpriority="high"';
+  return `<figure class="hero-img"><img src="${img.src}" width="${img.w}" height="${img.h}" alt="${esc(img.alt)}" ${load} decoding="async"></figure>`;
+}
 const extAttrs = 'target="_blank" rel="sponsored noopener"';
 
 function ctaButton(section, extraClass = '') {
@@ -172,7 +189,7 @@ function jsonLd(p, crumbs) {
       '@id': `${url}#webpage`, url, name: p.meta.title, description: p.meta.description,
       isPartOf: { '@id': `${SITE.origin}/#website` }, inLanguage: 'ru-RU', isFamilyFriendly: !sec.adult,
       dateModified: TODAY,
-      primaryImageOfPage: { '@type': 'ImageObject', url: abs(sec.ogImage), width: 1200, height: 630 },
+      primaryImageOfPage: { '@type': 'ImageObject', url: ogImage(p).url, width: 1200, height: 630 },
       ...(crumbs.length > 1 ? { breadcrumb: { '@id': `${url}#breadcrumb` } } : {}),
     },
   ];
@@ -180,7 +197,7 @@ function jsonLd(p, crumbs) {
     graph.push({
       '@type': 'Article', '@id': `${url}#article`, headline: p.meta.h1, description: p.meta.description,
       mainEntityOfPage: { '@id': `${url}#webpage` }, inLanguage: 'ru-RU', dateModified: TODAY,
-      datePublished: p.meta.published || TODAY, image: abs(sec.ogImage),
+      datePublished: p.meta.published || TODAY, image: ogImage(p).url,
       author: { '@type': 'Organization', name: SITE.name, url: `${SITE.origin}/` },
       publisher: { '@type': 'Organization', name: SITE.name, url: `${SITE.origin}/` },
     });
@@ -204,7 +221,7 @@ function render(p) {
   const sec = SECTIONS[p.section];
   const crumbs = breadcrumbs(p);
   const url = abs(p.urlPath);
-  const og = abs(sec.ogImage);
+  const og = ogImage(p);
   const isHome = p.urlPath === '/';
 
   let body = p.body.replaceAll('{{cta}}', `<p class="cta-row">${ctaButton(p.section)}</p>`);
@@ -257,15 +274,15 @@ ${sec.adult ? `  <!-- Метка контента для взрослых (ре�
   <meta property="og:url" content="${url}">
   <meta property="og:title" content="${esc(p.meta.title)}">
   <meta property="og:description" content="${esc(p.meta.description)}">
-  <meta property="og:image" content="${og}">
+  <meta property="og:image" content="${og.url}">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:type" content="${og.type}">
   <meta property="og:image:alt" content="${esc(p.meta.h1)}">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="${esc(p.meta.title)}">
   <meta name="twitter:description" content="${esc(p.meta.description)}">
-  <meta name="twitter:image" content="${og}">
+  <meta name="twitter:image" content="${og.url}">
   <link rel="icon" href="/favicon.ico" sizes="48x48">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -290,7 +307,8 @@ ${top ? `  <div class="titlebar"><h1>${esc(p.meta.h1)}</h1></div>
   ${streamHtml}
 ` : ''}  <main>
     ${crumbsHtml}
-${top ? '' : `    <h1 class="page-title">${esc(p.meta.h1)}</h1>\n`}    ${body}
+${top ? '' : `    <h1 class="page-title">${esc(p.meta.h1)}</h1>\n`}    ${figure(p, top)}
+    ${body}
     ${top ? '' : streamHtml}
     ${p.section === 'watch' ? promoBlock() : ''}
     ${ctaFinal}
@@ -300,6 +318,7 @@ ${top ? '' : `    <h1 class="page-title">${esc(p.meta.h1)}</h1>\n`}    ${body}
   <footer class="site-footer">
     <nav class="footer-nav" aria-label="Разделы сайта">${sec.footerNav.map(([u, t]) => `<a href="${u}">${esc(t)}</a>`).join('')}</nav>
     ${sec.footer.map((t) => `<p>${t}</p>`).join('\n    ')}
+    <nav class="footer-nav footer-nav--info" aria-label="О сайте">${SITE.infoLinks.map(([u, t]) => `<a href="${u}">${esc(t)}</a>`).join("")}</nav>
     <p>© ${TODAY.slice(0, 4)} ${SITE.name}</p>
   </footer>
 </body>
@@ -317,8 +336,12 @@ if (!errors.length) {
   }
 
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${pages.map((p) => `  <url>\n    <loc>${abs(p.urlPath)}</loc>\n    <lastmod>${TODAY}</lastmod>\n  </url>`).join('\n')}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+${pages.map((p) => {
+    const img = IMAGES[p.urlPath];
+    const imgXml = img ? `\n    <image:image>\n      <image:loc>${abs(img.src)}</image:loc>\n    </image:image>` : '';
+    return `  <url>\n    <loc>${abs(p.urlPath)}</loc>\n    <lastmod>${TODAY}</lastmod>${imgXml}\n  </url>`;
+  }).join('\n')}
 </urlset>
 `;
   fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), sitemap);
@@ -328,7 +351,7 @@ ${pages.map((p) => `  <url>\n    <loc>${abs(p.urlPath)}</loc>\n    <lastmod>${TO
 
 const bySection = pages.reduce((a, p) => ((a[p.section] = (a[p.section] || 0) + 1), a), {});
 console.log(`Страниц: ${pages.length} (${Object.entries(bySection).map(([k, v]) => `${k}: ${v}`).join(', ')})`);
-const thin = pages.filter((p) => !p.isHub && p.urlPath !== '/' && words(p.body) < 400);
+const thin = pages.filter((p) => !p.isHub && !p.meta.short && p.urlPath !== '/' && words(p.body) < 400);
 if (thin.length) warnings.push(...thin.map((p) => `${p.rel}: мало текста (${words(p.body)} слов)`));
 for (const w of warnings) console.log('ПРЕДУПРЕЖДЕНИЕ', w);
 for (const e of errors) console.log('ОШИБКА', e);

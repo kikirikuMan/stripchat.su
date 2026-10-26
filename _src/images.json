@@ -1,0 +1,100 @@
+{
+  "/gid/": {
+    "src": "/img/sc-gid.webp",
+    "og": "/img/og/sc-gid.jpg",
+    "w": 1200,
+    "h": 675,
+    "alt": "Открытая книга-гид с иконками вопросов, безопасности и токенов"
+  },
+  "/gid/anonimnost/": {
+    "src": "/img/sc-anonimnost.webp",
+    "og": "/img/og/sc-anonimnost.jpg",
+    "w": 1200,
+    "h": 675,
+    "alt": "Маска и щит: анонимность зрителя"
+  },
+  "/gid/privat/": {
+    "src": "/img/sc-privat.webp",
+    "og": "/img/og/sc-privat.jpg",
+    "w": 1200,
+    "h": 675,
+    "alt": "Закрытая дверь с замком: приватное шоу"
+  },
+  "/gid/tokeny/": {
+    "src": "/img/sc-tokeny.webp",
+    "og": "/img/og/sc-tokeny.jpg",
+    "w": 1200,
+    "h": 675,
+    "alt": "Стопки светящихся монет-токенов"
+  },
+  "/gid/vebkam-chat/": {
+    "src": "/img/sc-chat.webp",
+    "og": "/img/og/sc-chat.jpg",
+    "w": 1200,
+    "h": 675,
+    "alt": "Ноутбук с облачками чата и сердечками"
+  },
+  "/gid/vebkam-sajty/": {
+    "src": "/img/sc-sajty.webp",
+    "og": "/img/og/sc-sajty.jpg",
+    "w": 1200,
+    "h": 675,
+    "alt": "Три экрана вебкам-платформ рядом для сравнения"
+  },
+  "/kategorii/": {
+    "src": "/img/sc-kategorii.webp",
+    "og": "/img/og/sc-kategorii.jpg",
+    "w": 1200,
+    "h": 675,
+    "alt": "Светящиеся плитки-экраны с трансляциями: каталог категорий"
+  },
+  "/kategorii/s-telefona/": {
+    "src": "/img/sc-telefon.webp",
+    "og": "/img/og/sc-telefon.jpg",
+    "w": 1200,
+    "h": 675,
+    "alt": "Смартфон с прямой трансляцией и сообщениями чата"
+  },
+  "/kategorii/vr/": {
+    "src": "/img/sc-vr.webp",
+    "og": "/img/og/sc-vr.jpg",
+    "w": 1200,
+    "h": 675,
+    "alt": "VR-шлем для просмотра трансляций"
+  },
+  "/model/": {
+    "src": "/img/sc-model.webp",
+    "og": "/img/og/sc-model.jpg",
+    "w": 1200,
+    "h": 675,
+    "alt": "Домашнее рабочее место вебкам-модели: камера, свет, ноутбук"
+  },
+  "/model/bezopasnost/": {
+    "src": "/img/sc-bezopasnost.webp",
+    "og": "/img/og/sc-bezopasnost.jpg",
+    "w": 1200,
+    "h": 675,
+    "alt": "Щит с замком над картой мира: защита и блокировка регионов"
+  },
+  "/model/oborudovanie/": {
+    "src": "/img/sc-oborudovanie.webp",
+    "og": "/img/og/sc-oborudovanie.jpg",
+    "w": 1200,
+    "h": 675,
+    "alt": "Оборудование для стрима: веб-камера, кольцевая лампа, микрофон"
+  },
+  "/model/vyplaty/": {
+    "src": "/img/sc-vyplaty.webp",
+    "og": "/img/og/sc-vyplaty.jpg",
+    "w": 1200,
+    "h": 675,
+    "alt": "Кошелёк, календарь и график: выплаты"
+  },
+  "/partner/": {
+    "src": "/img/sc-partner.webp",
+    "og": "/img/og/sc-partner.jpg",
+    "w": 1200,
+    "h": 675,
+    "alt": "Сеть связанных сайтов и растущий график: партнёрская программа"
+  }
+}
