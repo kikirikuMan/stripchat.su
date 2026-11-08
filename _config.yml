@@ -2,3 +2,6 @@
 # папки на "_" (исходники и сборщик) не публикуются, README тоже
 exclude:
   - README.md
+  - package.json
+  - package-lock.json
+  - node_modules

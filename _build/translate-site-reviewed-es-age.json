@@ -1,0 +1,274 @@
+{
+  "reviewDate": "2026-11-08",
+  "reviewedPages": 78,
+  "reviewedAgeUnits": 260,
+  "scope": "All260 source-aligned age/adulthood/minor fragments across78 pages compared; final pass covers162 nonmetadata/noncore units in addition to prior manually authored metadata/core pages. Exact-source fixes persist in translate-site-text-es.json. Independent native-speaker proofreading not performed.",
+  "edits": [
+    {
+      "locale": "es",
+      "route": "/gid/alternativa-chat-ruletke/",
+      "path": "body",
+      "from": "Solo mayores de 18 años, los modelos están verificados",
+      "to": "Solo personas de 18 años o más; las modelos pasan una verificación"
+    },
+    {
+      "locale": "es",
+      "route": "/gid/alternativa-chat-ruletke/",
+      "path": "body",
+      "from": "Área especializada 18+",
+      "to": "Plataforma especializada para adultos de 18 años o más"
+    },
+    {
+      "locale": "es",
+      "route": "/gid/alternativa-chat-ruletke/",
+      "path": "body",
+      "from": "Sigue las reglas del sitio y respeta las del otro lado de la pantalla.",
+      "to": "Sigue las normas de la plataforma y respeta a las personas al otro lado de la pantalla."
+    },
+    {
+      "locale": "es",
+      "route": "/gid/chto-takoe-vebkam/",
+      "path": "meta.faq.2.a",
+      "from": "Adultos que confirmaron su edad con documentos y ellos mismos decidieron trabajar en el aire. Las plataformas comprueban esto incluso antes de la primera transmisión.",
+      "to": "Personas adultas que han verificado su edad con documentos y han decidido transmitir por voluntad propia. Las plataformas lo comprueban antes de la primera transmisión."
+    },
+    {
+      "locale": "es",
+      "route": "/gid/chto-takoe-vebkam/",
+      "path": "body",
+      "from": "los espectadores deben tener 18 años para participar",
+      "to": "los espectadores deben tener al menos 18 años para acceder"
+    },
+    {
+      "locale": "es",
+      "route": "/gid/chto-takoe-vebkam/",
+      "path": "body",
+      "from": "Al mismo tiempo, la franqueza no se limita a ello:",
+      "to": "Sin embargo, no todo se reduce al contenido explícito:"
+    },
+    {
+      "locale": "es",
+      "route": "/gid/ii-chat-ili-zhivye-modeli/",
+      "path": "body",
+      "from": "Un modelo de cámara web es un adulto que ha confirmado su edad y ha decidido publicar. Tiene humor, sentido del humor, sus propias reglas y derecho a rechazar cualquier solicitud.",
+      "to": "Una modelo de webcam es una persona adulta que ha verificado su edad y ha decidido transmitir por voluntad propia. Tiene su propio estado de ánimo, sentido del humor, normas y derecho a rechazar cualquier petición."
+    },
+    {
+      "locale": "es",
+      "route": "/gid/ii-chat-ili-zhivye-modeli/",
+      "path": "body",
+      "from": "Persona real mayor de 18 años",
+      "to": "Una persona real de 18 años o más"
+    },
+    {
+      "locale": "es",
+      "route": "/gid/registraciya/",
+      "path": "body",
+      "from": "Confirma que eres mayor de 18 años. De lo contrario, la plataforma no le permitirá continuar.",
+      "to": "Confirma que tienes al menos 18 años. De lo contrario, la plataforma no te permitirá continuar."
+    },
+    {
+      "locale": "es",
+      "route": "/gid/strip-chat/",
+      "path": "meta.faq.0.a",
+      "from": "Sí, \"chat de tiras\" es solo una ortografía rusa del nombre Stripchat. Esta es la misma plataforma de cámara web con más de 18 transmisiones en vivo.",
+      "to": "Sí. La grafía rusa del nombre también se refiere a Stripchat. Es la misma plataforma de webcam, con transmisiones en vivo para personas de 18 años o más."
+    },
+    {
+      "locale": "es",
+      "route": "/gid/strip-chat/",
+      "path": "body",
+      "from": "Strip Chat: así es como el nombre Stripchat, una de las mayores plataformas de cámaras web para adultos, se escribe a menudo en ruso. Los modelos realizan transmisiones en vivo allí, y los espectadores las ven en el navegador y se corresponden en el chat. En la revisión, analizaremos qué puede hacer el sitio, a quién es adecuado, cómo comenzar a ver y dónde se está realizando realmente el registro.",
+      "to": "En ruso, el nombre de Stripchat suele escribirse con letras cirílicas. Es una de las grandes plataformas de webcam para adultos. Las modelos transmiten en vivo, mientras los espectadores miran desde el navegador y conversan en el chat. Esta reseña explica qué ofrece la plataforma, a quién le conviene, cómo empezar a mirar y dónde se realiza realmente el registro."
+    },
+    {
+      "locale": "es",
+      "route": "/gid/strip-chat/",
+      "path": "body",
+      "from": "Por cierto, en la solicitud \"modelo de chat de tiras\" también está buscando algo más: cómo transmitir. Para ello, existe un registro separado en la plataforma, solo para los que tienen 18 años, y con una verificación obligatoria de documentos. Las condiciones de trabajo de los modelos son publicadas por Stripchat.",
+      "to": "La búsqueda «modelo de Stripchat» también puede referirse a cómo empezar a transmitir. Para ello existe un registro independiente en la plataforma, solo para personas de al menos 18 años y con verificación obligatoria de documentos. Stripchat publica las condiciones de trabajo de las modelos."
+    },
+    {
+      "locale": "es",
+      "route": "/gid/zapisi-translyacij/",
+      "path": "body",
+      "from": "gana esos sitios con más frecuencia en los visitantes que en los videos. Se le pedirá que \"actualice el reproductor\" o instale la extensión, deslice un archivo malicioso, ofrezca \"confirmar edad\" con los datos de la tarjeta y suscríbase silenciosamente.",
+      "to": "Estos sitios suelen obtener dinero de los visitantes más que de los videos. Pueden pedirte que «actualices el reproductor» o instales una extensión, ofrecerte un archivo malicioso o pedir los datos de tu tarjeta para «confirmar la edad» y activar una suscripción sin avisarte."
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/",
+      "path": "meta.faq.0.a",
+      "from": "posible. En Stripchat, los filtros se combinan: digamos, establezca el idioma, el grupo de edad y el tipo de transmisión al mismo tiempo, y solo los modelos que encajen en la lista permanecerán en la lista.",
+      "to": "Sí. Puedes combinar los filtros de Stripchat: por ejemplo, idioma, grupo de edad y tipo de transmisión. La lista solo mostrará las modelos que cumplan todas las condiciones."
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/",
+      "path": "body",
+      "from": "La primera y más grande división en Stripchat está en el tipo de transmisión en vivo: niñas, parejas, chicos y modelos trans. Estas son cuatro cintas separadas, cada una tiene su propia audiencia y sus propios formatos de espectáculos. Dentro de la cinta se incluyen filtros clarificadores: apariencia, grupo de edad, región e idioma, físico, así como funciones de transmisión como HD, VR o juguetes interactivos.",
+      "to": "La división principal de Stripchat distingue entre mujeres, parejas, hombres y modelos trans. Son cuatro listas de transmisiones, cada una con su público y sus formatos. Dentro de cada lista puedes afinar los filtros por apariencia, grupo de edad, región, idioma y constitución física, además de características como HD, VR o juguetes interactivos."
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/aziatki/",
+      "path": "body",
+      "from": "Cada una de estas culturas tiene su propio lenguaje y sentido del humor, y frente a la cámara mantienen en todas partes a su manera. Entonces, el primer consejo es simple: no esperes la categoría de homogeneidad. El modelo Manila se diferencia del modelo de Tokio tanto como una niña de Madrid de una niña de Helsinki. Todos los modelos en el sitio son adultos y lo confirman con documentos durante el registro.",
+      "to": "Cada cultura tiene su idioma, su sentido del humor y su forma de desenvolverse ante la cámara. Por eso, el primer consejo es sencillo: no esperes que toda la categoría sea igual. Una modelo de Manila puede diferenciarse de una de Tokio tanto como una mujer de Madrid de una de Helsinki. Todas las modelos de la plataforma son adultas y lo acreditan con documentos al registrarse."
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/blondinki/",
+      "path": "meta.faq.0.a",
+      "from": "En la cinta de las niñas, abra los filtros de apariencia y seleccione el color de cabello claro. El filtro se basa en los datos que el modelo indicó en el perfil.",
+      "to": "En la lista de modelos femeninas, abre los filtros de apariencia y elige el cabello claro. El filtro utiliza los datos que la modelo ha indicado en su perfil."
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/blondinki/",
+      "path": "body",
+      "from": "Hay muchas rubias en el feed en cualquier momento del día, especialmente entre modelos de Rusia, del este y del norte de Europa. No puede tomar la primera vista previa y agregar con calma otras condiciones al color del cabello, como el lenguaje de comunicación o el grupo de edad.",
+      "to": "Suele haber muchas modelos rubias a cualquier hora, especialmente de Rusia, Europa Oriental y Europa del Norte. No hace falta elegir la primera vista previa: puedes combinar el color de cabello con otros filtros, como el idioma o el grupo de edad."
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/blondinki/",
+      "path": "body",
+      "from": "En la cinta de las niñas, abra los filtros por apariencia y marque el color de cabello claro.",
+      "to": "En la lista de modelos femeninas, abre los filtros de apariencia y selecciona el cabello claro."
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/ero-chat/",
+      "path": "meta.faq.0.a",
+      "from": "En un sitio de citas, está buscando un interlocutor para una reunión, y en el chat erótico, vea la transmisión de un modelo adulto y comuníquese con él como parte de su transmisión en vivo. No se esperan reuniones e intercambio de contactos aquí.",
+      "to": "En un sitio de citas buscas a alguien con quien quedar. En un chat erótico ves la transmisión de una modelo adulta y conversas con ella durante el show. Aquí no se contemplan encuentros ni intercambio de datos de contacto."
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/ero-chat/",
+      "path": "body",
+      "from": "El chat erótico en línea se organiza de manera simple: hay una transmisión de un modelo adulto y se abre un chat común junto al video. Ves mensajes de transmisión en vivo y escribes, el modelo los lee y responde directamente en el marco. No hay instalación y videos pregrabados aquí, todo sucede en vivo.",
+      "to": "El chat erótico online funciona de forma sencilla: una modelo adulta transmite y junto al video hay un chat público. Ves la transmisión y escribes mensajes; la modelo los lee y responde ante la cámara. No hay montaje ni videos pregrabados: todo sucede en vivo."
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/ero-chat/",
+      "path": "body",
+      "from": "Ya sabes quién está del otro lado. Los modelos se prueban por edad según los documentos, no existe tal verificación en la correspondencia anónima y el interlocutor puede convertirse en cualquier persona.",
+      "to": "Sabes quién está al otro lado. Las modelos verifican su edad mediante documentos. En una conversación anónima no existe esa comprobación y la otra persona podría ser cualquiera."
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/ero-chat/",
+      "path": "body",
+      "from": "Alguien está más cerca de las niñas, algunas mujeres adultas seguras de sí mismas. Para el segundo, hay una selección separada de",
+      "to": "Algunas personas prefieren modelos adultas más jóvenes; otras, mujeres maduras y seguras de sí mismas. Para quienes prefieren estas últimas existe una sección de"
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/ero-chat/",
+      "path": "body",
+      "from": "ERE CHAT está destinado solo para adultos. Si tienes menos de 18 años, cierra esta página.",
+      "to": "El chat erótico está destinado exclusivamente a adultos. Si tienes menos de 18 años, cierra esta página."
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/gei/",
+      "path": "body",
+      "from": "Los modelos masculinos de habla rusa son más pequeños que las niñas, pero lo son y muchos tienen una audiencia permanente. Utilice el filtro de idioma o región y, a continuación, marque el perfil: los idiomas en los que se comunica el modelo suelen aparecer allí. Es más fácil y no tan vergonzoso hablar su idioma nativo, especialmente si tales transmisiones en vivo son nuevas para usted.",
+      "to": "Hay menos modelos masculinos de habla rusa que modelos femeninas, pero existen y muchos tienen un público habitual. Usa el filtro de idioma o región y revisa el perfil, donde suelen aparecer los idiomas que habla el modelo. Conversar en tu idioma resulta más fácil y menos incómodo, especialmente si estas transmisiones son nuevas para ti."
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/iz-kazahstana/",
+      "path": "body",
+      "from": "Hay muchos modelos de cámaras web de Kazajstán en el stripchat en ruso. Los kazajos y las niñas de otras nacionalidades que viven en Kazajstán realizan transmisiones en vivo desde Astana, Almaty y otras ciudades, se comunican con el chat en ruso y kazajo, y muchos ya tienen espectadores regulares.",
+      "to": "Hay muchas modelos de Kazajistán en la sección de habla rusa de Stripchat. Mujeres kazajas y de otras nacionalidades que viven en Kazajistán transmiten desde Astaná, Almaty y otras ciudades. Conversan en ruso y kazajo, y muchas ya tienen espectadores habituales."
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/kosplej/",
+      "path": "meta.faq.0.a",
+      "from": "La mayoría de las veces, las heroínas de los videojuegos populares, el anime, las películas y los cómics, así como las imágenes colectivas: brujas, elfos, superheroínas. Todas las imágenes son realizadas por modelos de adultos y dentro de las reglas del sitio.",
+      "to": "Suelen interpretar personajes femeninos de videojuegos, anime, cine y cómics, además de figuras como brujas, elfas y superheroínas. Todos los personajes son interpretados por modelos adultas conforme a las normas de la plataforma."
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/kosplej/",
+      "path": "body",
+      "from": "Todos los modelos de Stripchat son adultos y realizan imágenes como adultos. El cosplay de los personajes que parecen o concebidos como menores están prohibidos por las reglas del sitio.",
+      "to": "Todas las modelos de Stripchat son adultas e interpretan sus personajes como personas adultas. Las normas de la plataforma prohíben el cosplay de personajes que parezcan menores o estén concebidos como tales."
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/lesbi/",
+      "path": "body",
+      "from": "Los espectáculos lésbicos son transmisiones en vivo por webcam, en las que dos niñas adultas están en el cuadro a la vez. Pueden ser amigos, parejas o colegas los que deciden realizar una transmisión en vivo juntos. Los buenos dúos se distinguen por el hecho de que las niñas son fáciles entre sí, y la audiencia lo ve de inmediato.",
+      "to": "Los shows lésbicos son transmisiones por webcam con dos mujeres adultas ante la cámara. Pueden ser amigas, una pareja o compañeras que deciden transmitir juntas. En un buen dúo ambas se sienten cómodas entre sí, y el público lo nota enseguida."
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/miniatyurnye/",
+      "path": "body",
+      "from": "Las chicas de chat con cámara web en miniatura son mujeres adultas de tamaño corto. Esta categoría es elegida por aquellos a los que les gustan los hombros frágiles, cintura delgada y plástico claro. Todos los modelos tienen estrictamente 18 años de antigüedad y han pasado la prueba de edad según los documentos.",
+      "to": "Las modelos petite de webcam son mujeres adultas de baja estatura y constitución delicada. Esta categoría atrae a quienes prefieren hombros delicados, cintura fina y movimientos ligeros. Todas las modelos tienen al menos 18 años y han verificado su edad mediante documentos."
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/miniatyurnye/",
+      "path": "body",
+      "from": "La palabra \"miniatura\" aquí sólo se refiere a la figura. Las imágenes de edad y roles no tienen nada que ver con eso. Entre las elegantes modelos hay mujeres mayores de veinte años, treinta y mayores, cada una tiene su propio carácter y estilo adulto.",
+      "to": "El término «petite» se refiere únicamente a la constitución física. No tiene relación con la edad ni con personajes interpretados. Hay modelos de veinte, treinta años y más, cada una con su personalidad adulta y su estilo."
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/miniatyurnye/",
+      "path": "body",
+      "from": "Todos los modelos en adultos de Stripchat, su edad se verifica según los documentos. Cualquier intento de vencer el tema de la minoría en el chat está prohibido por las reglas del sitio: dichos mensajes se eliminan y se bloquean las cuentas.",
+      "to": "Todas las modelos de Stripchat son adultas y su edad se verifica mediante documentos. Las normas de la plataforma prohíben introducir temas relacionados con menores de edad en el chat: esos mensajes se eliminan y las cuentas se bloquean."
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/novye-modeli/",
+      "path": "body",
+      "from": "Las nuevas modelos son chicas que recientemente comenzaron a vivir en Stripchat. Todos cumplieron 18 años, pasaron los cheques, pero las cámaras web aún son nuevas para ellos, y a muchos espectadores les gusta.",
+      "to": "Las nuevas modelos son mujeres que han empezado a transmitir en Stripchat recientemente. Todas tienen al menos 18 años y sus documentos han sido verificados. El trabajo por webcam todavía es nuevo para ellas, algo que muchos espectadores valoran."
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/parni/",
+      "path": "body",
+      "from": "Los chicos de la cámara web son una cinta separada de stripchat donde los hombres actúan frente a la cámara. La categoría es más pequeña que la de una niña, pero tiene una audiencia constante y un sesgo notable en las transmisiones conversacionales, deportivas e incluso de juegos en vivo.",
+      "to": "La webcam masculina tiene su propia sección en Stripchat, con hombres ante la cámara. Es una categoría más pequeña que la femenina, pero cuenta con un público habitual y muchas transmisiones de conversación, deporte e incluso juegos."
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/parni/",
+      "path": "body",
+      "from": "Es más fácil para los principiantes aquí. En los chats de cintas para hombres, el mensaje suele ser más tranquilo que en las habitaciones populares de las niñas, el mensaje no se pierde en la transmisión y la modelo tiene más tiempo para responder personalmente.",
+      "to": "Aquí suele ser más fácil empezar. Los chats de modelos masculinos suelen ser más tranquilos que las salas femeninas populares: los mensajes no se pierden entre tantos otros y el modelo tiene más tiempo para responder personalmente."
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/pyshnye/",
+      "path": "body",
+      "from": "La niña mide trajes y ropa interior, muestra nuevas compras. Los espectadores votan por la opción que les gusta y, a veces, ellos mismos ofrecen qué ponerse a continuación.",
+      "to": "La modelo se prueba prendas y ropa interior y muestra sus compras recientes. Los espectadores votan por su opción favorita y a veces sugieren qué ponerse después."
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/novye-modeli/",
+      "path": "meta.faq.1.q",
+      "from": "¿Se están probando los nuevos modelos para la edad?",
+      "to": "¿Se verifica la edad de las nuevas modelos?"
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/novye-modeli/",
+      "path": "meta.faq.1.a",
+      "from": "Sí, como todos los demás. Antes de salir a vivir, la modelo confirma que tiene 18 años, documentos.",
+      "to": "Sí, igual que la de todas las demás. Antes de transmitir, la modelo acredita con documentos que tiene al menos 18 años."
+    }
+  ]
+}

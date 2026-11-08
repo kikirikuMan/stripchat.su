@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="zh-Hans" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OBS 摄像头边框：透明 PNG、图层顺序与对齐</title>
+  <meta name="description" content="在 OBS 摄像头上方添加透明 PNG 边框，对齐窗口，并逐项解决图层顺序、透明区域、裁剪和素材路径问题。">
+  <link rel="canonical" href="https://stripchat.su/zh/help/obs-webcam-frame/">
+  <link rel="alternate" hreflang="ru" href="https://stripchat.su/help/obs-webcam-frame/">
+  <link rel="alternate" hreflang="en" href="https://stripchat.su/en/help/obs-webcam-frame/">
+  <link rel="alternate" hreflang="es" href="https://stripchat.su/es/help/obs-webcam-frame/">
+  <link rel="alternate" hreflang="pt" href="https://stripchat.su/pt/help/obs-webcam-frame/">
+  <link rel="alternate" hreflang="de" href="https://stripchat.su/de/help/obs-webcam-frame/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://stripchat.su/zh/help/obs-webcam-frame/">
+  <link rel="alternate" hreflang="hi" href="https://stripchat.su/hi/help/obs-webcam-frame/">
+  <link rel="alternate" hreflang="ar" href="https://stripchat.su/ar/help/obs-webcam-frame/">
+  <link rel="alternate" hreflang="x-default" href="https://stripchat.su/en/help/obs-webcam-frame/">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="theme-color" content="#0f0f14">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:locale:alternate" content="ru_RU">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="pt_BR">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:locale:alternate" content="hi_IN">
+  <meta property="og:locale:alternate" content="ar_SA">
+  <meta property="og:title" content="OBS 摄像头边框：透明 PNG、图层顺序与对齐">
+  <meta property="og:description" content="在 OBS 摄像头上方添加透明 PNG 边框，对齐窗口，并逐项解决图层顺序、透明区域、裁剪和素材路径问题。">
+  <meta property="og:url" content="https://stripchat.su/zh/help/obs-webcam-frame/">
+  <meta property="og:image" content="https://stripchat.su/img/help/obs-webcam-frame.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="透明矩形边框覆盖在摄像头画面上，周围显示对齐控制点。">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://stripchat.su/img/help/obs-webcam-frame.png">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="/zh/site.webmanifest">
+  <link rel="stylesheet" href="/assets/site.css?v=fbae5070">
+  <link rel="stylesheet" href="/assets/help.css?v=de76c1516f">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://stripchat.su/zh/help/obs-webcam-frame/#page","url":"https://stripchat.su/zh/help/obs-webcam-frame/","name":"OBS 摄像头边框：透明 PNG、图层顺序与对齐","description":"在 OBS 摄像头上方添加透明 PNG 边框，对齐窗口，并逐项解决图层顺序、透明区域、裁剪和素材路径问题。","inLanguage":"zh-Hans","dateModified":"2026-11-08","isPartOf":{"@id":"https://stripchat.su/zh/#website"},"breadcrumb":{"@id":"https://stripchat.su/zh/help/obs-webcam-frame/#breadcrumb"}},{"@type":"WebSite","@id":"https://stripchat.su/zh/#website","url":"https://stripchat.su/zh/","name":"Stripchat.su","inLanguage":"zh-Hans"},{"@type":"BreadcrumbList","@id":"https://stripchat.su/zh/help/obs-webcam-frame/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://stripchat.su/zh/"},{"@type":"ListItem","position":2,"name":"摄像头与麦克风帮助","item":"https://stripchat.su/zh/help/"},{"@type":"ListItem","position":3,"name":"如何在 OBS 中给摄像头添加边框","item":"https://stripchat.su/zh/help/obs-webcam-frame/"}]},{"@type":"TechArticle","@id":"https://stripchat.su/zh/help/obs-webcam-frame/#article","headline":"如何在 OBS 中给摄像头添加边框","description":"在 OBS 摄像头上方添加透明 PNG 边框，对齐窗口，并逐项解决图层顺序、透明区域、裁剪和素材路径问题。","inLanguage":"zh-Hans","dateModified":"2026-11-08","mainEntityOfPage":{"@id":"https://stripchat.su/zh/help/obs-webcam-frame/#page"},"image":"https://stripchat.su/img/help/obs-webcam-frame.png","citation":["https://obsproject.com/kb/image-sources","https://obsproject.com/kb/sources-guide","https://obsproject.com/kb/aspect-ratio-guide"]}]}</script>
+
+</head>
+<body class="section-help">
+  <a class="skip-link" href="#main">跳到正文</a>
+  <header class="site-header"><a class="logo" href="/zh/"><img src="/favicon.svg" width="28" height="28" alt=""><span dir="ltr">Stripchat.su</span></a><nav class="site-nav" dir="ltr" aria-label="主菜单"><a href="/zh/">首页</a><a href="/zh/help/">全部指南</a><a href="/zh/o-sajte/">关于本站</a></nav><details class="language-switcher" dir="ltr"><summary class="language-toggle" aria-label="语言: 简体中文" title="语言"><svg class="language-globe" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c5 5 5 13 0 18-5-5-5-13 0-18Z"/></svg><span class="language-current" lang="zh-Hans">简体中文</span><span class="language-code" aria-hidden="true">ZH</span><svg class="language-chevron" viewBox="0 0 16 16" width="12" height="12" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="m4 6 4 4 4-4"/></svg></summary><nav class="language-nav" aria-label="语言"><a href="/help/obs-webcam-frame/" lang="ru" hreflang="ru" dir="ltr">Русский</a><a href="/en/help/obs-webcam-frame/" lang="en" hreflang="en" dir="ltr">English</a><a href="/es/help/obs-webcam-frame/" lang="es" hreflang="es" dir="ltr">Español</a><a href="/pt/help/obs-webcam-frame/" lang="pt" hreflang="pt" dir="ltr">Português</a><a href="/de/help/obs-webcam-frame/" lang="de" hreflang="de" dir="ltr">Deutsch</a><a href="/zh/help/obs-webcam-frame/" lang="zh-Hans" hreflang="zh-Hans" dir="ltr" aria-current="page">简体中文<span class="language-check" aria-hidden="true">✓</span></a><a href="/hi/help/obs-webcam-frame/" lang="hi" hreflang="hi" dir="ltr">हिन्दी</a><a href="/ar/help/obs-webcam-frame/" lang="ar" hreflang="ar" dir="rtl">العربية</a></nav></details><script src="/assets/language-switcher.js?v=5b205ca92360" defer></script></header>
+  <main id="main">
+    <nav class="crumbs breadcrumbs" aria-label="面包屑导航"><a href="/zh/">首页</a><span class="sep" aria-hidden="true">›</span><a href="/zh/help/">摄像头与麦克风帮助</a><span class="sep" aria-hidden="true">›</span><span aria-current="page">如何在 OBS 中给摄像头添加边框</span></nav>
+    <article>
+      <header class="article-header"><p class="eyebrow">核对日期 <time datetime="2026-11-08">2026年11月8日</time></p><h1 class="page-title">如何在 OBS 中给摄像头添加边框</h1><p class="lead">摄像头边框通常是一张位于摄像头来源上方的独立图片。中间窗口必须透明，才能看到下面的视频。先确认场景中的摄像头正常，再添加和对齐装饰。</p></header>
+
+
+        <figure class="article-image"><img src="/img/help/obs-webcam-frame.svg" width="1200" height="630" alt="透明矩形边框覆盖在摄像头画面上，周围显示对齐控制点。" decoding="async" fetchpriority="high"></figure>
+        <nav class="contents" aria-label="本页目录"><h2>本页目录</h2><ol><li><a href="#section-1">导入前检查图片</a></li><li><a href="#section-2">把边框放到摄像头上方</a></li><li><a href="#section-3">对齐窗口但不要拉伸人脸</a></li><li><a href="#section-4">每次只检查一层</a></li></ol></nav>
+        <section class="article-section" aria-labelledby="section-1"><h2 id="section-1">导入前检查图片</h2><p>使用自己制作或获得使用许可的边框。PNG 可以包含透明信息，但扩展名本身不能保证透明。用能显示 Alpha 通道的编辑器检查中间窗口。</p><p>画在图片中的棋盘格不等于透明。如果格子本身是像素，它们会像纯色一样遮住摄像头。保留原始文件，方便修正开口而不必重建场景。</p></section><section class="article-section" aria-labelledby="section-2"><h2 id="section-2">把边框放到摄像头上方</h2><ol><li>在已有可用摄像头的同一 OBS 场景中添加“图像”来源，选择边框文件。</li><li>在来源列表中把图像放在摄像头上面，让边框绘制在视频之上。</li><li>调整边框的位置和大小，再调整下面的摄像头，使其匹配透明窗口。</li><li>精确定位时使用“编辑变换”。完成后锁定来源，减少编辑其他内容时误拖动的机会。</li></ol></section><section class="article-section" aria-labelledby="section-3"><h2 id="section-3">对齐窗口但不要拉伸人脸</h2><p>比较开口与摄像头画面的形状。如果比例不同，仅缩放可能留下空隙或造成变形。选择合适的边框，或有计划地裁掉部分图像，同时保持主体自然比例。</p><p>在镜头前正常活动，检查头部与手部周围的边缘。只适合静止人脸的布局可能截掉手势。按实际显示大小检查，复杂边框可能让小摄像头窗口显得拥挤。</p></section><section class="article-section" aria-labelledby="section-4"><h2 id="section-4">每次只检查一层</h2><p>如果整幅画面消失，先临时隐藏边框。摄像头恢复说明问题可能在图片不透明、开口或位置；如果只有边框不见，检查其可见性及与摄像头的上下顺序。</p><p>把图片保存在稳定的本地目录中，因为图像来源引用的是这个路径。移动素材后，重新打开场景检查是否缺图，再使用保存的布局。</p></section>
+        <section class="sources" aria-labelledby="sources"><h2 id="sources">官方文档</h2><ul><li><a href="https://obsproject.com/kb/image-sources" rel="noopener noreferrer">OBS：图像来源与 Alpha 通道支持</a></li><li><a href="https://obsproject.com/kb/sources-guide" rel="noopener noreferrer">OBS：图层顺序和位置</a></li><li><a href="https://obsproject.com/kb/aspect-ratio-guide" rel="noopener noreferrer">OBS：保持宽高比与裁剪</a></li></ul></section>
+        <section aria-labelledby="related"><h2 id="related">相关指南</h2><ul class="cards help-cards"><li><a href="/zh/help/obs-webcam-setup/"><img src="/img/help/obs-webcam-setup.svg" width="1200" height="630" alt="" loading="lazy" decoding="async"><h3>如何在 OBS Studio 中添加并检查摄像头</h3><p>在 OBS 场景中添加摄像头来源，选择正确设备，并通过本地预览检查可见性、分辨率和布局，无需开始录制。</p></a></li><li><a href="/zh/help/webcam-background/"><img src="/img/help/webcam-background.svg" width="1200" height="630" alt="" loading="lazy" decoding="async"><h3>如何选择和设置摄像头背景</h3><p>选择适合视频通话的摄像头背景，比较真实房间、背景模糊和替换图片，并在通话前检查边缘效果与设备表现。</p></a></li><li><a href="/zh/help/webcam-resolution-fps/"><img src="/img/help/webcam-resolution-fps.svg" width="1200" height="630" alt="" loading="lazy" decoding="async"><h3>摄像头分辨率和帧率分别说明什么</h3><p>区分摄像头分辨率、已配置的帧率和实际传送的视频。使用相同场景比较设置，不把本地预览当作性能基准测试。</p></a></li><li><a href="/zh/help/webcam-crop/"><img src="/img/help/webcam-crop.svg" width="1200" height="630" alt="" loading="lazy" decoding="async"><h3>在 OBS 中裁剪和摆放摄像头画面</h3><p>在 OBS 中裁剪画面边缘、保持宽高比并检查最终取景。了解裁剪来源与缩放来源的区别，避免把人物拉伸变形。</p></a></li></ul></section>
+
+    </article>
+  </main>
+  <footer class="site-footer"><section id="privacy"><h2>隐私说明</h2><p>只有点击启动并允许访问后，测试才会读取所需设备。此工具在浏览器本地处理摄像头画面或麦克风信号，不录制、不上传这些内容。网站托管服务仍会接收加载页面所需的普通HTTP请求。</p><nav class="footer-nav" aria-label="网站栏目"><a href="/zh/">首页</a><a href="/zh/help/">返回全部指南</a></nav><nav class="footer-nav footer-nav--info" aria-label="关于本站"><a href="/zh/o-sajte/">关于本站</a><a href="/zh/politika-konfidencialnosti/">隐私政策</a><a href="/zh/otkaz-ot-otvetstvennosti/">免责声明</a></nav><p dir="ltr">© 2026 Stripchat.su</p></section></footer>
+</body>
+</html>

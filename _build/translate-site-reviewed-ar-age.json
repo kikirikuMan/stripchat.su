@@ -1,0 +1,12 @@
+{
+  "sourceDigest": "35635dd555c748284a0835923db79d85944c2db1cf680785cca8607260810a47",
+  "reviewDate": "2026-11-08",
+  "review": "AI-assisted source comparison of all260 age/adult/minor source units across78pages, plus consent/privacy and complete vacancy body/FAQ. Corrections persist in translate-site-text-ar.json. No independent native-speaker review.",
+  "coverage": {
+    "sourceUnits": 260,
+    "sourcePagesScanned": 78,
+    "uncovered": 0,
+    "reviewDate": "2026-11-08"
+  },
+  "edits": []
+}

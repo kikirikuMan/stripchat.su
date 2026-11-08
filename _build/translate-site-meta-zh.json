@@ -1,0 +1,788 @@
+{
+  "locale": "zh",
+  "sourceDigest": "35635dd555c748284a0835923db79d85944c2db1cf680785cca8607260810a47",
+  "reviewDate": "2026-11-08",
+  "scope": "All78 title/description/h1/nav values translated with direct comparison to the supplied Russian source; independent native-speaker proofread not claimed.",
+  "metadataOverrides": [
+    {
+      "locale": "zh",
+      "route": "/",
+      "fields": {
+        "title": "Stripchat：免费在线网络摄像头直播 · 18+",
+        "description": "Stripchat 在线：24/7 实时网络摄像头直播和与女性的成人聊天。通过电脑或手机免费观看，无需注册。18+",
+        "h1": "Stripchat：与女性主播免费在线进行网络摄像头聊天",
+        "nav": "首页"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/gid/",
+      "fields": {
+        "title": "Stripchat 观众指南：观看、代币与私密表演",
+        "description": "Stripchat 观众指南：如何免费观看、为什么需要账号、什么是代币，以及私密表演和群组表演的区别。内容简明实用。18+",
+        "h1": "Stripchat 观众指南",
+        "nav": "指南"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/gid/alternativa-chat-ruletke/",
+      "fields": {
+        "title": "随机视频聊天还是网络摄像头直播：聊天轮盘的替代选择",
+        "description": "网络摄像头直播网站与随机视频聊天：比较形式、安全和交流体验。了解何时更适合使用 Stripchat、何时适合随机聊天，以及观众为何可以不开摄像头。",
+        "h1": "聊天轮盘的替代选择：通过网络摄像头直播与主播交流",
+        "nav": "聊天轮盘的替代选择"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/gid/anonimnost/",
+      "fields": {
+        "title": "在 Stripchat 保持匿名：如何安全观看直播",
+        "description": "如何在 Stripchat 保持匿名：不含个人信息的昵称、独立邮箱、谨慎付款及防范诈骗。适合年满 18 岁的观众。",
+        "h1": "网络摄像头聊天中观众的匿名与安全",
+        "nav": "匿名使用"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/gid/besplatno/",
+      "fields": {
+        "title": "免费网络摄像头直播：如何免费观看 Stripchat",
+        "description": "Stripchat 的哪些内容可以免费观看，哪些需要代币？对比免费与付费功能，说明限制，并提供不花钱观看的建议。18+",
+        "h1": "如何免费观看 Stripchat",
+        "nav": "免费观看"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/gid/bez-registracii/",
+      "fields": {
+        "title": "无需注册使用 Stripchat：访客功能与账号用途",
+        "description": "无需注册观看 Stripchat：访客可以使用哪些功能、没有账号无法做什么，以及何时注册会派上用场。仅供年满 18 岁的用户阅读。",
+        "h1": "无需注册使用 Stripchat：访客可用功能",
+        "nav": "无需注册"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/gid/chaevye/",
+      "fields": {
+        "title": "在 Stripchat 给主播小费：小费菜单、目标与规则",
+        "description": "Stripchat 的小费如何运作：什么是小费菜单和目标、送多少合适、何时适合给小费，以及如何避免超支。18+ 观众指南。",
+        "h1": "网络摄像头聊天中的小费：如何以及为何感谢主播",
+        "nav": "小费"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/gid/chto-takoe-vebkam/",
+      "fields": {
+        "title": "什么是成人网络摄像头直播，它如何运作",
+        "description": "用简单语言解释成人网络摄像头直播：主播和观众分别是谁、代币有什么用途、网站如何运营，以及如何安全观看成人直播。18+",
+        "h1": "什么是网络摄像头直播：从基础说起",
+        "nav": "什么是网络摄像头直播"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/gid/etiket/",
+      "fields": {
+        "title": "网络摄像头聊天礼仪：如何与 Stripchat 主播交流",
+        "description": "网络摄像头聊天的基本礼仪：如何打招呼、可以提出哪些请求、哪些话不该说，以及如何尊重主播的界限。适合年满 18 岁的 Stripchat 观众。",
+        "h1": "网络摄像头聊天礼仪：与主播交流的规则",
+        "nav": "聊天礼仪"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/gid/ii-chat-ili-zhivye-modeli/",
+      "fields": {
+        "title": "AI 成人聊天还是真人主播：18+ 用户对比指南",
+        "description": "AI 成人聊天还是真人网络摄像头主播？比较交流、数据隐私、费用和情感体验，帮助您判断哪种形式更适合自己。仅限年满 18 岁的用户。",
+        "h1": "成人 AI 聊天还是真人主播：如何选择",
+        "nav": "AI 聊天与真人主播"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/gid/kak-kupit-tokeny/",
+      "fields": {
+        "title": "如何购买 Stripchat 代币：付款、账单与预算",
+        "description": "轻松了解如何购买 Stripchat 代币：付款流程、银行账单上显示的内容、如何控制预算，以及对扣款有异议时应联系谁。",
+        "h1": "如何购买 Stripchat 代币",
+        "nav": "购买代币"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/gid/kak-vybrat-model/",
+      "fields": {
+        "title": "如何选择 Stripchat 主播：筛选、语言与评分",
+        "description": "如何在 Stripchat 找到合适的网络摄像头主播：按外貌和语言筛选、收藏，以及付款前了解直播内容。通过逐步指南避免浪费时间和代币。",
+        "h1": "如何选择您喜欢的网络摄像头主播",
+        "nav": "选择主播"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/gid/ne-zagruzhaetsya/",
+      "fields": {
+        "title": "Stripchat 无法加载：视频不播放时怎么办",
+        "description": "Stripchat 直播无法加载、视频卡顿或出现黑屏？逐步检查电脑和手机上的浏览器、拦截工具、缓存与网络连接。",
+        "h1": "直播无法加载：逐步排查问题",
+        "nav": "无法加载"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/gid/novichkam/",
+      "fields": {
+        "title": "Stripchat 新手指南：全面了解网络摄像头聊天",
+        "description": "第一次使用 Stripchat？了解网站如何运作、如何找到喜欢的主播、参与聊天，以及避免超支。适合年满 18 岁的新用户。",
+        "h1": "新手指南：Stripchat 如何运作",
+        "nav": "新手指南"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/gid/privat/",
+      "fields": {
+        "title": "Stripchat 私密表演：各种表演形式及其区别",
+        "description": "Stripchat 的公开直播、私密表演、专属表演、旁观模式、群组表演与售票表演：了解区别、收费方式以及如何选择。18+ 指南。",
+        "h1": "Stripchat 的表演形式：从公开直播到私密表演",
+        "nav": "表演形式"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/gid/registraciya/",
+      "fields": {
+        "title": "Stripchat 注册：逐步操作说明与建议",
+        "description": "如何在几分钟内完成 Stripchat 注册：逐步操作、选择昵称、验证邮箱，以及没有收到邮件时的处理方法。18+",
+        "h1": "如何注册 Stripchat",
+        "nav": "注册"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/gid/slovar/",
+      "fields": {
+        "title": "网络摄像头直播词汇表：代币、私密表演、目标等术语",
+        "description": "用简单语言解释直播术语：代币、私密表演、旁观模式、小费菜单、目标、双向摄像头和粉丝俱乐部。花五分钟读懂 Stripchat 聊天中的用语。",
+        "h1": "面向观众的网络摄像头直播词汇表",
+        "nav": "词汇表"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/gid/strip-chat/",
+      "fields": {
+        "title": "Stripchat：18+ 网络摄像头直播平台介绍",
+        "description": "了解 Stripchat 的功能、适合哪些用户、如何免费观看直播，以及在哪里注册。如实介绍优点与不足。",
+        "h1": "Stripchat：平台介绍",
+        "nav": "Stripchat"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/gid/tokeny/",
+      "fields": {
+        "title": "Stripchat 代币：是什么，有哪些用途",
+        "description": "Stripchat 的代币是什么，为什么平台使用内部货币，又可以用在哪里：小费、菜单、互动玩具、私密表演和售票表演。用简单语言解释，不列具体数字。",
+        "h1": "Stripchat 代币：平台内部货币",
+        "nav": "代币"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/gid/vebkam-chat/",
+      "fields": {
+        "title": "成人网络摄像头聊天：与主播视频聊天如何运作",
+        "description": "了解网络摄像头聊天：公共消息与私信、小费与表情、内容管理、双向摄像头，以及消息翻译。提前熟悉成人聊天室的功能。18+",
+        "h1": "网络摄像头聊天室：消息、私信与内容管理",
+        "nav": "网络摄像头聊天"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/gid/vebkam-sajty/",
+      "fields": {
+        "title": "网络摄像头直播网站对比：Stripchat、BongaCams、Chaturbate",
+        "description": "如何选择网络摄像头直播网站：从免费观看、语言、付款和 VR 等方面比较 Stripchat、BongaCams、Chaturbate、LiveJasmin 和 Runetki，不做名次排名或奖项评选。",
+        "h1": "网络摄像头直播网站：按实际标准客观比较",
+        "nav": "网站对比"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/gid/zapisi-translyacij/",
+      "fields": {
+        "title": "网络摄像头直播录像：为何采用实时直播，哪里可以观看视频",
+        "description": "网络摄像头直播和私密表演有录像吗？了解直播为何不保存、所谓“泄露视频”网站的风险，以及哪里可以合法观看主播视频。",
+        "h1": "网络摄像头直播录像：实际有哪些内容",
+        "nav": "直播录像"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/kategorii/",
+      "fields": {
+        "title": "Stripchat 分类：按外貌、语言与表演形式选择主播",
+        "description": "在同一页面浏览 Stripchat 的所有直播类别：俄罗斯女主播、情侣、男主播、跨性别主播，以及外貌、年龄和表演形式。找到适合您的分类。18+",
+        "h1": "网络摄像头直播分类",
+        "nav": "分类"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/kategorii/aziatki/",
+      "fields": {
+        "title": "亚洲女主播在线网络摄像头聊天：Stripchat 直播 · 18+",
+        "description": "亚洲网络摄像头女主播在线：日本、韩国、泰国、菲律宾及其他国家。了解按莫斯科时间计算的开播时段，以及如何克服语言障碍交流。18+",
+        "h1": "亚洲网络摄像头女主播实时直播",
+        "nav": "亚洲女主播"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/kategorii/blondinki/",
+      "fields": {
+        "title": "金发女主播在线网络摄像头聊天：Stripchat 直播 · 18+",
+        "description": "在线金发网络摄像头女主播：白金色、蜂蜜色、灰金色等发色与实时聊天。了解如何使用筛选功能找到浅发色主播，选出适合自己的直播。18+",
+        "h1": "金发女主播在线：浅发色网络摄像头主播",
+        "nav": "金发女主播"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/kategorii/bryunetki/",
+      "fields": {
+        "title": "深发色女主播在线：网络摄像头实时直播",
+        "description": "在 Stripchat 观看来自世界各地的深发色女主播。了解如何通过筛选缩小范围，找到适合聊天的主播。免费观看，18+",
+        "h1": "网络摄像头聊天室中的深发色女主播",
+        "nav": "深发色女主播"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/kategorii/ero-chat/",
+      "fields": {
+        "title": "与真人主播在线进行成人聊天与实时互动 · 18+",
+        "description": "与女主播实时进行成人聊天：了解公共房间与私密表演、免费功能、如何选择主播及保护隐私。18+",
+        "h1": "在线成人聊天：真人主播与实时交流 · 18+",
+        "nav": "成人聊天"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/kategorii/gei/",
+      "fields": {
+        "title": "男同性恋网络摄像头聊天：面向男性观众的男主播 · 18+",
+        "description": "在线男同性恋网络摄像头直播：面向男性观众的男主播、俄语主播和情侣。了解如何选择直播、保持匿名并参与聊天。18+",
+        "h1": "男同性恋网络摄像头直播：面向男性观众的男主播",
+        "nav": "男同性恋直播"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/kategorii/hd/",
+      "fields": {
+        "title": "高清网络摄像头直播：清晰观看在线主播",
+        "description": "Stripchat 高清直播：了解如何在播放器中选择分辨率并调整网络连接，让画面清晰、播放流畅。",
+        "h1": "高清网络摄像头直播：清晰的直播画面",
+        "nav": "高清直播"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/kategorii/interaktivnye-igrushki/",
+      "fields": {
+        "title": "网络摄像头互动玩具：由小费触发的互动表演",
+        "description": "使用互动玩具的网络摄像头直播：观众的小费如何控制主播设备、什么是小费菜单，以及如何参与互动。18+",
+        "h1": "使用互动玩具的直播",
+        "nav": "互动玩具"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/kategorii/iz-kazahstana/",
+      "fields": {
+        "title": "哈萨克斯坦女主播在线网络摄像头聊天 · 18+",
+        "description": "哈萨克斯坦网络摄像头女主播在线：了解如何按国家筛选、用什么语言交流，以及她们通常何时开播。免费观看，18+",
+        "h1": "来自哈萨克斯坦的网络摄像头主播",
+        "nav": "哈萨克斯坦主播"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/kategorii/kosplej/",
+      "fields": {
+        "title": "网络摄像头 Cosplay：角色造型主播在线 · Stripchat",
+        "description": "在线网络摄像头 Cosplay：年满 18 岁的主播扮演游戏、动漫、电影和漫画中的女性角色。服装、角色演绎与主题直播。现在即可免费观看。",
+        "h1": "Cosplay 直播：游戏与动漫角色的真人演绎",
+        "nav": "Cosplay"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/kategorii/latinki/",
+      "fields": {
+        "title": "拉丁美洲女主播网络摄像头聊天：Stripchat 实时直播",
+        "description": "来自哥伦比亚、巴西、墨西哥等国家的拉丁美洲网络摄像头女主播在线。了解直播中的音乐、舞蹈和风格，以及观看时段与交流方式。18+",
+        "h1": "拉丁美洲女主播实时直播",
+        "nav": "拉丁美洲女主播"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/kategorii/lesbi/",
+      "fields": {
+        "title": "女同性恋网络摄像头直播：两位女性同场 · Stripchat",
+        "description": "Stripchat 女同性恋表演：两位成年女性同场直播，开展互动游戏、共同目标并与观众聊天。了解不同双人组合及查找方式。免费观看，18+",
+        "h1": "女同性恋表演：两位女性同框直播",
+        "nav": "女同性恋表演"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/kategorii/miniatyurnye/",
+      "fields": {
+        "title": "娇小型网络摄像头主播在线：纤巧女主播 · 18+",
+        "description": "网络摄像头聊天室中的娇小型成年女主播：个子较矮、身形纤巧，均年满 18 岁。免费观看实时直播，参与聊天并按条件筛选。",
+        "h1": "娇小型女主播实时直播",
+        "nav": "娇小型主播"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/kategorii/novye-modeli/",
+      "fields": {
+        "title": "新网络摄像头主播在线：在 Stripchat 的初次直播",
+        "description": "Stripchat 新主播：刚开始直播、年满 18 岁的女性。认识新面孔，真诚交流，也有机会成为她们最早的固定观众。",
+        "h1": "新主播：直播中的新面孔",
+        "nav": "新主播"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/kategorii/parni/",
+      "fields": {
+        "title": "男主播在线网络摄像头聊天：Stripchat 男性直播",
+        "description": "网络摄像头男主播在线：面向女性与男性观众，提供健身、聊天及游戏直播。免费观看，匿名参与聊天。18+",
+        "h1": "网络摄像头男主播：男性在线直播",
+        "nav": "男主播"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/kategorii/pary/",
+      "fields": {
+        "title": "Stripchat 情侣成人聊天与双人网络摄像头直播 · 18+",
+        "description": "在线情侣网络摄像头表演：两人同框、自然互动并与观众聊天。了解情侣直播与单人直播的区别，以及如何选择喜欢的组合。免费观看，18+",
+        "h1": "情侣成人聊天：实时双人表演",
+        "nav": "情侣"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/kategorii/populyarnye/",
+      "fields": {
+        "title": "热门网络摄像头主播：在线人气直播 · 18+",
+        "description": "在线热门网络摄像头主播：了解人气如何形成、评分的作用，以及如何观看受欢迎的直播，又不错过被低估的主播。免费观看，18+",
+        "h1": "热门网络摄像头主播：谁受欢迎，为什么",
+        "nav": "热门主播"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/kategorii/pyshnye/",
+      "fields": {
+        "title": "丰满型女主播在线网络摄像头聊天 · Stripchat · 18+",
+        "description": "丰满型网络摄像头女主播在线：身材有曲线、喜欢聊天并自在展现自己的女性。通过电脑或手机免费观看。18+",
+        "h1": "丰满型主播实时直播",
+        "nav": "丰满型主播"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/kategorii/russkie/",
+      "fields": {
+        "title": "俄罗斯网络摄像头直播：俄罗斯女主播在线 · 18+",
+        "description": "俄罗斯网络摄像头女主播在线：用俄语聊天，免费观看实时直播，无需注册。了解如何在 Stripchat 找到说俄语的女主播。18+",
+        "h1": "俄罗斯网络摄像头主播在线",
+        "nav": "俄罗斯女主播"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/kategorii/ryzhie/",
+      "fields": {
+        "title": "红发女主播网络摄像头聊天：Stripchat 在线直播",
+        "description": "红发网络摄像头女主播在线：铜红色头发、雀斑与大胆造型。了解如何找到较少见的红发主播、何时观看，以及如何再次找到她们。免费观看，18+",
+        "h1": "红发网络摄像头主播在线",
+        "nav": "红发主播"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/kategorii/s-obshcheniem/",
+      "fields": {
+        "title": "以聊天为主的网络摄像头直播：适合交流的主播",
+        "description": "喜欢聊天的网络摄像头主播：了解如何找到说俄语的聊天对象、开始对话，以及让自己的消息不被公共聊天刷走。18+",
+        "h1": "以交流为主的网络摄像头直播：值得聊聊的主播",
+        "nav": "聊天交流"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/kategorii/s-tatuirovkami/",
+      "fields": {
+        "title": "纹身女主播网络摄像头聊天 · Stripchat 在线",
+        "description": "有纹身和穿孔饰品的网络摄像头主播：另类风格、大胆造型与图案背后的故事。免费观看实时直播。18+",
+        "h1": "纹身主播在线",
+        "nav": "纹身主播"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/kategorii/s-telefona/",
+      "fields": {
+        "title": "手机观看网络摄像头直播：Android 与 iPhone 使用 Stripchat，无需应用",
+        "description": "如何通过手机观看网络摄像头直播：在 Android 和 iPhone 的移动浏览器中使用 Stripchat，无需应用，兼顾流量节省与便捷聊天。18+",
+        "h1": "手机网络摄像头聊天：随处方便观看",
+        "nav": "手机观看"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/kategorii/solo/",
+      "fields": {
+        "title": "单人网络摄像头表演：Stripchat 女主播在线 · 18+",
+        "description": "单人网络摄像头表演：一位主播、一台摄像头与聊天室。了解单人直播如何运作、与情侣及群组表演有何区别，以及如何找到喜欢的主播。免费观看，18+",
+        "h1": "单人表演：一位主播专注与观众聊天",
+        "nav": "单人表演"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/kategorii/sportivnye/",
+      "fields": {
+        "title": "健身型女主播网络摄像头聊天：健身主播在线",
+        "description": "健身型网络摄像头主播在线：实时健身、瑜伽与拉伸，和观众一起训练并聊聊身体状态。免费观看。18+",
+        "h1": "健身型主播：实时健身直播",
+        "nav": "健身型主播"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/kategorii/strojnye/",
+      "fields": {
+        "title": "苗条型网络摄像头主播在线：纤瘦与健美身形 · 18+",
+        "description": "苗条型网络摄像头主播实时直播：纤瘦、健美或高挑的成年女性。了解如何找到喜欢的类型、适合的表演，以及如何参与聊天。18+",
+        "h1": "苗条型主播实时直播",
+        "nav": "苗条型主播"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/kategorii/tancy/",
+      "fields": {
+        "title": "网络摄像头聊天中的舞蹈与脱衣舞：在线舞蹈表演",
+        "description": "在线网络摄像头舞蹈表演：电臀舞、性感形体舞、拉丁舞与钢管舞实时直播。点播喜欢的音乐，免费观看直播。18+",
+        "h1": "实时舞蹈表演",
+        "nav": "舞蹈"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/kategorii/temnokozhie/",
+      "fields": {
+        "title": "深肤色网络摄像头主播在线：Stripchat 直播 · 18+",
+        "description": "深肤色网络摄像头主播在线：来自非洲、欧洲、美国和加勒比地区的直播。了解如何筛选主播、何时观看，以及如何尊重地交流。18+",
+        "h1": "网络摄像头聊天室中的深肤色主播",
+        "nav": "深肤色主播"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/kategorii/trans/",
+      "fields": {
+        "title": "跨性别主播在线：Stripchat 网络摄像头直播 · 18+",
+        "description": "跨性别网络摄像头主播：实时直播、聊天与私密表演。了解如何找到喜欢的主播、尊重地交流，以及何时观看。免费观看。18+",
+        "h1": "跨性别主播实时直播",
+        "nav": "跨性别主播"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/kategorii/v-maskah/",
+      "fields": {
+        "title": "面具网络摄像头直播：Stripchat 面具主播在线 · 18+",
+        "description": "戴面具的网络摄像头主播：嘉年华、蕾丝与发光造型。了解主播为何隐藏面容、直播如何进行，以及为何不能揭开其面具。18+",
+        "h1": "戴面具的主播实时直播",
+        "nav": "面具主播"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/kategorii/v-ochkah/",
+      "fields": {
+        "title": "眼镜网络摄像头直播：Stripchat 眼镜主播在线 · 18+",
+        "description": "戴眼镜的网络摄像头主播：简洁镜框、复古款、圆框和太阳镜。了解眼镜造型为何吸引目光，以及如何找到戴眼镜的女主播。免费观看，18+",
+        "h1": "镜头前戴眼镜的女主播",
+        "nav": "眼镜主播"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/kategorii/videochat-18/",
+      "fields": {
+        "title": "18+ 在线女性视频聊天：观看真人主播无需自己的摄像头",
+        "description": "面向成年人的 18+ 视频聊天：不开启自己的摄像头也能观看真人主播、参与聊天或选择一对一私密表演。支持手机与匿名观看。",
+        "h1": "18+ 视频聊天：与真人主播实时交流",
+        "nav": "18+ 视频聊天"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/kategorii/vr/",
+      "fields": {
+        "title": "VR 网络摄像头直播：使用虚拟现实头显观看",
+        "description": "Stripchat VR 直播：了解使用头显观看需要什么设备、如何在头显浏览器中打开直播，以及怎样调整网络使画面流畅。18+",
+        "h1": "VR 直播：使用头显观看网络摄像头直播",
+        "nav": "VR 直播"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/kategorii/zrelye/",
+      "fields": {
+        "title": "30+ 成熟网络摄像头主播与熟女在线 · Stripchat",
+        "description": "30 岁及以上的成熟网络摄像头主播在线：自信、经验与有趣的聊天。了解如何按年龄筛选主播，以及直播中可以期待什么。18+",
+        "h1": "30+ 成熟主播实时直播",
+        "nav": "成熟主播"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/model/",
+      "fields": {
+        "title": "成为网络摄像头主播：Stripchat 的工作、条件与收入",
+        "description": "在 Stripchat 从事网络摄像头主播工作：适合哪些人、收入如何产生、开始需要什么，以及注册前应如实了解的问题。仅限 18 岁及以上。",
+        "h1": "在 Stripchat 从事网络摄像头主播工作",
+        "nav": "主播工作"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/model/bezopasnost/",
+      "fields": {
+        "title": "网络摄像头主播安全：隐私、地区屏蔽与个人界限",
+        "description": "Stripchat 网络摄像头主播的安全：艺名、国家和地区屏蔽、个人信息保护、个人界限，以及识别诈骗。",
+        "h1": "网络摄像头主播的安全与隐私",
+        "nav": "安全"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/model/dlya-par/",
+      "fields": {
+        "title": "情侣网络摄像头直播：如何在 Stripchat 共同工作",
+        "description": "情侣网络摄像头直播：双方证件审核、自愿同意、个人界限、隐私、公平分配收入，以及分手后如何处理账号。",
+        "h1": "情侣网络摄像头工作：首次直播前先达成共识",
+        "nav": "情侣直播"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/model/kak-nachat/",
+      "fields": {
+        "title": "如何成为 Stripchat 网络摄像头主播：逐步指南",
+        "description": "成为 Stripchat 网络摄像头主播的步骤：注册、年龄与证件审核、设置个人资料、首次直播及排班。面向年满 18 岁的新手。",
+        "h1": "如何成为网络摄像头主播：从注册到首次直播",
+        "nav": "如何开始"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/model/oborudovanie/",
+      "fields": {
+        "title": "网络摄像头主播设备：摄像头、灯光、声音与网络",
+        "description": "网络摄像头主播需要哪些设备：摄像头、灯光、麦克风、网络上传速度与房间布置。了解低预算入门方案及后续升级方向。",
+        "h1": "网络摄像头主播设备：从哪里开始，如何改进",
+        "nav": "设备"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/model/rabota-iz-doma/",
+      "fields": {
+        "title": "在家从事网络摄像头主播工作：时间安排、学习与平衡",
+        "description": "在家从事网络摄像头主播工作：如何安排灵活时间、兼顾学习或其他工作、保护隐私并避免职业倦怠。仅供 18 岁及以上成年人参考。",
+        "h1": "居家网络摄像头直播：如何兼顾生活中的其他安排",
+        "nav": "居家工作"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/model/skolko-zarabatyvayut/",
+      "fields": {
+        "title": "Stripchat 网络摄像头主播能赚多少",
+        "description": "Stripchat 网络摄像头主播收入及其影响因素：直播时长、规律性、表演形式、语言和观众群。如实说明，不作收益承诺。",
+        "h1": "网络摄像头主播能赚多少，收入取决于什么",
+        "nav": "主播收入"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/model/sovety-novichkam/",
+      "fields": {
+        "title": "给新网络摄像头主播的建议：如何踏实成长",
+        "description": "给新网络摄像头主播的建议：稳定排班、完善个人资料、小费菜单、活跃聊天、固定观众，以及在允许的平台使用社交媒体。",
+        "h1": "新手建议：网络摄像头主播如何发展并避免倦怠",
+        "nav": "新手建议"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/model/studiya-ili-samostoyatelno/",
+      "fields": {
+        "title": "网络摄像头工作室还是独立直播：主播如何选择",
+        "description": "加入工作室还是直接在平台工作：比较设备、支持、工作室分成、合同，以及账号和收款的控制权。面向 18 岁及以上用户的如实对比。",
+        "h1": "网络摄像头工作室与独立工作：如实比较",
+        "nav": "工作室或独立工作"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/model/vakansii/",
+      "fields": {
+        "title": "网络摄像头主播招聘：如何核查信息，避开陷阱",
+        "description": "网络摄像头主播招聘与求职广告：警示信号、应向雇主提出的问题、出国工作的风险，以及为何可以不通过中介开始。",
+        "h1": "网络摄像头主播招聘：如何区分可靠机会与陷阱",
+        "nav": "招聘信息"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/model/vyplaty/",
+      "fields": {
+        "title": "Stripchat 网络摄像头主播收款：如何提取收入",
+        "description": "Stripchat 主播收款流程概览：代币如何转为账户资金、后台显示的提现方式与门槛，以及税务和收入记录。",
+        "h1": "Stripchat 主播如何收到款项",
+        "nav": "收款"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/o-sajte/",
+      "fields": {
+        "title": "关于 Stripchat.su：我们是谁，网站如何运作",
+        "description": "了解 Stripchat.su：介绍 Stripchat 网络摄像头直播的独立合作伙伴网站。直播来自哪里、网站如何获得收入，以及遵循哪些规则。",
+        "h1": "关于 Stripchat.su",
+        "nav": "关于网站"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/otkaz-ot-otvetstvennosti/",
+      "fields": {
+        "title": "Stripchat.su 免责声明与使用规则",
+        "description": "Stripchat.su 使用条件：仅限年满 18 岁的人士使用；本站不是 Stripchat 官方网站；内容仅供参考，不保证任何收入。",
+        "h1": "免责声明",
+        "nav": "免责声明"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/partner/",
+      "fields": {
+        "title": "Stripcash 合作伙伴计划：通过 Stripchat 访问流量获得收入",
+        "description": "Stripcash 是 Stripchat 的官方合作伙伴计划。了解适合哪些用户、推荐追踪如何运作，以及对网站管理员的实际优点和不足。",
+        "h1": "面向网站管理员的 Stripcash 合作伙伴计划",
+        "nav": "合作伙伴计划"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/partner/instrumenty/",
+      "fields": {
+        "title": "Stripcash 工具：链接、横幅、直播组件与 API",
+        "description": "Stripcash 为合作伙伴提供哪些推广工具：推荐链接、横幅、嵌入直播、落地页、白标网站、带追踪标记的统计与 API。",
+        "h1": "Stripcash 合作伙伴推广工具",
+        "nav": "工具"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/partner/istochniki-trafika/",
+      "fields": {
+        "title": "Stripcash 流量来源：如何合法吸引访客",
+        "description": "Stripcash 合作伙伴如何合规获取流量：SEO 网站、18+ Telegram 频道、成人广告网络与评测内容。了解平台规则、法律及禁止的做法。",
+        "h1": "Stripchat 合作伙伴的流量来源",
+        "nav": "流量来源"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/partner/kak-zarabotat/",
+      "fields": {
+        "title": "如何通过 Stripcash 获得收入：计费模式与合作伙伴收益",
+        "description": "Stripcash 合作伙伴如何获得收入：收入分成与按行为付费、影响收益的因素、为什么要计算转化率，以及为何结果没有保证。",
+        "h1": "如何通过 Stripchat 合作伙伴计划获得收入",
+        "nav": "如何获得收入"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/partner/oshibki-novichkov/",
+      "fields": {
+        "title": "Stripcash 新合作伙伴的常见错误与避免方法",
+        "description": "Stripcash 新合作伙伴的常见错误：重复页面、垃圾信息、低质量流量、违反平台规则、不做数据分析，以及过高的预期。",
+        "h1": "新合作伙伴的常见错误及如何避免重犯",
+        "nav": "新手错误"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/partner/sajt-na-github/",
+      "fields": {
+        "title": "GitHub Pages 合作伙伴网站：Stripcash 逐步指南",
+        "description": "如何在 GitHub Pages 免费搭建嵌入直播的静态合作伙伴网站：域名、CNAME、HTTPS、页面标题、网站地图、Search Console 与 Yandex Webmaster。",
+        "h1": "在 GitHub Pages 免费搭建合作伙伴网站",
+        "nav": "GitHub 网站"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/partner/vyplaty/",
+      "fields": {
+        "title": "Stripcash 收款：合作伙伴如何获得款项",
+        "description": "Stripcash 合作伙伴收款流程：在哪里查看提现方式与最低金额、付款时间取决于什么，以及需要检查的收款信息和税务事项。",
+        "h1": "Stripcash 合作伙伴收款",
+        "nav": "合作伙伴收款"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/partner/white-label/",
+      "fields": {
+        "title": "Stripcash 白标网络摄像头网站：是什么，适合谁",
+        "description": "了解 Stripcash 白标网络摄像头网站：与推荐链接的区别、优点与不足、适合哪些用户，以及上线前需要检查什么。",
+        "h1": "白标网站：基于 Stripchat 平台建立自己的网站",
+        "nav": "白标网站"
+      }
+    },
+    {
+      "locale": "zh",
+      "route": "/politika-konfidencialnosti/",
+      "fields": {
+        "title": "Stripchat.su 隐私政策",
+        "description": "Stripchat.su 处理哪些数据：本站不收集个人数据，也不设置自己的 Cookie；嵌入的直播按照所属平台的规则运行。",
+        "h1": "隐私政策",
+        "nav": "隐私"
+      }
+    }
+  ]
+}

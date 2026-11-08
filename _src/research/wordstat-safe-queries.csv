@@ -1,0 +1,19 @@
+source_file,period_start,period_end,query,reported_query_count,decision,article_id,ru_url,coverage,reason
+wordstat_top_queries.csv,2026-10-07,2026-11-07,вебкам камера,8475,broad_ambiguous,webcam-for-pc,/help/webcam-for-pc/,partial,"Широкая формулировка; инструкция покрывает технический аспект, но полное намерение не установлено."
+wordstat_top_queries.csv,2026-10-07,2026-11-07,камера вебка,8344,broad_ambiguous,webcam-for-pc,/help/webcam-for-pc/,partial,"Широкая формулировка; инструкция покрывает технический аспект, но полное намерение не установлено."
+wordstat_top_queries.csv,2026-10-07,2026-11-07,вебка в обс,3929,clear_technical,obs-webcam-setup,/help/obs-webcam-setup/,new,Самостоятельная инструкция настройки источника камеры в OBS.
+wordstat_top_queries.csv,2026-10-07,2026-11-07,вебкам проверка,2732,clear_technical,webcam-test,/help/webcam-test/,existing,Проверка камеры; варианты объединены в одну инструкцию и локальный тест.
+wordstat_top_queries.csv,2026-10-07,2026-11-07,проверка вебки,2727,clear_technical,webcam-test,/help/webcam-test/,existing,Проверка камеры; варианты объединены в одну инструкцию и локальный тест.
+wordstat_top_queries.csv,2026-10-07,2026-11-07,как подключить вебку,1585,clear_technical,webcam-for-pc,/help/webcam-for-pc/,existing,"Подключение, включение и выбор устройства; связанные инструкции раскрывают разрешения и ошибки."
+wordstat_top_queries.csv,2026-10-07,2026-11-07,вебкам тест,1484,clear_technical,webcam-test,/help/webcam-test/,existing,Проверка камеры; варианты объединены в одну инструкцию и локальный тест.
+wordstat_top_queries.csv,2026-10-07,2026-11-07,тест вебки,1480,clear_technical,webcam-test,/help/webcam-test/,existing,Проверка камеры; варианты объединены в одну инструкцию и локальный тест.
+wordstat_top_queries.csv,2026-10-07,2026-11-07,как включить вебку,1202,clear_technical,webcam-on-off,/help/webcam-on-off/,new,"Включение, выключение и проверка завершения доступа к камере."
+wordstat_top_queries.csv,2026-10-07,2026-11-07,проверить вебкам,953,clear_technical,webcam-test,/help/webcam-test/,existing,Проверка камеры; варианты объединены в одну инструкцию и локальный тест.
+wordstat_top_queries.csv,2026-10-07,2026-11-07,проверить вебку,945,clear_technical,webcam-test,/help/webcam-test/,existing,Проверка камеры; варианты объединены в одну инструкцию и локальный тест.
+wordstat_top_queries.csv,2026-10-07,2026-11-07,рамка для вебки в обс,736,clear_technical,obs-webcam-frame,/help/obs-webcam-frame/,new,Отдельная задача оформления источника камеры в сцене OBS.
+wordstat_top_queries.csv,2026-10-07,2026-11-07,как настроить вебку,663,clear_technical,webcam-setup,/help/webcam-setup/,new,Последовательная настройка выбранного устройства и изображения.
+wordstat_top_queries.csv,2026-10-07,2026-11-07,фон для вебки,662,clear_technical,webcam-background,/help/webcam-background/,new,"Различаются реальный фон, размытие и виртуальная замена."
+wordstat_top_queries.csv,2026-10-07,2026-11-07,как сделать вебку в обс,590,clear_technical,obs-webcam-setup,/help/obs-webcam-setup/,new,Самостоятельная инструкция настройки источника камеры в OBS.
+wordstat_top_queries.csv,2026-10-07,2026-11-07,как подключить телефон как вебку,499,clear_technical,phone-as-webcam,/help/phone-as-webcam/,new,Основная инструкция выбора способа; Iriun — отдельная связанная реализация.
+wordstat_top_queries.csv,2026-10-07,2026-11-07,как отзеркалить вебку,356,clear_technical,webcam-mirror,/help/webcam-mirror/,new,Отражение локального предпросмотра и результата для собеседника различаются.
+wordstat_top_queries.csv,2026-10-07,2026-11-07,как использовать телефон как вебку,337,clear_technical,phone-as-webcam,/help/phone-as-webcam/,new,Основная инструкция выбора способа; Iriun — отдельная связанная реализация.

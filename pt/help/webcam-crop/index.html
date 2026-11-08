@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="pt" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Recortar a webcam no OBS sem deformar a imagem</title>
+  <meta name="description" content="Recorte as bordas da câmera, preserve a proporção e confira o enquadramento no OBS. Diferencie recortar uma fonte de alterar seu tamanho.">
+  <link rel="canonical" href="https://stripchat.su/pt/help/webcam-crop/">
+  <link rel="alternate" hreflang="ru" href="https://stripchat.su/help/webcam-crop/">
+  <link rel="alternate" hreflang="en" href="https://stripchat.su/en/help/webcam-crop/">
+  <link rel="alternate" hreflang="es" href="https://stripchat.su/es/help/webcam-crop/">
+  <link rel="alternate" hreflang="pt" href="https://stripchat.su/pt/help/webcam-crop/">
+  <link rel="alternate" hreflang="de" href="https://stripchat.su/de/help/webcam-crop/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://stripchat.su/zh/help/webcam-crop/">
+  <link rel="alternate" hreflang="hi" href="https://stripchat.su/hi/help/webcam-crop/">
+  <link rel="alternate" hreflang="ar" href="https://stripchat.su/ar/help/webcam-crop/">
+  <link rel="alternate" hreflang="x-default" href="https://stripchat.su/en/help/webcam-crop/">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="theme-color" content="#0f0f14">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:locale:alternate" content="ru_RU">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:locale:alternate" content="zh_CN">
+  <meta property="og:locale:alternate" content="hi_IN">
+  <meta property="og:locale:alternate" content="ar_SA">
+  <meta property="og:title" content="Recortar a webcam no OBS sem deformar a imagem">
+  <meta property="og:description" content="Recorte as bordas da câmera, preserve a proporção e confira o enquadramento no OBS. Diferencie recortar uma fonte de alterar seu tamanho.">
+  <meta property="og:url" content="https://stripchat.su/pt/help/webcam-crop/">
+  <meta property="og:image" content="https://stripchat.su/img/help/webcam-crop.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Cantos de recorte ao redor da imagem de câmera com uma referência circular sem deformação.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://stripchat.su/img/help/webcam-crop.png">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="/pt/site.webmanifest">
+  <link rel="stylesheet" href="/assets/site.css?v=fbae5070">
+  <link rel="stylesheet" href="/assets/help.css?v=de76c1516f">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://stripchat.su/pt/help/webcam-crop/#page","url":"https://stripchat.su/pt/help/webcam-crop/","name":"Recortar a webcam no OBS sem deformar a imagem","description":"Recorte as bordas da câmera, preserve a proporção e confira o enquadramento no OBS. Diferencie recortar uma fonte de alterar seu tamanho.","inLanguage":"pt","dateModified":"2026-11-08","isPartOf":{"@id":"https://stripchat.su/pt/#website"},"breadcrumb":{"@id":"https://stripchat.su/pt/help/webcam-crop/#breadcrumb"}},{"@type":"WebSite","@id":"https://stripchat.su/pt/#website","url":"https://stripchat.su/pt/","name":"Stripchat.su","inLanguage":"pt"},{"@type":"BreadcrumbList","@id":"https://stripchat.su/pt/help/webcam-crop/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Início","item":"https://stripchat.su/pt/"},{"@type":"ListItem","position":2,"name":"Ajuda com webcam e microfone","item":"https://stripchat.su/pt/help/"},{"@type":"ListItem","position":3,"name":"Como recortar e posicionar a webcam no OBS","item":"https://stripchat.su/pt/help/webcam-crop/"}]},{"@type":"TechArticle","@id":"https://stripchat.su/pt/help/webcam-crop/#article","headline":"Como recortar e posicionar a webcam no OBS","description":"Recorte as bordas da câmera, preserve a proporção e confira o enquadramento no OBS. Diferencie recortar uma fonte de alterar seu tamanho.","inLanguage":"pt","dateModified":"2026-11-08","mainEntityOfPage":{"@id":"https://stripchat.su/pt/help/webcam-crop/#page"},"image":"https://stripchat.su/img/help/webcam-crop.png","citation":["https://obsproject.com/kb/sources-guide","https://obsproject.com/kb/aspect-ratio-guide"]}]}</script>
+
+</head>
+<body class="section-help">
+  <a class="skip-link" href="#main">Ir para o conteúdo</a>
+  <header class="site-header"><a class="logo" href="/pt/"><img src="/favicon.svg" width="28" height="28" alt=""><span dir="ltr">Stripchat.su</span></a><nav class="site-nav" dir="ltr" aria-label="Menu principal"><a href="/pt/">Início</a><a href="/pt/help/">Todos os guias</a><a href="/pt/o-sajte/">Sobre o site</a></nav><details class="language-switcher" dir="ltr"><summary class="language-toggle" aria-label="Idioma: Português" title="Idioma"><svg class="language-globe" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c5 5 5 13 0 18-5-5-5-13 0-18Z"/></svg><span class="language-current" lang="pt">Português</span><span class="language-code" aria-hidden="true">PT</span><svg class="language-chevron" viewBox="0 0 16 16" width="12" height="12" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="m4 6 4 4 4-4"/></svg></summary><nav class="language-nav" aria-label="Idioma"><a href="/help/webcam-crop/" lang="ru" hreflang="ru" dir="ltr">Русский</a><a href="/en/help/webcam-crop/" lang="en" hreflang="en" dir="ltr">English</a><a href="/es/help/webcam-crop/" lang="es" hreflang="es" dir="ltr">Español</a><a href="/pt/help/webcam-crop/" lang="pt" hreflang="pt" dir="ltr" aria-current="page">Português<span class="language-check" aria-hidden="true">✓</span></a><a href="/de/help/webcam-crop/" lang="de" hreflang="de" dir="ltr">Deutsch</a><a href="/zh/help/webcam-crop/" lang="zh-Hans" hreflang="zh-Hans" dir="ltr">简体中文</a><a href="/hi/help/webcam-crop/" lang="hi" hreflang="hi" dir="ltr">हिन्दी</a><a href="/ar/help/webcam-crop/" lang="ar" hreflang="ar" dir="rtl">العربية</a></nav></details><script src="/assets/language-switcher.js?v=5b205ca92360" defer></script></header>
+  <main id="main">
+    <nav class="crumbs breadcrumbs" aria-label="Caminho de navegação"><a href="/pt/">Início</a><span class="sep" aria-hidden="true">›</span><a href="/pt/help/">Ajuda com webcam e microfone</a><span class="sep" aria-hidden="true">›</span><span aria-current="page">Como recortar e posicionar a webcam no OBS</span></nav>
+    <article>
+      <header class="article-header"><p class="eyebrow">Revisado <time datetime="2026-11-08">8 de novembro de 2026</time></p><h1 class="page-title">Como recortar e posicionar a webcam no OBS</h1><p class="lead">Recortar remove bordas indesejadas; redimensionar altera o tamanho exibido. Para uma janela de câmera mais estreita, recorte primeiro e redimensione proporcionalmente a imagem restante, preservando o formato de rostos e objetos.</p></header>
+
+
+        <figure class="article-image"><img src="/img/help/webcam-crop.svg" width="1200" height="630" alt="Cantos de recorte ao redor da imagem de câmera com uma referência circular sem deformação." decoding="async" fetchpriority="high"></figure>
+        <nav class="contents" aria-label="Nesta página"><h2>Nesta página</h2><ol><li><a href="#section-1">Defina o enquadramento necessário</a></li><li><a href="#section-2">Faça um recorte que possa desfazer</a></li><li><a href="#section-3">Confira o que o recorte alterou</a></li><li><a href="#section-4">Separe enquadramento de privacidade</a></li></ol></nav>
+        <section class="article-section" aria-labelledby="section-1"><h2 id="section-1">Defina o enquadramento necessário</h2><p>Decida o que precisa continuar visível: cabeça, mãos ou um objeto na mesa. Deixe espaço para movimentos normais. Um quadro que só funciona quando você fica imóvel cortará informações úteis durante a chamada.</p><p>Guarde uma cópia da composição ou anote os valores de transformação antes de editar. Uma câmera pode parecer esticada mesmo funcionando corretamente; nesse caso, o problema é da composição, não do sensor.</p></section><section class="article-section" aria-labelledby="section-2"><h2 id="section-2">Faça um recorte que possa desfazer</h2><ol><li>Selecione a fonte da câmera no OBS e abra Editar transformação. Ajuste os valores de recorte das bordas que deseja remover.</li><li>Como alternativa, segure Alt no Windows ou Option no macOS enquanto arrasta as alças da caixa da fonte, conforme a documentação do OBS.</li><li>Redimensione e posicione o resultado sem esticá-lo deliberadamente para outra proporção. Use os controles de transformação quando precisar de posicionamento preciso.</li></ol></section><section class="article-section" aria-labelledby="section-3"><h2 id="section-3">Confira o que o recorte alterou</h2><p>Mova as mãos em direção às bordas e incline-se um pouco para cada lado. Se uma área importante desaparecer, reduza o recorte ou reposicione a câmera. Observe um objeto redondo: uma forma claramente oval pode revelar um esticamento indesejado.</p><p>O recorte não cria detalhes novos. Ampliar uma região pequena pode deixá-la menos nítida. Antes de aumentar a nitidez artificial, compare um recorte menos agressivo no mesmo tamanho de exibição.</p></section><section class="article-section" aria-labelledby="section-4"><h2 id="section-4">Separe enquadramento de privacidade</h2><p>Confira todas as cenas que utilizam a câmera. Recortar uma composição não garante que outras cenas ou aplicativos usem esse recorte. Retire do campo real os objetos sensíveis cuja aparição acidental seria um problema.</p><p>Se usar uma moldura decorativa, coloque-a acima da câmera e confira a abertura transparente. O guia de molduras explica essa camada separadamente. Salve a composição depois de verificar movimentos normais e as dimensões de saída desejadas.</p></section>
+        <section class="sources" aria-labelledby="sources"><h2 id="sources">Documentação oficial</h2><ul><li><a href="https://obsproject.com/kb/sources-guide" rel="noopener noreferrer">OBS: recorte e transformação das fontes</a></li><li><a href="https://obsproject.com/kb/aspect-ratio-guide" rel="noopener noreferrer">OBS: proporção da imagem</a></li></ul></section>
+        <section aria-labelledby="related"><h2 id="related">Guias relacionados</h2><ul class="cards help-cards"><li><a href="/pt/help/obs-webcam-frame/"><img src="/img/help/obs-webcam-frame.svg" width="1200" height="630" alt="" loading="lazy" decoding="async"><h3>Como colocar uma moldura na webcam no OBS</h3><p>Coloque uma moldura PNG transparente sobre a webcam no OBS, alinhe a abertura e resolva problemas de camadas, transparência e recorte.</p></a></li><li><a href="/pt/help/obs-webcam-setup/"><img src="/img/help/obs-webcam-setup.svg" width="1200" height="630" alt="" loading="lazy" decoding="async"><h3>Como adicionar e testar uma webcam no OBS Studio</h3><p>Adicione a webcam a uma cena do OBS, selecione o dispositivo correto e confira visibilidade, resolução e enquadramento na prévia local.</p></a></li><li><a href="/pt/help/webcam-background/"><img src="/img/help/webcam-background.svg" width="1200" height="630" alt="" loading="lazy" decoding="async"><h3>Como escolher o fundo da sua webcam</h3><p>Prepare o fundo da webcam, compare o enquadramento com desfoque ou substituição por imagem e confira bordas e desempenho antes da chamada.</p></a></li></ul></section>
+
+    </article>
+  </main>
+  <footer class="site-footer"><section id="privacy"><h2>Privacidade</h2><p>O teste começa quando você pressiona o botão e permite o acesso. Esta ferramenta processa vídeo ou áudio no navegador, sem gravar ou enviar esse conteúdo a um servidor. A hospedagem recebe as solicitações HTTP normais necessárias para carregar a página.</p><nav class="footer-nav" aria-label="Seções do site"><a href="/pt/">Início</a><a href="/pt/help/">Todos os guias</a></nav><nav class="footer-nav footer-nav--info" aria-label="Sobre o site"><a href="/pt/o-sajte/">Sobre o site</a><a href="/pt/politika-konfidencialnosti/">Política de privacidade</a><a href="/pt/otkaz-ot-otvetstvennosti/">Isenção de responsabilidade</a></nav><p dir="ltr">© 2026 Stripchat.su</p></section></footer>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh-Hans" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>在线测试麦克风：检查输入电平与无声原因</title>
+  <meta name="description" content="使用本地电平测试检查麦克风是否收到声音，不录制也不回放。排查输入选错、静音、权限被拒和电平过低等常见问题。">
+  <link rel="canonical" href="https://stripchat.su/zh/help/microphone-test/">
+  <link rel="alternate" hreflang="ru" href="https://stripchat.su/help/microphone-test/">
+  <link rel="alternate" hreflang="en" href="https://stripchat.su/en/help/microphone-test/">
+  <link rel="alternate" hreflang="es" href="https://stripchat.su/es/help/microphone-test/">
+  <link rel="alternate" hreflang="pt" href="https://stripchat.su/pt/help/microphone-test/">
+  <link rel="alternate" hreflang="de" href="https://stripchat.su/de/help/microphone-test/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://stripchat.su/zh/help/microphone-test/">
+  <link rel="alternate" hreflang="hi" href="https://stripchat.su/hi/help/microphone-test/">
+  <link rel="alternate" hreflang="ar" href="https://stripchat.su/ar/help/microphone-test/">
+  <link rel="alternate" hreflang="x-default" href="https://stripchat.su/en/help/microphone-test/">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="theme-color" content="#0f0f14">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:locale:alternate" content="ru_RU">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="pt_BR">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:locale:alternate" content="hi_IN">
+  <meta property="og:locale:alternate" content="ar_SA">
+  <meta property="og:title" content="在线测试麦克风：检查输入电平与无声原因">
+  <meta property="og:description" content="使用本地电平测试检查麦克风是否收到声音，不录制也不回放。排查输入选错、静音、权限被拒和电平过低等常见问题。">
+  <meta property="og:url" content="https://stripchat.su/zh/help/microphone-test/">
+  <meta property="og:image" content="https://stripchat.su/img/help/microphone-test.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="麦克风与随声音变化的输入电平条示意图">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://stripchat.su/img/help/microphone-test.png">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="/zh/site.webmanifest">
+  <link rel="stylesheet" href="/assets/site.css?v=fbae5070">
+  <link rel="stylesheet" href="/assets/help.css?v=de76c1516f">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://stripchat.su/zh/help/microphone-test/#page","url":"https://stripchat.su/zh/help/microphone-test/","name":"在线测试麦克风：检查输入电平与无声原因","description":"使用本地电平测试检查麦克风是否收到声音，不录制也不回放。排查输入选错、静音、权限被拒和电平过低等常见问题。","inLanguage":"zh-Hans","dateModified":"2026-11-08","isPartOf":{"@id":"https://stripchat.su/zh/#website"},"breadcrumb":{"@id":"https://stripchat.su/zh/help/microphone-test/#breadcrumb"}},{"@type":"WebSite","@id":"https://stripchat.su/zh/#website","url":"https://stripchat.su/zh/","name":"Stripchat.su","inLanguage":"zh-Hans"},{"@type":"BreadcrumbList","@id":"https://stripchat.su/zh/help/microphone-test/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://stripchat.su/zh/"},{"@type":"ListItem","position":2,"name":"摄像头与麦克风帮助","item":"https://stripchat.su/zh/help/"},{"@type":"ListItem","position":3,"name":"用输入电平检查麦克风","item":"https://stripchat.su/zh/help/microphone-test/"}]},{"@type":"TechArticle","@id":"https://stripchat.su/zh/help/microphone-test/#article","headline":"用输入电平检查麦克风","description":"使用本地电平测试检查麦克风是否收到声音，不录制也不回放。排查输入选错、静音、权限被拒和电平过低等常见问题。","inLanguage":"zh-Hans","dateModified":"2026-11-08","mainEntityOfPage":{"@id":"https://stripchat.su/zh/help/microphone-test/#page"},"image":"https://stripchat.su/img/help/microphone-test.png","citation":["https://support.microsoft.com/en-us/windows/hardware/drivers/how-to-set-up-and-test-microphones-in-windows","https://support.google.com/chrome/answer/2693767"]}]}</script>
+  <script src="/assets/device-test.js?v=eac4020c5a" defer></script>
+</head>
+<body class="section-help">
+  <a class="skip-link" href="#main">跳到正文</a>
+  <header class="site-header"><a class="logo" href="/zh/"><img src="/favicon.svg" width="28" height="28" alt=""><span dir="ltr">Stripchat.su</span></a><nav class="site-nav" dir="ltr" aria-label="主菜单"><a href="/zh/">首页</a><a href="/zh/help/">全部指南</a><a href="/zh/o-sajte/">关于本站</a></nav><details class="language-switcher" dir="ltr"><summary class="language-toggle" aria-label="语言: 简体中文" title="语言"><svg class="language-globe" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c5 5 5 13 0 18-5-5-5-13 0-18Z"/></svg><span class="language-current" lang="zh-Hans">简体中文</span><span class="language-code" aria-hidden="true">ZH</span><svg class="language-chevron" viewBox="0 0 16 16" width="12" height="12" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="m4 6 4 4 4-4"/></svg></summary><nav class="language-nav" aria-label="语言"><a href="/help/microphone-test/" lang="ru" hreflang="ru" dir="ltr">Русский</a><a href="/en/help/microphone-test/" lang="en" hreflang="en" dir="ltr">English</a><a href="/es/help/microphone-test/" lang="es" hreflang="es" dir="ltr">Español</a><a href="/pt/help/microphone-test/" lang="pt" hreflang="pt" dir="ltr">Português</a><a href="/de/help/microphone-test/" lang="de" hreflang="de" dir="ltr">Deutsch</a><a href="/zh/help/microphone-test/" lang="zh-Hans" hreflang="zh-Hans" dir="ltr" aria-current="page">简体中文<span class="language-check" aria-hidden="true">✓</span></a><a href="/hi/help/microphone-test/" lang="hi" hreflang="hi" dir="ltr">हिन्दी</a><a href="/ar/help/microphone-test/" lang="ar" hreflang="ar" dir="rtl">العربية</a></nav></details><script src="/assets/language-switcher.js?v=5b205ca92360" defer></script></header>
+  <main id="main">
+    <nav class="crumbs breadcrumbs" aria-label="面包屑导航"><a href="/zh/">首页</a><span class="sep" aria-hidden="true">›</span><a href="/zh/help/">摄像头与麦克风帮助</a><span class="sep" aria-hidden="true">›</span><span aria-current="page">用输入电平检查麦克风</span></nav>
+    <article>
+      <header class="article-header"><p class="eyebrow">核对日期 <time datetime="2026-11-08">2026年11月8日</time></p><h1 class="page-title">用输入电平检查麦克风</h1><p class="lead">摄像头有画面，并不代表麦克风也在工作。这里的本地测试显示声音输入电平，适合判断是否有信号；它不会播放你的声音，也不能代替完整的音质检查。</p></header>
+
+        <section class="device-test" data-device-test="audio" aria-labelledby="device-test-title">
+    <h2 id="device-test-title">本地设备测试</h2>
+    <p>摄像头测试仅请求视频，麦克风测试仅请求音频。工具不录制、不上传，也不回放麦克风声音。</p>
+    <div class="test-controls"><button type="button" class="btn" data-start>测试麦克风</button><button type="button" class="btn secondary" data-stop disabled>停止</button></div>
+    <p role="status" data-status aria-live="polite">测试尚未启动。</p>
+    <label class="meter-label" hidden data-meter-label>麦克风输入电平 <meter data-meter min="0" max="100" value="0"></meter></label>
+    <p data-settings class="device-settings" hidden dir="auto"></p>
+    <noscript><p>设备测试需要JavaScript；阅读指南不需要启用它。</p></noscript>
+    <script type="application/json" data-messages>{"name":"简体中文","dir":"ltr","title":"摄像头与麦克风帮助：测试、连接和故障排查","description":"在浏览器中检查摄像头和麦克风，排查权限、黑屏、USB连接和画面问题。提供电脑摄像头、Iriun与Logitech设备的实用指南。","heading":"摄像头与麦克风帮助","intro":"先确认问题发生在哪一环，再调整设置。这里的指南帮助你检查设备、浏览器权限、画面和声音，并提供手动启动的本地测试。","guides":"全部指南","languages":"语言","contents":"本页目录","sources":"官方文档","related":"相关指南","updated":"核对日期","skip":"跳到正文","back":"返回全部指南","privacy":"隐私说明","privacyText":"只有点击启动并允许访问后，测试才会读取所需设备。此工具在浏览器本地处理摄像头画面或麦克风信号，不录制、不上传这些内容。网站托管服务仍会接收加载页面所需的普通HTTP请求。","startCamera":"启动摄像头","startMic":"测试麦克风","stop":"停止","idle":"测试尚未启动。","pending":"请在浏览器提示中选择是否允许访问。","active":"测试正在运行；完成后请点击停止。","stopped":"测试已停止。","denied":"访问未获允许。请检查此网站和操作系统的设备权限，再重试。","missing":"未找到所需设备。请检查连接，并确认系统能够识别它。","busy":"设备无法读取。请关闭可能占用它的应用，再检查连接。","error":"无法启动测试。请重新检查设备和权限，或换用更新的浏览器。","unsupported":"此浏览器或连接方式不支持测试。请使用支持媒体访问的浏览器并通过HTTPS打开页面。","level":"麦克风输入电平","settings":"设备信息","noScript":"设备测试需要JavaScript；阅读指南不需要启用它。","toolHeading":"本地设备测试","toolNote":"摄像头测试仅请求视频，麦克风测试仅请求音频。工具不录制、不上传，也不回放麦克风声音。","mirrorPreview":"镜像此预览","configuredFrameRate":"配置帧率（帧/秒）","aboutSite":"关于本站（俄语）"}</script>
+  </section>
+        <figure class="article-image"><img src="/img/help/microphone-test.svg" width="1200" height="630" alt="麦克风与随声音变化的输入电平条示意图" decoding="async" fetchpriority="high"></figure>
+        <nav class="contents" aria-label="本页目录"><h2>本页目录</h2><ol><li><a href="#section-1">选择真正想测试的输入</a></li><li><a href="#section-2">用安静和讲话两种状态比较</a></li><li><a href="#section-3">解释电平变化和没有变化</a></li><li><a href="#section-4">需要听音质时使用单独的方法</a></li></ol></nav>
+        <section class="article-section" aria-labelledby="section-1"><h2 id="section-1">选择真正想测试的输入</h2><p>电脑可能同时连接笔记本麦克风、USB摄像头麦克风和耳机。先查看系统或浏览器当前选择的输入，避免面对桌面麦克风讲话，实际测到的却是远处的笔记本。</p><p>检查耳机线控或设备上的静音按钮。蓝牙设备还应确认电量和当前连接对象；设备能播放声音，不一定意味着它的麦克风已在当前应用中启用。</p></section><section class="article-section" aria-labelledby="section-2"><h2 id="section-2">用安静和讲话两种状态比较</h2><p>把测试当成一次对照：先安静，再正常说话。只看一个瞬间的数字，容易把环境噪声误认为人声输入。</p><ol><li>点击测试麦克风，在提示中决定是否允许音频访问。</li><li>保持安静片刻，观察背景电平。</li><li>以平常通话音量说一句话，观察电平是否随之变化。</li><li>移动到实际通话位置再试一次，完成后点击停止。</li></ol></section><section class="article-section" aria-labelledby="section-3"><h2 id="section-3">解释电平变化和没有变化</h2><p>电平随讲话变化，说明工具收到了声音信号，但不能据此判断对方一定听得清楚。背景风扇或键盘也能让电平上升。若平时说话几乎不变化，检查输入选择、静音、设备距离和系统输入音量。</p><p>若电平经常接近上限，先降低输入增益或稍微远离麦克风，再用相同音量对照。不要为了让条形图更高而把增益开到最大；这可能同时放大噪声。不同设备的电平数值也不适合直接当成质量排名。</p></section><section class="article-section" aria-labelledby="section-4"><h2 id="section-4">需要听音质时使用单独的方法</h2><p>这个网页工具不录音、不回放，只处理本地电平。要检查破音、回声或语句是否清晰，可使用自己信任的系统录音或目标应用的测试功能，并先阅读其存储方式。使用耳机进行回放能减少扬声器再次被麦克风拾取。</p><p>本地输入正常而通话中无声时，检查目标应用的麦克风选择和静音状态。排查后停止测试；不再需要的网站权限可以撤销。实际通话的网络和远端扬声器仍是另外的环节。</p></section>
+        <section class="sources" aria-labelledby="sources"><h2 id="sources">官方文档</h2><ul><li><a href="https://support.microsoft.com/en-us/windows/hardware/drivers/how-to-set-up-and-test-microphones-in-windows" rel="noopener noreferrer">Microsoft：设置与测试Windows麦克风</a></li><li><a href="https://support.google.com/chrome/answer/2693767" rel="noopener noreferrer">Google：Chrome麦克风输入与故障排查</a></li></ul></section>
+        <section aria-labelledby="related"><h2 id="related">相关指南</h2><ul class="cards help-cards"><li><a href="/zh/help/camera-permissions/"><img src="/img/help/camera-permissions.svg" width="1200" height="630" alt="" loading="lazy" decoding="async"><h3>检查浏览器和系统的摄像头权限</h3><p>区分网站权限、浏览器设备选择和操作系统限制。按顺序检查摄像头访问，并在完成测试后撤销不再需要的授权。</p></a></li><li><a href="/zh/help/webcam-test/"><img src="/img/help/webcam-test.svg" width="1200" height="630" alt="" loading="lazy" decoding="async"><h3>如何在浏览器中测试摄像头</h3><p>手动启动浏览器摄像头测试，检查取景、光线和设备是否正确。了解黑屏、权限被拒以及本地预览正常却无法通话时的下一步。</p></a></li></ul></section>
+
+    </article>
+  </main>
+  <footer class="site-footer"><section id="privacy"><h2>隐私说明</h2><p>只有点击启动并允许访问后，测试才会读取所需设备。此工具在浏览器本地处理摄像头画面或麦克风信号，不录制、不上传这些内容。网站托管服务仍会接收加载页面所需的普通HTTP请求。</p><nav class="footer-nav" aria-label="网站栏目"><a href="/zh/">首页</a><a href="/zh/help/">返回全部指南</a></nav><nav class="footer-nav footer-nav--info" aria-label="关于本站"><a href="/zh/o-sajte/">关于本站</a><a href="/zh/politika-konfidencialnosti/">隐私政策</a><a href="/zh/otkaz-ot-otvetstvennosti/">免责声明</a></nav><p dir="ltr">© 2026 Stripchat.su</p></section></footer>
+</body>
+</html>

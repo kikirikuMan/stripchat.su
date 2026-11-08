@@ -1,0 +1,379 @@
+{
+  "reviewDate": "2026-11-08",
+  "scope": "Exact fidelity and terminology corrections against the supplied Russian text; no new claims.",
+  "globalEdits": [
+    {
+      "locale": "en",
+      "from": "call her privately",
+      "to": "invite her to a private show"
+    },
+    {
+      "locale": "en",
+      "from": "private services",
+      "to": "private shows"
+    },
+    {
+      "locale": "en",
+      "from": "a private service",
+      "to": "a private show"
+    },
+    {
+      "locale": "en",
+      "from": "private viewing",
+      "to": "private shows"
+    },
+    {
+      "locale": "en",
+      "from": "private request",
+      "to": "request for a private show"
+    },
+    {
+      "locale": "en",
+      "from": "Exclusive private</",
+      "to": "Exclusive private show</"
+    },
+    {
+      "locale": "en",
+      "from": "exclusive private,",
+      "to": "exclusive private shows,"
+    },
+    {
+      "locale": "en",
+      "from": "individual private,",
+      "to": "individual private show,"
+    },
+    {
+      "locale": "en",
+      "from": "personal private,",
+      "to": "personal private show,"
+    },
+    {
+      "locale": "en",
+      "from": "about private</a>",
+      "to": "about private shows</a>"
+    },
+    {
+      "locale": "en",
+      "from": "about private.",
+      "to": "about private shows."
+    },
+    {
+      "locale": "en",
+      "from": "in private.",
+      "to": "in a private show."
+    },
+    {
+      "locale": "en",
+      "from": "in private,",
+      "to": "in a private show,"
+    },
+    {
+      "locale": "en",
+      "from": "in private and",
+      "to": "in a private show and"
+    },
+    {
+      "locale": "en",
+      "from": "in private with",
+      "to": "in a private show with"
+    },
+    {
+      "locale": "en",
+      "from": "in private it",
+      "to": "in a private show she"
+    },
+    {
+      "locale": "en",
+      "from": "private minute",
+      "to": "minute of a private show"
+    },
+    {
+      "locale": "en",
+      "from": "private prices",
+      "to": "prices for private shows"
+    },
+    {
+      "locale": "en",
+      "from": "private time",
+      "to": "private show time"
+    },
+    {
+      "locale": "en",
+      "from": "Private on Stripchat",
+      "to": "A private show on Stripchat"
+    },
+    {
+      "locale": "en",
+      "from": "Private still has boundaries",
+      "to": "A private show still has boundaries"
+    },
+    {
+      "locale": "en",
+      "from": "private does not promise",
+      "to": "a private show does not promise"
+    },
+    {
+      "locale": "en",
+      "from": "the same private,",
+      "to": "the same private show,"
+    },
+    {
+      "locale": "en",
+      "from": "The same private,",
+      "to": "The same private show,"
+    },
+    {
+      "locale": "en",
+      "from": "that private gives",
+      "to": "that a private show gives"
+    },
+    {
+      "locale": "en",
+      "from": "a simple private one",
+      "to": "a standard private show"
+    },
+    {
+      "locale": "en",
+      "from": "someone else’s private for tokens",
+      "to": "someone else’s private show for tokens"
+    },
+    {
+      "locale": "en",
+      "from": "Private without agreement",
+      "to": "A private show without prior agreement"
+    },
+    {
+      "locale": "en",
+      "from": "Only those who ordered private",
+      "to": "Only those who ordered a private show"
+    },
+    {
+      "locale": "en",
+      "from": "conditions of private in her profile",
+      "to": "conditions of private shows in her profile"
+    },
+    {
+      "locale": "en",
+      "from": "private recordings",
+      "to": "private show recordings"
+    },
+    {
+      "locale": "en",
+      "from": "private recording",
+      "to": "private show recording"
+    },
+    {
+      "locale": "en",
+      "from": "private meeting",
+      "to": "private show"
+    },
+    {
+      "locale": "en",
+      "from": "replenishment page",
+      "to": "balance top-up page"
+    },
+    {
+      "locale": "en",
+      "from": "Replenishment methods",
+      "to": "Ways to top up your balance"
+    },
+    {
+      "locale": "en",
+      "from": "A fair model",
+      "to": "A legitimate model"
+    },
+    {
+      "locale": "en",
+      "from": "Postal providers",
+      "to": "Email providers"
+    },
+    {
+      "locale": "en",
+      "from": "Unconfirmed mail",
+      "to": "Unverified email"
+    },
+    {
+      "locale": "en",
+      "from": "protecting the entrance",
+      "to": "securing your login"
+    },
+    {
+      "locale": "es",
+      "from": "propinas en efectivo",
+      "to": "propinas"
+    },
+    {
+      "locale": "es",
+      "from": "propina en efectivo",
+      "to": "propina"
+    },
+    {
+      "locale": "en",
+      "from": "cash tips",
+      "to": "tips"
+    }
+  ],
+  "edits": [
+    {
+      "locale": "en",
+      "route": "/gid/etiket/",
+      "path": "body",
+      "from": "prices in the tip menu or private,",
+      "to": "prices in the tip menu or for private shows,"
+    },
+    {
+      "locale": "en",
+      "route": "/gid/etiket/",
+      "path": "body",
+      "from": "Etiquette in private</h2>",
+      "to": "Etiquette in a private show</h2>"
+    },
+    {
+      "locale": "en",
+      "route": "/gid/kak-vybrat-model/",
+      "path": "body",
+      "from": "Private or large goal makes sense to consider after this.",
+      "to": "After that, it makes sense to consider a private show or a larger goal."
+    },
+    {
+      "locale": "en",
+      "route": "/gid/slovar/",
+      "path": "body",
+      "from": "A private option that cannot be connected to in spy mode",
+      "to": "A private show option that cannot be viewed in spy mode"
+    },
+    {
+      "locale": "en",
+      "route": "/gid/slovar/",
+      "path": "body",
+      "from": "Spy mode, sleep",
+      "to": "Spy mode"
+    },
+    {
+      "locale": "en",
+      "route": "/kategorii/ero-chat/",
+      "path": "body",
+      "from": "Shared room and private</h2>",
+      "to": "Public room and private shows</h2>"
+    },
+    {
+      "locale": "en",
+      "route": "/kategorii/interaktivnye-igrushki/",
+      "path": "body",
+      "from": "Interactive in public and private</h2>",
+      "to": "Interactive toys in public and private shows</h2>"
+    },
+    {
+      "locale": "en",
+      "route": "/kategorii/interaktivnye-igrushki/",
+      "path": "body",
+      "from": "In private there is no queue",
+      "to": "In a private show there is no queue"
+    },
+    {
+      "locale": "en",
+      "route": "/kategorii/interaktivnye-igrushki/",
+      "path": "body",
+      "from": "models in private give",
+      "to": "models in private shows give"
+    },
+    {
+      "locale": "en",
+      "route": "/kategorii/kosplej/",
+      "path": "body",
+      "from": "Role communication in private</h2>",
+      "to": "Roleplay in a private show</h2>"
+    },
+    {
+      "locale": "en",
+      "route": "/kategorii/kosplej/",
+      "path": "body",
+      "from": "invite the model in private.",
+      "to": "invite the model to a private show."
+    },
+    {
+      "locale": "en",
+      "route": "/kategorii/lesbi/",
+      "path": "body",
+      "from": "Private with a duet</h2>",
+      "to": "A private show with a duo</h2>"
+    },
+    {
+      "locale": "en",
+      "route": "/kategorii/pary/",
+      "path": "body",
+      "from": "Private with a couple</h2>",
+      "to": "A private show with a couple</h2>"
+    },
+    {
+      "locale": "en",
+      "route": "/gid/registraciya/",
+      "path": "body",
+      "from": "There is a separate section about him below",
+      "to": "There is a separate section about it below"
+    },
+    {
+      "locale": "en",
+      "route": "/gid/registraciya/",
+      "path": "body",
+      "from": "If he is busy",
+      "to": "If it is taken"
+    },
+    {
+      "locale": "en",
+      "route": "/gid/registraciya/",
+      "path": "body",
+      "from": "it hangs at the top",
+      "to": "it appears at the top"
+    },
+    {
+      "locale": "en",
+      "route": "/gid/registraciya/",
+      "path": "body",
+      "from": "Did you have to come in?",
+      "to": "If you had to sign in on someone else’s device,"
+    },
+    {
+      "locale": "en",
+      "route": "/gid/registraciya/",
+      "path": "body",
+      "from": "Then don't forget to exit",
+      "to": "remember to sign out"
+    },
+    {
+      "locale": "en",
+      "route": "/model/oborudovanie/",
+      "path": "body",
+      "from": "what you can save on and what is not worth [",
+      "to": "Where to save and where not to"
+    },
+    {
+      "locale": "en",
+      "route": "/model/oborudovanie/",
+      "path": "body",
+      "from": " and [ ",
+      "to": " and "
+    },
+    {
+      "locale": "en",
+      "route": "/model/rabota-iz-doma/",
+      "path": "body",
+      "from": "Output, Profile and Content Preparation [",
+      "to": "Day off, profile and content preparation"
+    },
+    {
+      "locale": "en",
+      "route": "/model/studiya-ili-samostoyatelno/",
+      "path": "body",
+      "from": "Question [",
+      "to": "Question"
+    },
+    {
+      "locale": "en",
+      "route": "/model/studiya-ili-samostoyatelno/",
+      "path": "body",
+      "from": "security section [",
+      "to": "safety"
+    }
+  ]
+}

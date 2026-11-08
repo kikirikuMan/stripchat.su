@@ -1,0 +1,937 @@
+{
+  "sourceDigest": "35635dd555c748284a0835923db79d85944c2db1cf680785cca8607260810a47",
+  "review": "Traducción y revisión de metadatos frente al texto ruso suministrado; se conserva el significado y las restricciones de edad.",
+  "metadataOverrides": [
+    {
+      "locale": "es",
+      "route": "/gid/",
+      "fields": {
+        "title": "Guías de Stripchat: transmisiones, tokens y shows privados",
+        "description": "Guías para espectadores de Stripchat: cómo mirar gratis, para qué sirve una cuenta, qué son los tokens y en qué se diferencian los shows privados y grupales. 18+",
+        "h1": "Guías para espectadores de Stripchat",
+        "nav": "Guías",
+        "card": "Instrucciones para espectadores: desde la primera visita hasta los shows privados",
+        "listTitle": "Todas las guías para espectadores",
+        "streamTitle": "Transmisiones que están en vivo ahora"
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/gid/alternativa-chat-ruletke/",
+      "fields": {
+        "title": "Ruleta de videochat o sitio de webcam: una alternativa al chat aleatorio",
+        "description": "Comparamos sitios de webcam y ruletas de chat: formatos, seguridad y conversación. Cuándo conviene Stripchat o la ruleta, y por qué el espectador no necesita cámara.",
+        "h1": "Una alternativa al chat aleatorio: transmisiones de webcam que eliges tú",
+        "nav": "Alternativa al chat aleatorio",
+        "card": "Webcam y ruleta de videochat: formato, seguridad y conversación",
+        "streamTitle": "Transmisiones que eliges tú"
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/gid/anonimnost/",
+      "fields": {
+        "title": "Anonimato en Stripchat: cómo ver webcam con seguridad",
+        "description": "Cómo mantener el anonimato en Stripchat: apodo sin datos personales, correo independiente, precauciones al pagar y protección frente a estafas. Para adultos 18+.",
+        "h1": "Anonimato y seguridad del espectador en el chat por webcam",
+        "nav": "Anonimato",
+        "card": "Apodo, correo independiente, pagos y protección frente a estafas",
+        "streamTitle": "Transmisiones que puedes ver sin registrarte"
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/gid/besplatno/",
+      "fields": {
+        "title": "Webcam gratis: cómo ver Stripchat sin pagar",
+        "description": "Qué puedes ver gratis en Stripchat y qué funciones cuestan tokens. Comparación de opciones gratuitas y de pago, límites y consejos para mirar sin gastar. 18+",
+        "h1": "Cómo ver Stripchat gratis",
+        "nav": "Mirar gratis",
+        "card": "Qué es gratuito, qué se paga y cómo ver transmisiones sin gastar",
+        "streamTitle": "Transmisiones públicas gratuitas"
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/gid/bez-registracii/",
+      "fields": {
+        "title": "Stripchat sin registro: opciones para invitados y ventajas de una cuenta",
+        "description": "Ver Stripchat sin registrarte: qué puede hacer un invitado, qué funciones requieren una cuenta y cuándo resulta útil registrarse. Guía para adultos 18+.",
+        "h1": "Stripchat sin registro: opciones para invitados",
+        "nav": "Sin registro",
+        "card": "Qué puede hacer un invitado, qué no puede hacer y cuándo crear una cuenta",
+        "streamTitle": "Mira como invitado, sin cuenta"
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/gid/chaevye/",
+      "fields": {
+        "title": "Propinas en Stripchat: menú, metas y normas",
+        "description": "Cómo funcionan las propinas en Stripchat: menú de propinas, metas, cuánto dar, cuándo hacerlo y cómo evitar gastar de más. Guía para espectadores 18+.",
+        "h1": "Propinas en el chat por webcam: cómo y por qué agradecer a una modelo",
+        "nav": "Propinas",
+        "card": "Menú de propinas, metas y un presupuesto razonable",
+        "streamTitle": "Modelos que están transmitiendo ahora"
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/gid/chto-takoe-vebkam/",
+      "fields": {
+        "title": "Qué es la webcam para adultos y cómo funciona",
+        "description": "Webcam para adultos en palabras sencillas: modelos y espectadores, para qué sirven los tokens, cómo funcionan los sitios y cómo ver transmisiones 18+ con seguridad.",
+        "h1": "Qué es la webcam para adultos: explicación desde el principio",
+        "nav": "Qué es la webcam",
+        "card": "Una explicación del formato: modelos, espectadores, tokens y seguridad",
+        "streamTitle": "Cómo es una webcam en vivo: transmisiones actuales"
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/gid/etiket/",
+      "fields": {
+        "title": "Normas de cortesía en Stripchat: cómo hablar con una modelo",
+        "description": "Cortesía en el chat por webcam: cómo saludar, qué pedir, qué no escribir y cómo respetar los límites de la modelo. Guía para espectadores de Stripchat 18+.",
+        "h1": "Cortesía en el chat por webcam: normas para hablar con modelos",
+        "nav": "Cortesía en el chat",
+        "card": "Cómo comportarte en la sala de una modelo para ser bien recibido",
+        "streamTitle": "Modelos en vivo: puedes entrar y saludar"
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/gid/ii-chat-ili-zhivye-modeli/",
+      "fields": {
+        "title": "Chat erótico con IA o modelos en vivo: comparación para adultos 18+",
+        "description": "¿Chat erótico con IA o una modelo de webcam en vivo? Comparamos conversación, privacidad, gastos y emociones para ayudarte a elegir. Solo para adultos 18+.",
+        "h1": "Chat con IA para adultos o una modelo en vivo: qué elegir",
+        "nav": "IA o modelos en vivo",
+        "card": "Chatbots 18+ y transmisiones por webcam: conversación, datos, dinero y emociones",
+        "streamTitle": "Personas reales transmitiendo ahora"
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/gid/kak-kupit-tokeny/",
+      "fields": {
+        "title": "Cómo comprar tokens en Stripchat: pagos, extractos y presupuesto",
+        "description": "Cómo comprar tokens en Stripchat: proceso de pago, qué aparece en el extracto bancario, presupuesto y dónde consultar un cargo que no reconoces.",
+        "h1": "Cómo comprar tokens en Stripchat",
+        "nav": "Comprar tokens",
+        "card": "Compra de tokens paso a paso, privacidad del pago y control del gasto",
+        "streamTitle": "Modelos conectadas ahora"
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/gid/kak-vybrat-model/",
+      "fields": {
+        "title": "Cómo elegir una modelo en Stripchat: filtros, idioma y transmisiones",
+        "description": "Encuentra una modelo de webcam en Stripchat: filtros de apariencia e idioma, favoritos y cómo evaluar una transmisión antes de pagar. Una guía para ahorrar tiempo y tokens.",
+        "h1": "Cómo elegir una modelo de webcam que te guste",
+        "nav": "Elegir una modelo",
+        "card": "Filtros, idiomas, favoritos y evaluación de una transmisión antes de pagar",
+        "streamTitle": "Quién está en línea ahora"
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/gid/ne-zagruzhaetsya/",
+      "fields": {
+        "title": "Stripchat no carga: qué hacer si el video no se reproduce",
+        "description": "¿Las transmisiones de Stripchat no cargan, el video se pausa o la pantalla queda negra? Revisa el navegador, bloqueadores, caché y conexión en computadora y teléfono.",
+        "h1": "Las transmisiones no cargan: qué revisar paso a paso",
+        "nav": "Problemas de carga",
+        "card": "Pantalla negra, carga interminable o pausas: qué comprobar",
+        "streamTitle": "Comprobación: las transmisiones deberían cargar aquí"
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/gid/novichkam/",
+      "fields": {
+        "title": "Stripchat para principiantes: guía del chat por webcam",
+        "description": "¿Es tu primera visita a Stripchat? Cómo funciona el sitio, cómo encontrar una modelo que te guste, conversar y evitar gastar de más. Guía para principiantes 18+.",
+        "h1": "Guía para principiantes: cómo funciona Stripchat",
+        "nav": "Para principiantes",
+        "card": "Cómo funciona Stripchat, por dónde empezar y errores habituales del primer día",
+        "streamTitle": "Transmisiones que están en vivo ahora"
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/gid/privat/",
+      "fields": {
+        "title": "Shows privados en Stripchat: tipos de espectáculo y diferencias",
+        "description": "Transmisiones públicas, shows privados y exclusivos, modo espía, shows grupales y con entrada: diferencias, forma de pago y cómo elegir en Stripchat. 18+",
+        "h1": "Tipos de show en Stripchat: de la transmisión pública al privado",
+        "nav": "Tipos de show",
+        "card": "Shows públicos, privados, grupales y con entrada: diferencias y elección del formato",
+        "streamTitle": "Modelos disponibles para shows privados"
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/gid/registraciya/",
+      "fields": {
+        "title": "Cómo registrarte en Stripchat: instrucciones y consejos",
+        "description": "Cómo registrarte en Stripchat en unos minutos: pasos, elección de apodo, confirmación del correo y qué hacer si el mensaje no llega. 18+",
+        "h1": "Cómo registrarte en Stripchat",
+        "nav": "Registro",
+        "card": "Registro paso a paso, elección de apodo y confirmación del correo",
+        "streamTitle": "Mira las transmisiones antes de registrarte"
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/gid/slovar/",
+      "fields": {
+        "title": "Glosario de webcam: tokens, privados, metas y otros términos",
+        "description": "Términos de webcam en palabras sencillas: tokens, shows privados, modo espía, menú de propinas, metas, cam-to-cam y club de fans. Cinco minutos para entender el chat.",
+        "h1": "Glosario de webcam para espectadores",
+        "nav": "Glosario",
+        "card": "Tokens, privados, metas, cam-to-cam y otros términos del chat por webcam",
+        "streamTitle": "Comprueba los términos en la práctica"
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/gid/strip-chat/",
+      "fields": {
+        "title": "Stripchat: reseña de la plataforma de webcam para adultos 18+",
+        "description": "Qué ofrece Stripchat, a quién puede interesarle, cómo ver transmisiones gratis y dónde registrarte. Ventajas y desventajas sin adornos.",
+        "h1": "Stripchat: reseña de la plataforma",
+        "nav": "Stripchat",
+        "card": "Qué es Stripchat, sus funciones, ventajas y desventajas",
+        "streamTitle": "Stripchat online: transmisiones en vivo ahora"
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/gid/tokeny/",
+      "fields": {
+        "title": "Tokens de Stripchat: qué son y para qué se utilizan",
+        "description": "Qué son los tokens de Stripchat y en qué se gastan: propinas, menús, juguetes, shows privados y con entrada. Una explicación sencilla sin cifras.",
+        "h1": "Tokens de Stripchat: la moneda interna de la plataforma",
+        "nav": "Tokens",
+        "card": "La moneda interna de Stripchat: cómo funciona y en qué se gasta",
+        "streamTitle": "Transmisiones con metas en curso"
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/gid/vebkam-chat/",
+      "fields": {
+        "title": "Chat por webcam para adultos: cómo hablar con modelos",
+        "description": "Cómo funciona el chat por webcam: chat público y mensajes privados, propinas y emojis, moderación, cam-to-cam y traducción de mensajes. Para adultos 18+.",
+        "h1": "El chat por webcam por dentro: mensajes, privados y moderación",
+        "nav": "Chat por webcam",
+        "card": "Cómo funciona el chat: mensajes públicos y privados, moderación y cam-to-cam",
+        "streamTitle": "Chats abiertos: transmisiones donde puedes escribir ahora"
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/gid/vebkam-sajty/",
+      "fields": {
+        "title": "Sitios de webcam: comparación de Stripchat, BongaCams y Chaturbate",
+        "description": "Stripchat, BongaCams, Chaturbate, LiveJasmin y Runetki: visualización gratuita, idiomas, pagos y VR. Comparación sin clasificaciones ni medallas.",
+        "h1": "Sitios de webcam comparados por criterios prácticos",
+        "nav": "Comparar sitios",
+        "card": "Stripchat, BongaCams, Chaturbate, LiveJasmin y Runetki con criterios claros",
+        "streamTitle": "Transmisiones de Stripchat integradas en este sitio"
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/gid/zapisi-translyacij/",
+      "fields": {
+        "title": "Grabaciones de webcam: por qué se emite en vivo y dónde ver videos",
+        "description": "¿Existen grabaciones de transmisiones y shows privados? Por qué no se guardan, los riesgos de las filtraciones y dónde ver videos de modelos legalmente.",
+        "h1": "Grabaciones de transmisiones por webcam: qué ofrecen realmente",
+        "nav": "Grabaciones",
+        "card": "Por qué no se guardan las transmisiones, riesgos de las filtraciones y videos legales",
+        "streamTitle": "No necesitas buscar una grabación: hay transmisiones en vivo ahora"
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/",
+      "fields": {
+        "title": "Categorías de Stripchat: modelos por apariencia, idioma y formato",
+        "description": "Categorías de transmisiones por webcam de Stripchat: mujeres rusas, parejas, hombres, modelos trans, apariencia, edad y formatos. Encuentra la tuya. 18+",
+        "h1": "Categorías de transmisiones por webcam",
+        "nav": "Categorías",
+        "card": "Todas las categorías: apariencia, idioma, edad y formato de show",
+        "listTitle": "Todas las categorías"
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/aziatki/",
+      "fields": {
+        "title": "Modelos asiáticas por webcam: transmisiones de Stripchat 18+",
+        "description": "Modelos de webcam de Japón, Corea, Tailandia, Filipinas y otros países. Cuándo transmiten según la hora de Moscú y cómo conversar sin barreras de idioma. 18+",
+        "h1": "Modelos asiáticas de webcam en vivo",
+        "nav": "Asiáticas",
+        "card": "Modelos de Asia Oriental y del Sudeste Asiático: transmisiones diurnas en horario de Moscú"
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/blondinki/",
+      "fields": {
+        "title": "Modelos rubias por webcam: Stripchat en vivo 18+",
+        "description": "Modelos rubias de webcam: tonos platino, miel y ceniza, y conversación en vivo. Cómo encontrarlas mediante filtros y elegir una transmisión. 18+",
+        "h1": "Rubias en línea: modelos de webcam de cabello rubio",
+        "nav": "Rubias",
+        "card": "Platino, miel y ceniza: modelos rubias y cómo encontrarlas con filtros"
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/bryunetki/",
+      "fields": {
+        "title": "Modelos de cabello oscuro: transmisiones por webcam en vivo",
+        "description": "Modelos de cabello oscuro en Stripchat de todo el mundo. Cómo reducir la lista con filtros y encontrar una modelo con quien conversar. Gratis, 18+",
+        "h1": "Modelos de cabello oscuro en el chat por webcam",
+        "nav": "Cabello oscuro",
+        "card": "Una amplia selección: cómo elegir entre las modelos de cabello oscuro"
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/ero-chat/",
+      "fields": {
+        "title": "Chat erótico online con modelos en vivo 18+",
+        "description": "Chat erótico con modelos en vivo: cómo funcionan las salas públicas y los privados, qué es gratis, cómo elegir una modelo y mantener la privacidad. 18+",
+        "h1": "Chat erótico online: modelos en vivo y conversación 18+",
+        "nav": "Chat erótico",
+        "card": "Salas públicas, privados y chat con modelos en vivo: cómo funciona todo"
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/gei/",
+      "fields": {
+        "title": "Webcam gay online: modelos para público masculino 18+",
+        "description": "Webcam gay: transmisiones de hombres para hombres, modelos de habla rusa y parejas. Encuentra una transmisión, conserva el anonimato y conversa en el chat. 18+",
+        "h1": "Webcam gay: transmisiones para público masculino",
+        "nav": "Webcam gay",
+        "card": "Transmisiones de hombres para hombres: encontrar modelos y conversar con tranquilidad"
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/hd/",
+      "fields": {
+        "title": "Webcam en HD: transmisiones de alta calidad",
+        "description": "Webcam en HD en Stripchat: transmisiones de alta resolución, selección de calidad en el reproductor y ajustes de conexión para una imagen clara y sin pausas.",
+        "h1": "Webcam en HD: transmisiones con una imagen nítida",
+        "nav": "Transmisiones HD",
+        "card": "Transmisiones de alta resolución y consejos para verlas sin pausas"
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/interaktivnye-igrushki/",
+      "fields": {
+        "title": "Juguetes interactivos en webcam: shows controlados por propinas",
+        "description": "Transmisiones con juguetes interactivos: cómo las propinas controlan el dispositivo de la modelo, qué es el menú de propinas y cómo participar. 18+",
+        "h1": "Transmisiones con juguetes interactivos",
+        "nav": "Juguetes interactivos",
+        "card": "Shows en los que el dispositivo de la modelo reacciona a las propinas en tiempo real"
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/iz-kazahstana/",
+      "fields": {
+        "title": "Modelos de Kazajistán por webcam: transmisiones online 18+",
+        "description": "Modelos de webcam de Kazajistán: cómo encontrarlas con el filtro de país, en qué idioma conversar y a qué hora transmiten. Mira gratis, 18+",
+        "h1": "Modelos de webcam de Kazajistán",
+        "nav": "De Kazajistán",
+        "card": "Modelos de Kazajistán y Asia Central: filtro de país, idioma y horarios"
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/kosplej/",
+      "fields": {
+        "title": "Cosplay por webcam: modelos disfrazadas en Stripchat",
+        "description": "Cosplay por webcam con modelos 18+ como personajes de videojuegos, anime, cine y cómics. Disfraces, interpretación y transmisiones temáticas. Mira gratis.",
+        "h1": "Transmisiones de cosplay: personajes de videojuegos y anime en vivo",
+        "nav": "Cosplay",
+        "card": "Personajes de videojuegos, anime y cine interpretados por modelos adultas"
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/latinki/",
+      "fields": {
+        "title": "Modelos latinoamericanas por webcam: Stripchat en vivo",
+        "description": "Modelos de webcam de Colombia, Brasil, México y otros países. Música, baile y personalidad en vivo. Cuándo mirar y cómo conversar. 18+",
+        "h1": "Modelos latinoamericanas en vivo",
+        "nav": "Latinoamericanas",
+        "card": "Música, baile y personalidad: transmisiones nocturnas desde Latinoamérica"
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/lesbi/",
+      "fields": {
+        "title": "Webcam lésbica online: dos mujeres en vivo en Stripchat",
+        "description": "Shows lésbicos en Stripchat: dos mujeres adultas en una transmisión, juegos, metas y conversación. Qué tipos de dúos hay y cómo encontrarlos. Gratis, 18+",
+        "h1": "Shows lésbicos: dos mujeres ante la cámara",
+        "nav": "Shows lésbicos",
+        "card": "Dos mujeres adultas en una transmisión: juegos con el chat, metas compartidas y privados en dúo",
+        "faq": [
+          {
+            "q": "¿Qué es un show lésbico en Stripchat?",
+            "a": "Es una transmisión en la que aparecen dos mujeres adultas. Conversan con el chat, juegan, cumplen metas de propinas y participan juntas en los shows privados."
+          },
+          {
+            "q": "¿Cómo encuentro transmisiones con dos mujeres?",
+            "a": "En el catálogo, elige la etiqueta de dúos femeninos o la sección de parejas y filtra las transmisiones en las que aparecen dos mujeres."
+          },
+          {
+            "q": "¿Puedo escribir a las dos modelos en el chat?",
+            "a": "Sí. El chat es compartido: puedes dirigirte a ambas o a una de ellas por su nombre. Los nombres suelen aparecer en el perfil."
+          },
+          {
+            "q": "¿Se reparten las propinas entre las modelos?",
+            "a": "Normalmente comparten una cuenta, por lo que las propinas corresponden a toda la transmisión. Ellas deciden cómo repartirse los ingresos."
+          }
+        ]
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/miniatyurnye/",
+      "fields": {
+        "title": "Modelos petite por webcam: mujeres adultas de baja estatura 18+",
+        "description": "Modelos de webcam de baja estatura y figura delicada, todas de 18 años o más. Mira gratis, conversa en el chat y elige mediante filtros.",
+        "h1": "Modelos de baja estatura en vivo",
+        "nav": "Modelos petite",
+        "card": "Modelos de baja estatura y figura delicada, de 18 años o más, con un estilo ligero y personalidad animada",
+        "faq": [
+          {
+            "q": "¿Quiénes pertenecen a la categoría de modelos petite?",
+            "a": "Mujeres adultas de baja estatura y constitución delicada. La categoría no se refiere a la edad: todas las modelos de Stripchat son adultas y pasan una verificación de documentos."
+          },
+          {
+            "q": "¿Cómo filtro las modelos petite?",
+            "a": "En el catálogo, selecciona el tipo de cuerpo o la etiqueta correspondiente. Puedes combinarlo con color de cabello, idioma y otros filtros."
+          },
+          {
+            "q": "¿Se verifica la edad de las modelos?",
+            "a": "Sí. Para transmitir, la modelo debe verificar su identidad con documentos que acrediten que tiene al menos 18 años."
+          },
+          {
+            "q": "¿Qué hago si alguien escribe mensajes inapropiados en el chat?",
+            "a": "No apoyes esos mensajes y utiliza el botón de denuncia. Los moderadores y las propias modelos bloquean a quienes incumplen las normas."
+          }
+        ]
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/novye-modeli/",
+      "fields": {
+        "title": "Nuevas modelos de webcam: primeras transmisiones en Stripchat",
+        "description": "Nuevas modelos de Stripchat: mujeres de 18 años o más que comienzan a transmitir. Caras nuevas, conversación sincera y la oportunidad de ser un espectador habitual.",
+        "h1": "Nuevas modelos: caras nuevas en vivo",
+        "nav": "Nuevas modelos",
+        "card": "Modelos que acaban de empezar a transmitir y por qué merece la pena apoyarlas"
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/parni/",
+      "fields": {
+        "title": "Modelos masculinos por webcam: Stripchat en vivo",
+        "description": "Transmisiones masculinas para mujeres y hombres: deporte, conversación y juegos. Mira gratis y conversa de forma anónima. 18+",
+        "h1": "Webcam masculina: transmisiones de hombres en vivo",
+        "nav": "Hombres",
+        "card": "Transmisiones masculinas: deporte, conversación, juegos y privados para distintos públicos"
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/pary/",
+      "fields": {
+        "title": "Parejas por webcam: chat y shows en Stripchat 18+",
+        "description": "Shows de parejas por webcam: dos personas ante la cámara, química y conversación. Diferencias frente a los shows en solitario y cómo elegir una pareja. Gratis, 18+",
+        "h1": "Chat de parejas: shows en vivo juntos",
+        "nav": "Parejas",
+        "card": "Dos personas ante la cámara: química, metas compartidas y conversación con el chat"
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/populyarnye/",
+      "fields": {
+        "title": "Modelos de webcam populares: transmisiones online 18+",
+        "description": "Modelos populares de webcam: cómo se forma la popularidad, para qué sirven las clasificaciones y cómo encontrar modelos menos conocidas. Gratis, 18+",
+        "h1": "Modelos de webcam populares: quién destaca y por qué",
+        "nav": "Modelos populares",
+        "card": "Cómo funcionan las clasificaciones y dónde encontrar transmisiones menos conocidas"
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/pyshnye/",
+      "fields": {
+        "title": "Modelos con curvas por webcam: Stripchat en vivo 18+",
+        "description": "Modelos de webcam con curvas que disfrutan de la conversación y se sienten cómodas con su cuerpo. Mira gratis desde tu computadora o teléfono. 18+",
+        "h1": "Modelos con curvas en vivo",
+        "nav": "Con curvas",
+        "card": "Mujeres con curvas que se sienten bien consigo mismas y ofrecen transmisiones acogedoras"
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/russkie/",
+      "fields": {
+        "title": "Modelos rusas por webcam: transmisiones en vivo 18+",
+        "description": "Modelos de webcam de habla rusa: conversación en tu idioma y transmisiones gratis sin registro. Cómo encontrar mujeres rusoparlantes en Stripchat. 18+",
+        "h1": "Modelos rusas de webcam en línea",
+        "nav": "Modelos rusas",
+        "card": "Modelos de habla rusa: conversación en tu idioma y transmisiones nocturnas en horario de Moscú"
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/ryzhie/",
+      "fields": {
+        "title": "Modelos pelirrojas por webcam: Stripchat en vivo",
+        "description": "Modelos pelirrojas de webcam: cabello cobrizo, pecas y estilos atrevidos. Dónde encontrarlas, cuándo transmiten y cómo seguir a tus favoritas. Gratis, 18+",
+        "h1": "Modelos pelirrojas de webcam en línea",
+        "nav": "Pelirrojas",
+        "card": "Una categoría más pequeña: cabello cobrizo, pecas y mucho cosplay"
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/s-obshcheniem/",
+      "fields": {
+        "title": "Webcam para conversar: modelos que disfrutan del chat",
+        "description": "Transmisiones con modelos que disfrutan de conversar. Cómo encontrar una interlocutora de habla rusa, iniciar el diálogo y destacar en el chat. 18+",
+        "h1": "Webcam para conversar: modelos con las que da gusto hablar",
+        "nav": "Para conversar",
+        "card": "Transmisiones para conversar: cómo encontrar una modelo comunicativa"
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/s-tatuirovkami/",
+      "fields": {
+        "title": "Modelos con tatuajes por webcam: Stripchat online",
+        "description": "Modelos de webcam con tatuajes y piercings: estilo alternativo, imágenes atrevidas e historias detrás de los dibujos. Mira transmisiones gratis. 18+",
+        "h1": "Modelos con tatuajes en línea",
+        "nav": "Con tatuajes",
+        "card": "Estilo alternativo, piercings y tatuajes sobre los que las modelos disfrutan hablando"
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/s-telefona/",
+      "fields": {
+        "title": "Stripchat desde el teléfono: Android y iPhone sin aplicación",
+        "description": "Cómo ver webcam desde el teléfono: Stripchat en el navegador de Android y iPhone, sin aplicación, con consejos para ahorrar datos y usar el chat. 18+",
+        "h1": "Chat por webcam desde el teléfono: mira donde te resulte cómodo",
+        "nav": "Desde el teléfono",
+        "card": "Transmisiones en el navegador móvil sin aplicación y consejos para ahorrar datos"
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/solo/",
+      "fields": {
+        "title": "Shows de webcam en solitario: modelos en Stripchat 18+",
+        "description": "Shows de webcam en solitario: una modelo, una cámara y el chat. Cómo funcionan, diferencias frente a parejas y grupos, y cómo elegir una modelo. Gratis, 18+",
+        "h1": "Shows en solitario: una modelo y su atención al chat",
+        "nav": "En solitario",
+        "card": "Una modelo ante la cámara: contacto personal, ritmo propio y diálogo directo"
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/sportivnye/",
+      "fields": {
+        "title": "Modelos deportivas por webcam: fitness en vivo",
+        "description": "Modelos deportivas de webcam: fitness, yoga y estiramientos en vivo, entrenamiento con el chat y conversaciones sobre la forma física. Mira gratis. 18+",
+        "h1": "Modelos deportivas: fitness en vivo",
+        "nav": "Deportivas",
+        "card": "Fitness, yoga y estiramientos en vivo con modelos en forma"
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/strojnye/",
+      "fields": {
+        "title": "Modelos delgadas por webcam: transmisiones online 18+",
+        "description": "Modelos de webcam delgadas, en forma y altas, de 18 años o más. Cómo encontrar tu estilo, conocer sus shows y conversar en el chat.",
+        "h1": "Modelos delgadas en vivo",
+        "nav": "Delgadas",
+        "card": "Modelos delgadas, en forma y altas: distintos estilos en una categoría"
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/tancy/",
+      "fields": {
+        "title": "Baile y striptease por webcam: shows de danza en vivo",
+        "description": "Shows de baile por webcam: twerk, baile sensual, ritmos latinos y pole dance en vivo. Pide tus canciones favoritas y mira gratis. 18+",
+        "h1": "Shows de baile en vivo",
+        "nav": "Baile",
+        "card": "Twerk, danza, ritmos latinos y pole dance: modelos que bailan con tus canciones"
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/temnokozhie/",
+      "fields": {
+        "title": "Modelos negras por webcam: transmisiones de Stripchat 18+",
+        "description": "Modelos negras de webcam desde África, Europa, Estados Unidos y el Caribe. Cómo usar los filtros, cuándo mirar y cómo conversar con respeto. 18+",
+        "h1": "Modelos negras en el chat por webcam",
+        "nav": "Modelos negras",
+        "card": "Modelos de África, Europa, Estados Unidos y el Caribe: filtros, horarios y cortesía"
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/trans/",
+      "fields": {
+        "title": "Modelos trans por webcam: Stripchat en vivo 18+",
+        "description": "Modelos trans de webcam: transmisiones en vivo, conversación y shows privados. Cómo encontrar una modelo, conversar con respeto y cuándo visitar. Mira gratis. 18+",
+        "h1": "Modelos trans en vivo",
+        "nav": "Modelos trans",
+        "card": "Una sección de modelos trans: conversación respetuosa y transmisiones en vivo"
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/v-maskah/",
+      "fields": {
+        "title": "Modelos con máscara por webcam: Stripchat en vivo 18+",
+        "description": "Modelos con máscaras de carnaval, encaje o luces. Por qué ocultan su rostro, cómo son sus transmisiones y por qué debe respetarse la máscara. 18+",
+        "h1": "Modelos con máscara en vivo",
+        "nav": "Con máscara",
+        "card": "Anonimato y personaje escénico: transmisiones con modelos enmascaradas"
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/v-ochkah/",
+      "fields": {
+        "title": "Modelos con gafas por webcam: Stripchat online 18+",
+        "description": "Modelos de webcam con gafas: monturas formales, retro, redondas y de sol. Por qué llaman la atención y cómo encontrar modelos con gafas en vivo. Gratis, 18+",
+        "h1": "Mujeres con gafas ante la cámara",
+        "nav": "Con gafas",
+        "card": "Monturas formales, retro y de ojo de gato: transmisiones con personalidad"
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/videochat-18/",
+      "fields": {
+        "title": "Videochat para adultos con modelos en vivo, sin cámara propia 18+",
+        "description": "Videochat 18+: mira modelos en vivo sin tu propia cámara, conversa y elige un show privado uno a uno. Desde el teléfono y de forma anónima.",
+        "h1": "Videochat 18+: modelos reales en vivo",
+        "nav": "Videochat 18+",
+        "card": "Videochat para adultos: sin cámara propia, desde el teléfono y uno a uno"
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/vr/",
+      "fields": {
+        "title": "Webcam en VR: transmisiones con un visor de realidad virtual",
+        "description": "Webcam VR en Stripchat: qué necesitas, cómo abrir transmisiones en el navegador del visor y cómo configurar la conexión para una imagen fluida. 18+",
+        "h1": "Transmisiones VR: webcam con un visor",
+        "nav": "Transmisiones VR",
+        "card": "Transmisiones inmersivas para visores de realidad virtual y qué necesitas para verlas"
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/kategorii/zrelye/",
+      "fields": {
+        "title": "Modelos maduras de webcam y MILFs de 30 años o más: Stripchat",
+        "description": "Modelos maduras de webcam de 30 años o más: confianza, experiencia y buenas conversaciones. Cómo encontrarlas con filtros y qué esperar. 18+",
+        "h1": "Modelos maduras de 30 años o más en vivo",
+        "nav": "Maduras",
+        "card": "Modelos de 30 años o más: confianza, experiencia y conversaciones que quieres continuar"
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/model/",
+      "fields": {
+        "title": "Ser modelo de webcam en Stripchat: trabajo, condiciones e ingresos",
+        "description": "Trabajar como modelo de webcam en Stripchat: a quién le conviene, cómo se obtienen ingresos, qué hace falta para empezar y qué considerar antes de registrarse. 18+",
+        "h1": "Trabajar como modelo de webcam en Stripchat",
+        "nav": "Trabajo de modelo",
+        "card": "A quién le conviene el trabajo por webcam, cómo funciona y qué necesitas para empezar",
+        "listTitle": "Guías detalladas para futuras modelos",
+        "ctaTitle": "¿Quieres probar?",
+        "ctaText": "El registro como modelo es gratuito. Solo tú decides si empiezas, qué horario sigues y qué formato tendrán tus transmisiones."
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/model/bezopasnost/",
+      "fields": {
+        "title": "Seguridad de una modelo de webcam: privacidad, bloqueos y límites",
+        "description": "Seguridad en Stripchat: nombre artístico, bloqueo de países y regiones, protección de datos personales, límites y cómo reconocer estafas.",
+        "h1": "Seguridad y privacidad de las modelos de webcam",
+        "nav": "Seguridad",
+        "card": "Nombre artístico, bloqueo geográfico, datos personales, límites y estafas",
+        "ctaTitle": "Empieza con una cuenta protegida",
+        "ctaText": "Al registrarte, elige un nombre artístico, crea un correo independiente y configura el bloqueo de regiones desde el principio."
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/model/dlya-par/",
+      "fields": {
+        "title": "Webcam para parejas: cómo trabajar juntos en Stripchat",
+        "description": "Webcam para parejas: verificación de ambos, consentimiento, límites, privacidad, reparto justo de ingresos y qué hacer con la cuenta si la pareja se separa.",
+        "h1": "Trabajo por webcam en pareja: ponerse de acuerdo antes de transmitir",
+        "nav": "Para parejas",
+        "card": "Verificación de ambos, consentimiento, límites, reparto de ingresos y cuenta de pareja",
+        "ctaTitle": "¿Quieren probar juntos?",
+        "ctaText": "El registro como modelo es gratuito. Solo se puede transmitir cuando se hayan verificado los documentos de cada persona que aparece ante la cámara."
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/model/kak-nachat/",
+      "fields": {
+        "title": "Cómo ser modelo de webcam en Stripchat: paso a paso",
+        "description": "Cómo empezar en Stripchat: registro, verificación de edad e identidad, perfil, primera transmisión y horario. Una guía paso a paso para principiantes 18+.",
+        "h1": "Cómo ser modelo de webcam: del registro a la primera transmisión",
+        "nav": "Cómo empezar",
+        "card": "Registro, verificación, perfil y primera transmisión paso a paso",
+        "ctaTitle": "Empieza por el registro",
+        "ctaText": "Crear una cuenta de modelo es gratuito. Solo puedes transmitir después de que se hayan verificado tus documentos."
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/model/oborudovanie/",
+      "fields": {
+        "title": "Equipo para modelos de webcam: cámara, luz, sonido e internet",
+        "description": "Qué equipo necesita una modelo de webcam: cámara, luz, micrófono, velocidad de subida y preparación de la habitación. Cómo empezar con poco presupuesto y qué mejorar después.",
+        "h1": "Equipo para modelos de webcam: por dónde empezar y qué mejorar",
+        "nav": "Equipo",
+        "card": "Cámara, luz, sonido e internet: un comienzo económico y el siguiente paso",
+        "ctaTitle": "¿Está listo el equipo?",
+        "ctaText": "Regístrate como modelo, completa la verificación de documentos y realiza una transmisión de prueba para comprobar la imagen."
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/model/rabota-iz-doma/",
+      "fields": {
+        "title": "Trabajar como modelo de webcam desde casa: horario y equilibrio",
+        "description": "Trabajo por webcam desde casa: horario flexible, compatibilidad con estudios o empleo, privacidad y prevención del agotamiento. Para adultos 18+.",
+        "h1": "Webcam desde casa: combinar las transmisiones con el resto de tu vida",
+        "nav": "Trabajar desde casa",
+        "card": "Horario flexible, compatibilidad con los estudios y prevención del agotamiento",
+        "ctaTitle": "Trabaja a tu ritmo",
+        "ctaText": "Tú decides cuándo transmitir y cuánto tiempo pasar ante la cámara. Regístrate como modelo y elige un horario que se adapte a ti."
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/model/skolko-zarabatyvayut/",
+      "fields": {
+        "title": "Cuánto ganan las modelos de webcam en Stripchat",
+        "description": "Ingresos de las modelos de Stripchat y de qué dependen: horas de transmisión, constancia, formatos, idiomas y audiencia. Una explicación sin promesas.",
+        "h1": "Cuánto gana una modelo de webcam y de qué depende",
+        "nav": "Ingresos de modelos",
+        "card": "De dónde proceden los ingresos de una modelo y por qué varían",
+        "ctaTitle": "Comprueba las condiciones por tu cuenta",
+        "ctaText": "Las condiciones vigentes y la parte que corresponde a la modelo aparecen durante el registro y en el panel de la cuenta. El registro es gratuito."
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/model/sovety-novichkam/",
+      "fields": {
+        "title": "Consejos para nuevas modelos de webcam: crecer de forma honesta",
+        "description": "Consejos para nuevas modelos: horario constante, buen perfil, menú de propinas, chat activo, espectadores habituales y redes sociales donde esté permitido.",
+        "h1": "Consejos para principiantes: crecer como modelo sin agotarte",
+        "nav": "Consejos para principiantes",
+        "card": "Horario, perfil, menú de propinas, chat y espectadores habituales",
+        "ctaTitle": "Pon los consejos en práctica",
+        "ctaText": "Regístrate como modelo, completa la verificación y prueba a organizar las transmisiones según tu propio plan."
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/model/studiya-ili-samostoyatelno/",
+      "fields": {
+        "title": "Estudio de webcam o trabajo independiente: qué elegir",
+        "description": "Estudio de webcam o trabajo directo con la plataforma: equipo, ayuda, comisión del estudio, contrato y control de cuenta y cobros. Comparación para adultos 18+.",
+        "h1": "Estudio de webcam o trabajo independiente: comparación honesta",
+        "nav": "Estudio o independiente",
+        "card": "Ventajas e inconvenientes del estudio, contrato y control de la cuenta y los cobros",
+        "ctaTitle": "¿Quieres empezar por tu cuenta?",
+        "ctaText": "El registro como modelo en la plataforma es gratuito. La cuenta, los cobros y el horario siguen bajo tu control."
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/model/vakansii/",
+      "fields": {
+        "title": "Ofertas de trabajo por webcam: cómo revisarlas y evitar engaños",
+        "description": "Ofertas para modelos de webcam: señales de alerta, preguntas al empleador, riesgos de mudarse al extranjero y por qué puedes empezar sin intermediarios.",
+        "h1": "Ofertas para modelos de webcam: distinguir una propuesta honesta de una trampa",
+        "nav": "Ofertas de trabajo",
+        "card": "Señales de alerta, preguntas al empleador y una alternativa sin intermediarios",
+        "ctaTitle": "Puedes empezar sin intermediarios",
+        "ctaText": "Las modelos adultas pueden registrarse directamente en la plataforma y de forma gratuita. No necesitas entregar tus documentos ni tu contraseña a un intermediario.",
+        "faq": [
+          {
+            "q": "¿Es normal que pidan dinero para formar a una modelo de webcam?",
+            "a": "Pedir dinero para empezar es una de las señales más claras de una oferta deshonesta. El registro como modelo en la plataforma es gratuito y un empleador legítimo no cobra a una candidata por comenzar a trabajar."
+          },
+          {
+            "q": "¿Puedo responder a una oferta de modelo de webcam si todavía no tengo 18 años?",
+            "a": "No. Solo se puede trabajar como modelo a partir de los 18 años y después de verificar los documentos. Si un anuncio busca menores, denúncialo a la policía o a la administración del sitio donde aparece."
+          },
+          {
+            "q": "¿Conviene aceptar un trabajo por webcam que implique mudarse al extranjero?",
+            "a": "Solo debe considerarse con mucha precaución. Algunas ofertas esconden redes que retienen documentos e imponen deudas. Para trabajar por webcam no hace falta mudarse: se puede transmitir desde casa."
+          },
+          {
+            "q": "¿Qué hago si el empleador no me devuelve el pasaporte?",
+            "a": "Retener el pasaporte de otra persona es ilegal. Acude a la policía y, si estás en el extranjero, al consulado de tu país. No intentes «recuperarlo trabajando»."
+          }
+        ]
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/model/vyplaty/",
+      "fields": {
+        "title": "Cobros de modelos de Stripchat: cómo retirar los ingresos",
+        "description": "Cómo cobran las modelos de Stripchat: de los tokens al dinero en la cuenta, métodos y mínimos de retiro, impuestos y registro de ingresos. Una visión general.",
+        "h1": "Cómo reciben sus pagos las modelos de Stripchat",
+        "nav": "Cobros",
+        "card": "De los tokens al dinero: métodos de retiro e impuestos",
+        "ctaTitle": "Consulta las condiciones en tu cuenta",
+        "ctaText": "El panel de modelo muestra los métodos, mínimos y calendarios de pago disponibles en tu país después del registro."
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/partner/",
+      "fields": {
+        "title": "Programa de afiliados Stripcash: ingresos con tráfico para Stripchat",
+        "description": "Stripcash es el programa oficial de afiliados de Stripchat. A quién le conviene, cómo se rastrean las referencias y ventajas e inconvenientes para propietarios de sitios.",
+        "h1": "Programa de afiliados Stripcash para propietarios de sitios web",
+        "nav": "Programa de afiliados",
+        "card": "Qué es Stripcash, a quién le conviene y cómo funciona el seguimiento de referencias",
+        "listTitle": "Guías para afiliados de Stripcash",
+        "ctaTitle": "Regístrate en Stripcash",
+        "ctaText": "El registro es gratuito. Después encontrarás enlaces de afiliado, materiales promocionales, estadísticas y las condiciones vigentes del programa en tu panel."
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/partner/instrumenty/",
+      "fields": {
+        "title": "Herramientas de Stripcash: enlaces, banners, widgets y API",
+        "description": "Herramientas promocionales para afiliados de Stripcash: enlaces, banners, transmisiones integradas, páginas de destino, marca blanca, estadísticas con etiquetas y API.",
+        "h1": "Herramientas promocionales para afiliados de Stripcash",
+        "nav": "Herramientas",
+        "card": "Enlaces, banners, transmisiones iframe, páginas de destino, etiquetas y API: qué elegir para tu tráfico",
+        "ctaTitle": "Abre la sección de materiales promocionales",
+        "ctaText": "Las herramientas se crean en el panel de Stripcash después del registro gratuito. Allí también puedes ver qué formatos están disponibles para ti."
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/partner/istochniki-trafika/",
+      "fields": {
+        "title": "Fuentes de tráfico para Stripcash: atraer visitantes legalmente",
+        "description": "Fuentes de tráfico para Stripcash: sitios con SEO, canales de Telegram 18+, redes publicitarias para adultos y reseñas. Normas, leyes y prácticas prohibidas.",
+        "h1": "Fuentes de tráfico para afiliados de Stripchat",
+        "nav": "Fuentes de tráfico",
+        "card": "SEO, canales, redes publicitarias y reseñas: dónde se permite promocionar webcam",
+        "ctaTitle": "Obtén enlaces para tus fuentes de tráfico",
+        "ctaText": "En Stripcash puedes crear enlaces y etiquetas separados para el sitio, el canal y las campañas publicitarias, y ver los resultados de cada fuente por separado."
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/partner/kak-zarabotat/",
+      "fields": {
+        "title": "Ganar con Stripcash: modelos de pago e ingresos de afiliados",
+        "description": "Cómo obtienen ingresos los afiliados de Stripcash: reparto de ingresos, pago por acción, factores que influyen, conversiones y por qué no se garantizan resultados.",
+        "h1": "Cómo obtener ingresos con el programa de afiliados de Stripchat",
+        "nav": "Cómo funcionan los ingresos",
+        "card": "Reparto de ingresos, pago por acción y factores que afectan a los resultados",
+        "ctaTitle": "Consulta las condiciones vigentes en tu cuenta",
+        "ctaText": "Las tarifas y los modelos de pago disponibles dependen del programa y del país. Puedes consultarlos en tu panel de Stripcash después del registro gratuito."
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/partner/oshibki-novichkov/",
+      "fields": {
+        "title": "Errores de nuevos afiliados de Stripcash y cómo evitarlos",
+        "description": "Errores habituales: páginas duplicadas, spam, tráfico de poca calidad, incumplir normas, trabajar sin análisis y expectativas exageradas.",
+        "h1": "Errores de afiliados principiantes y cómo no repetirlos",
+        "nav": "Errores de principiantes",
+        "card": "Ocho errores que cuestan tiempo, dinero y cuentas a los afiliados",
+        "ctaTitle": "Empieza evitando errores innecesarios",
+        "ctaText": "Regístrate en Stripcash, lee las normas del programa en tu panel y lanza tu primera fuente de tráfico con una etiqueta propia."
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/partner/sajt-na-github/",
+      "fields": {
+        "title": "Sitio de afiliados en GitHub Pages: guía para Stripcash",
+        "description": "Cómo crear gratis un sitio estático de afiliados en GitHub Pages con transmisiones: dominio, CNAME, HTTPS, title, sitemap, Search Console y Yandex Webmaster.",
+        "h1": "Un sitio de afiliados gratuito en GitHub Pages",
+        "nav": "Tu sitio en GitHub",
+        "card": "El ejemplo de este sitio: repositorio, dominio, HTTPS, iframe y SEO básico",
+        "ctaTitle": "Obtén el código del widget y los enlaces",
+        "ctaText": "El código de las transmisiones integradas y los enlaces de afiliado para tu sitio se generan en el panel de Stripcash después del registro gratuito."
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/partner/vyplaty/",
+      "fields": {
+        "title": "Pagos de Stripcash: cómo cobran los afiliados",
+        "description": "Cómo paga Stripcash a sus afiliados: métodos de retiro, importe mínimo, calendario, datos de cobro que conviene revisar e impuestos.",
+        "h1": "Pagos a afiliados de Stripcash",
+        "nav": "Pagos a afiliados",
+        "card": "Métodos de retiro, mínimos, calendario e impuestos: qué comprobar de antemano",
+        "ctaTitle": "Comprueba los métodos de pago en tu cuenta",
+        "ctaText": "Los métodos de retiro, el importe mínimo y el calendario de pagos figuran en el panel de Stripcash. El registro es gratuito."
+      }
+    },
+    {
+      "locale": "es",
+      "route": "/partner/white-label/",
+      "fields": {
+        "title": "Webcam de marca blanca en Stripcash: qué es y a quién le conviene",
+        "description": "Qué es un sitio de webcam de marca blanca de Stripcash, diferencias frente a un enlace de afiliado, ventajas, inconvenientes y qué revisar antes de lanzarlo.",
+        "h1": "Marca blanca: tu sitio de webcam en la plataforma de Stripchat",
+        "nav": "Marca blanca",
+        "card": "Tu marca y dominio sobre una plataforma existente: ventajas, inconvenientes y diferencias frente a un enlace",
+        "ctaTitle": "Consulta las condiciones de marca blanca",
+        "ctaText": "El panel de Stripcash indica si tienes acceso a la marca blanca y cuáles son sus requisitos y condiciones. El registro en el programa es gratuito."
+      }
+    }
+  ]
+}

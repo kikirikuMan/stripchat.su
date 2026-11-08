@@ -1,0 +1,1142 @@
+{
+  "locale": "pt",
+  "ui": {
+    "name": "Português",
+    "dir": "ltr",
+    "title": "Ajuda com webcam e microfone: testes e soluções",
+    "description": "Teste sua webcam e seu microfone, confira as permissões e resolva falhas de imagem ou conexão com guias práticos e documentação oficial.",
+    "heading": "Ajuda com webcam e microfone",
+    "intro": "Confira seus dispositivos antes de uma videochamada e investigue os problemas por etapas. Os testes desta seção funcionam no navegador e só começam quando você decide ativá-los.",
+    "guides": "Todos os guias",
+    "languages": "Idioma",
+    "contents": "Nesta página",
+    "sources": "Documentação oficial",
+    "related": "Guias relacionados",
+    "updated": "Revisado",
+    "skip": "Ir para o conteúdo",
+    "back": "Todos os guias",
+    "privacy": "Privacidade",
+    "privacyText": "O teste começa quando você pressiona o botão e permite o acesso. Esta ferramenta processa vídeo ou áudio no navegador, sem gravar ou enviar esse conteúdo a um servidor. A hospedagem recebe as solicitações HTTP normais necessárias para carregar a página.",
+    "startCamera": "Iniciar câmera",
+    "startMic": "Testar microfone",
+    "stop": "Parar",
+    "idle": "O teste ainda não começou.",
+    "pending": "Aguardando sua resposta à solicitação de permissão…",
+    "active": "Teste em andamento. Pressione Parar quando terminar.",
+    "stopped": "Teste encerrado.",
+    "denied": "Acesso negado. Confira a permissão deste site e os ajustes de privacidade do sistema.",
+    "missing": "Nenhum dispositivo compatível foi encontrado. Confira a conexão e a câmera ou o microfone selecionado.",
+    "busy": "Não foi possível abrir o dispositivo. Feche outros aplicativos que o utilizem e tente novamente.",
+    "error": "Não foi possível iniciar o teste. Confira o dispositivo e recarregue a página.",
+    "unsupported": "O teste precisa de um navegador compatível e de uma conexão HTTPS ou localhost.",
+    "level": "Nível de entrada do microfone",
+    "settings": "Dados do dispositivo",
+    "noScript": "Ative o JavaScript para usar o teste. Os guias podem ser lidos sem ele.",
+    "toolHeading": "Teste local do dispositivo",
+    "toolNote": "A câmera mostra uma prévia sem solicitar o microfone. O teste de microfone mostra o nível de entrada sem ativar a câmera nem reproduzir o áudio. Nenhuma gravação é salva.",
+    "mirrorPreview": "Espelhar esta prévia",
+    "configuredFrameRate": "Taxa de quadros configurada (fps)",
+    "aboutSite": "Sobre o site (russo)"
+  },
+  "articles": [
+    {
+      "id": "webcam-test",
+      "title": "Teste de webcam: confira a câmera no navegador",
+      "description": "Teste sua webcam sem gravar vídeo. Entenda a prévia, confira permissões e diferencie uma falha da câmera de um problema na conexão da chamada.",
+      "heading": "Como testar sua webcam antes de uma videochamada",
+      "lead": "Uma imagem na prévia confirma que o navegador está recebendo vídeo da câmera. Faça essa verificação antes de entrar em uma chamada para separar um problema do dispositivo de uma falha no aplicativo ou na conexão.",
+      "imageAlt": "Câmera ligada a uma janela de prévia com uma marca de verificação",
+      "sections": [
+        {
+          "heading": "Prepare uma verificação controlada",
+          "paragraphs": [
+            "Posicione a câmera na altura em que costuma usá-la e abra a tampa física. Retire documentos, outras telas e pessoas do enquadramento. Se houver uma câmera externa e outra integrada, identifique qual delas você pretende testar; ver uma imagem não confirma a origem correta."
+          ],
+          "steps": [
+            "Feche os aplicativos de videochamada abertos.",
+            "Pressione Iniciar câmera e responda à permissão do navegador.",
+            "Mova a mão na frente da câmera escolhida para confirmar o enquadramento."
+          ]
+        },
+        {
+          "heading": "Observe a imagem e o movimento",
+          "paragraphs": [
+            "Compare uma cena parada com um movimento lento. Se houver imagem, mas ela estiver escura, investigue a iluminação. Se alternar entre nítida e desfocada, observe a distância e o foco. Uma imagem congelada pode parecer normal até você movimentar a mão.",
+            "A resolução informada, quando disponível, descreve o vídeo recebido naquele momento. Ela não comprova a resolução máxima da webcam nem a qualidade que outra pessoa receberá na chamada."
+          ]
+        },
+        {
+          "heading": "Entenda o limite do teste",
+          "paragraphs": [
+            "Esta ferramenta usa vídeo local, sem estabelecer uma chamada com outra pessoa. Ela não mede a velocidade de envio da internet, a compressão de um serviço ou falhas na conexão remota. O microfone tem um teste separado.",
+            "Se a prévia funciona e uma chamada não, anote em qual aplicativo ocorre o problema. Confira a câmera selecionada nesse aplicativo antes de concluir que a webcam está com defeito."
+          ]
+        },
+        {
+          "heading": "Encerre o acesso ao terminar",
+          "paragraphs": [
+            "Pressione Parar e confira se a prévia desapareceu. Depois, você pode retirar a permissão do site nas configurações do navegador. Se outro aplicativo estiver usando a câmera, também será necessário fechá-lo; a luz do dispositivo não identifica sozinha quem o utiliza.",
+            "Caso a imagem não apareça, anote a mensagem exata. Uma permissão negada e uma câmera que o sistema não detecta exigem investigações diferentes."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Permissões de câmera no Chrome",
+          "url": "https://support.google.com/chrome/answer/2693767"
+        },
+        {
+          "label": "Acesso do navegador a dispositivos de mídia",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia"
+        }
+      ],
+      "related": [
+        "camera-permissions",
+        "webcam-black-screen",
+        "webcam-mirror",
+        "webcam-resolution-fps"
+      ]
+    },
+    {
+      "id": "webcam-for-pc",
+      "title": "Webcam para PC: conexão, compatibilidade e primeiro teste",
+      "description": "Conecte uma webcam ao PC, confira a detecção pelo sistema e configure vídeo e áudio separadamente antes de instalar programas adicionais.",
+      "heading": "Como conectar e verificar uma webcam no PC",
+      "lead": "Comece verificando se o computador reconhece a câmera. Instalar vários programas de controle antes dessa primeira comparação torna o diagnóstico mais difícil e pode esconder qual mudança resolveu ou provocou a falha.",
+      "imageAlt": "Webcam externa conectada a um computador por um cabo USB",
+      "sections": [
+        {
+          "heading": "Confira o modelo e a conexão",
+          "paragraphs": [
+            "Procure o nome exato na etiqueta ou no manual, além da marca impressa na embalagem. Na documentação do fabricante, confira os sistemas compatíveis e se as funções desejadas exigem um programa específico.",
+            "No primeiro teste, conecte a câmera diretamente ao computador. Se usar um adaptador, confirme que ele transmite dados. O fato de o conector encaixar não comprova a compatibilidade de todos os componentes envolvidos."
+          ]
+        },
+        {
+          "heading": "Separe detecção e funcionamento",
+          "paragraphs": [
+            "Abra o aplicativo de câmera do sistema e veja se o dispositivo está disponível. Se não aparecer, teste outra porta e confira o cabo acessível. Se aparecer sem imagem, examine a tampa, as permissões e outros programas que possam estar usando a câmera.",
+            "Mude uma variável de cada vez. Mantenha a mesma porta ao comparar aplicativos e depois mantenha o aplicativo ao trocar de porta. Assim fica mais fácil relacionar uma mudança ao resultado observado."
+          ]
+        },
+        {
+          "heading": "Escolha vídeo e áudio separadamente",
+          "paragraphs": [
+            "O computador pode listar uma câmera integrada, uma USB e uma virtual com nomes semelhantes. Selecione explicitamente a que está sendo testada no aplicativo de videochamada.",
+            "O som tem sua própria seleção de entrada. Mesmo que a webcam tenha microfone, o aplicativo pode continuar usando o do notebook ou de um headset. Teste os dois dispositivos antes da conversa e confirme a origem do áudio."
+          ]
+        },
+        {
+          "heading": "Instale somente o necessário",
+          "paragraphs": [
+            "Quando o vídeo básico já funciona, consulte o manual antes de adicionar ferramentas de foco, enquadramento ou atualização. Faça downloads no site do fabricante e confira se o programa corresponde ao modelo e ao sistema.",
+            "Ao pedir suporte, informe modelo, sistema, tipo de conexão e resultado da prévia local. Evite publicar números de série em fóruns quando não forem necessários. Uma descrição que outra pessoa possa reproduzir ajuda mais do que dizer apenas que a câmera parou."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Diagnóstico de câmeras no Windows",
+          "url": "https://support.microsoft.com/en-us/windows/hardware/camera/camera-doesn-t-work-in-windows"
+        },
+        {
+          "label": "Controle de acesso à câmera no Mac",
+          "url": "https://support.apple.com/guide/mac-help/control-access-to-your-camera-mchlf6d108da/mac"
+        }
+      ],
+      "related": [
+        "webcam-test",
+        "microphone-test",
+        "webcam-setup",
+        "webcam-on-off"
+      ]
+    },
+    {
+      "id": "iriun-webcam",
+      "title": "Iriun Webcam: use o celular como câmera do computador",
+      "description": "Confira o Iriun no celular e no computador, identifique onde a imagem deixa de aparecer e prepare um teste organizado da câmera e da conexão.",
+      "heading": "Como verificar o Iriun Webcam por etapas",
+      "lead": "O Iriun permite usar a câmera do celular em aplicativos de vídeo do computador. Há duas verificações diferentes: o celular entregar imagem ao programa de desktop e o aplicativo de destino selecionar essa câmera.",
+      "imageAlt": "Celular transmitindo sua imagem para um computador por uma conexão sem fio",
+      "sections": [
+        {
+          "heading": "Confira as duas instalações",
+          "paragraphs": [
+            "O site oficial oferece o programa para computador e os caminhos para instalar o aplicativo móvel. Consulte os requisitos atuais antes do download: a compatibilidade pode mudar entre versões.",
+            "Instale pelos links oficiais e abra os dois componentes. Autorize o uso da câmera no celular quando o aplicativo solicitar. Primeiro confira se o próprio aplicativo móvel mostra a cena esperada; sem essa imagem inicial, alterar o navegador não resolve a origem do problema."
+          ]
+        },
+        {
+          "heading": "Acompanhe o caminho da imagem",
+          "paragraphs": [
+            "Observe três pontos: celular, programa do Iriun no computador e aplicativo de videochamada. Identifique em qual deles a imagem desaparece. Se o programa do computador recebe vídeo, mas a chamada não, concentre a investigação na seleção de câmera da chamada.",
+            "Selecione a entrada identificada como Iriun no aplicativo que pretende usar. Caso ela não apareça depois da instalação, feche e abra novamente esse aplicativo para atualizar a lista de dispositivos."
+          ]
+        },
+        {
+          "heading": "Investigue a conexão sem fio",
+          "paragraphs": [
+            "Para uma comparação inicial, use uma rede local de confiança e confirme que os dois dispositivos estão conectados a ela. Uma rede de convidados pode impedir a comunicação entre equipamentos, mesmo quando ambos acessam a internet. Consulte as configurações do roteador se houver esse indício.",
+            "Não abra portas do roteador nem desligue todo o firewall para corrigir uma conexão local. Anote o erro e confira as instruções atuais do fornecedor antes de alterar regras de rede."
+          ]
+        },
+        {
+          "heading": "Prepare o celular para o uso",
+          "paragraphs": [
+            "Use um suporte estável, verifique a bateria e evite cobrir o aparelho enquanto ele trabalha. Faça alguns minutos de teste no enquadramento real e observe se a imagem para ao mudar de aplicativo.",
+            "A presença de uma câmera virtual não confirma qual microfone está selecionado. Escolha a entrada de áudio separadamente. Ao encerrar, feche a sessão do Iriun nos dois dispositivos e reveja quais permissões deseja manter."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Downloads e requisitos oficiais do Iriun",
+          "url": "https://iriun.com/"
+        },
+        {
+          "label": "Seleção de câmera no Chrome",
+          "url": "https://support.google.com/chrome/answer/2693767"
+        }
+      ],
+      "related": [
+        "webcam-test",
+        "microphone-test",
+        "phone-as-webcam"
+      ]
+    },
+    {
+      "id": "logitech-webcam",
+      "title": "Webcam Logitech: identificação e solução de falhas",
+      "description": "Identifique sua webcam Logitech, teste a conexão USB e confira imagem, microfone e foco considerando as funções disponíveis no seu modelo.",
+      "heading": "Como verificar uma webcam Logitech",
+      "lead": "As funções de uma webcam Logitech dependem do modelo. Antes de procurar um programa ou mudar ajustes, identifique o dispositivo exato e determine se a dificuldade está na detecção, na imagem ou no áudio.",
+      "imageAlt": "Webcam externa com cabo USB e símbolos de verificação, sem logotipo de marca",
+      "sections": [
+        {
+          "heading": "Identifique a câmera exata",
+          "paragraphs": [
+            "Consulte a etiqueta e a documentação do dispositivo. Um tutorial de outro modelo pode apresentar programas ou controles de foco inexistentes no seu. A ausência de um desses controles não comprova um defeito.",
+            "Anote também a versão do sistema operacional. Procure o manual e os downloads correspondentes a essa combinação, evitando instaladores oferecidos por sites de drivers sem relação com o fabricante."
+          ]
+        },
+        {
+          "heading": "Simplifique a conexão USB",
+          "paragraphs": [
+            "Conecte a câmera diretamente a uma porta do computador para reduzir o número de variáveis. Durante esse teste, evite uma sequência de hubs, extensões e adaptadores. Se funcionar dessa forma, recoloque os acessórios um por um.",
+            "Abra um aplicativo de câmera e confira se aparece o nome esperado. Se houver várias entradas, selecione a Logitech e cubra brevemente sua lente com um objeto para confirmar qual imagem está sendo exibida."
+          ]
+        },
+        {
+          "heading": "Verifique imagem e som em separado",
+          "paragraphs": [
+            "Se há vídeo, confira a tampa de privacidade, a limpeza da lente e a luz à frente da cena. Ajuste o foco apenas quando o modelo oferecer esse recurso e conforme o manual. Não force uma peça da lente procurando um anel de ajuste.",
+            "A entrada de som pode continuar sendo o microfone do notebook. Faça um teste de voz e confira o nome da entrada escolhida. Receber imagem de uma Logitech não significa receber também o áudio dela."
+          ]
+        },
+        {
+          "heading": "Descreva um problema reproduzível",
+          "paragraphs": [
+            "Compare dois aplicativos mantendo a conexão e depois outra porta mantendo o aplicativo. Se puder usar outro computador compatível, anote o resultado, sem tratar uma única comparação como diagnóstico definitivo do hardware.",
+            "Para o suporte, reúna modelo, sistema, aplicativo e sintoma. Informe se a falha começou após alguma mudança. Esse registro permite investigar configuração e compatibilidade antes de partir para reinstalações que talvez não sejam necessárias."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Manual oficial da Logitech C920, exemplo de documentação por modelo",
+          "url": "https://secure.logitech.com/assets/42685/c920-quickstart-guide.pdf"
+        },
+        {
+          "label": "Verificações de câmera no Windows",
+          "url": "https://support.microsoft.com/en-us/windows/hardware/camera/camera-doesn-t-work-in-windows"
+        }
+      ],
+      "related": [
+        "webcam-for-pc",
+        "webcam-image-quality"
+      ]
+    },
+    {
+      "id": "camera-permissions",
+      "title": "Permissões de câmera e microfone no navegador",
+      "description": "Confira as permissões do site, do navegador e do sistema para recuperar o acesso à câmera ou ao microfone sem liberar todos os sites.",
+      "heading": "Onde conferir as permissões de câmera e microfone",
+      "lead": "A permissão de um site e a autorização do sistema operacional são controles separados. Permitir uma página não resolve um bloqueio do navegador no sistema; confira os dois níveis antes de reinstalar a webcam.",
+      "imageAlt": "Controle de permissão do navegador ao lado de um escudo com marca de verificação",
+      "sections": [
+        {
+          "heading": "Comece pelo site em uso",
+          "paragraphs": [
+            "Abra os controles de informações ou permissões ao lado do endereço no navegador. Procure câmera ou microfone e veja se existe uma decisão salva para esse site. Altere apenas a autorização necessária para a verificação.",
+            "Se você bloqueou por engano, corrija a decisão e recarregue a página antes de testar novamente. Evite liberar o acesso para todos os sites quando a dificuldade acontece em apenas uma página."
+          ]
+        },
+        {
+          "heading": "Confira o navegador no sistema",
+          "paragraphs": [
+            "No Windows, consulte a seção de privacidade de câmera ou microfone e o acesso de aplicativos de desktop, quando aplicável. No macOS, procure Câmera ou Microfone em Privacidade e Segurança.",
+            "Se o sistema solicitar que você feche e reabra o navegador para aplicar a mudança, siga a orientação. Salve antes os trabalhos em andamento. O nome exato dos controles varia conforme a versão e o idioma do sistema."
+          ]
+        },
+        {
+          "heading": "Diferencie bloqueio e espera",
+          "paragraphs": [
+            "Uma solicitação de permissão sem resposta mantém o teste aguardando. Procure o aviso do navegador antes de pressionar o botão repetidamente. Se nenhum aviso aparecer, confira se a página foi aberta por HTTPS.",
+            "Em computadores de empresas ou instituições de ensino, o administrador pode fixar algumas opções. Quando um controle estiver indisponível, informe ao suporte a mensagem recebida. Alterar outros ajustes aleatoriamente pode não resolver essa restrição."
+          ]
+        },
+        {
+          "heading": "Retire o acesso quando terminar",
+          "paragraphs": [
+            "Parar o teste encerra o uso atual do dispositivo por esta ferramenta; retirar a permissão do site muda a autorização para acessos futuros. São ações diferentes, e você pode fazer as duas.",
+            "Confira câmera e microfone separadamente. Uma prévia sem som precisa apenas da câmera. Se um dispositivo continuar ativo depois de encerrar a ferramenta, verifique outras abas e programas abertos antes de atribuir a atividade a esta página."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Gerenciamento de permissões no Chrome",
+          "url": "https://support.google.com/chrome/answer/2693767"
+        },
+        {
+          "label": "Permissões de câmera no macOS",
+          "url": "https://support.apple.com/guide/mac-help/control-access-to-your-camera-mchlf6d108da/mac"
+        },
+        {
+          "label": "Requisitos de segurança para acesso à mídia",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia"
+        }
+      ],
+      "related": [
+        "webcam-black-screen",
+        "webcam-test"
+      ]
+    },
+    {
+      "id": "webcam-black-screen",
+      "title": "Webcam com tela preta: como localizar a causa",
+      "description": "Diferencie uma câmera bloqueada, um dispositivo ocupado e uma imagem congelada. Investigue a tela preta sem alterar todos os ajustes de uma vez.",
+      "heading": "O que verificar quando a webcam mostra uma tela preta",
+      "lead": "Uma tela preta não identifica sozinha a origem da falha. Antes de mudar drivers, verifique se a câmera foi detectada, se o navegador recebeu autorização e se o fluxo de vídeo chegou a começar.",
+      "imageAlt": "Prévia escura ao lado de verificações de tampa, permissões e conexão",
+      "sections": [
+        {
+          "heading": "Descarte uma obstrução física",
+          "paragraphs": [
+            "Abra a tampa de privacidade e procure uma tecla ou um interruptor de câmera no notebook. Ilumine a cena sem apontar uma luz forte diretamente para a lente. Uma câmera coberta pode estar funcionando e ainda assim mostrar uma imagem preta.",
+            "Se houver várias entradas, confira qual está selecionada. Uma câmera virtual sem uma fonte ativa também pode mostrar uma área vazia, mesmo que a webcam física esteja conectada corretamente."
+          ]
+        },
+        {
+          "heading": "Observe quando a falha acontece",
+          "paragraphs": [
+            "Diferencie um erro antes da primeira imagem de um vídeo que aparece e depois para. No primeiro caso, investigue detecção e permissões. No segundo, anote o tempo até a falha e qualquer ação que coincida com ela.",
+            "Feche os outros programas que usam a câmera e teste apenas um. Se a imagem voltar, abra os demais separadamente para encontrar um possível conflito. A luz acesa do dispositivo não confirma que o navegador seja o programa que o está utilizando."
+          ]
+        },
+        {
+          "heading": "Compare o sistema e o navegador",
+          "paragraphs": [
+            "Abra a câmera com um aplicativo do próprio sistema. Se funcionar, retorne ao navegador e confira suas permissões e a seleção do dispositivo. Se falhar nos dois, concentre a próxima verificação na conexão ou no sistema.",
+            "Em uma câmera USB, teste outra porta mantendo o mesmo aplicativo. Evite juntar troca de porta, mudança de navegador e reinstalação em uma única tentativa: depois será difícil saber qual alteração afetou o resultado."
+          ]
+        },
+        {
+          "heading": "Registre o que ainda falha",
+          "paragraphs": [
+            "Anote modelo, sistema, aplicativo, mensagem exata e sequência que reproduz o problema. Consulte as orientações do fabricante antes de modificar drivers ou instalar utilitários.",
+            "Se a prévia local é estável, mas a outra pessoa recebe uma tela preta, confira a câmera escolhida dentro da chamada e a conexão dessa sessão. A prévia não verifica todo o percurso do vídeo até outro participante."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Solução de problemas de câmera no Windows",
+          "url": "https://support.microsoft.com/en-us/windows/hardware/camera/camera-doesn-t-work-in-windows"
+        },
+        {
+          "label": "Erros no acesso a dispositivos de mídia",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia"
+        }
+      ],
+      "related": [
+        "camera-permissions",
+        "webcam-for-pc"
+      ]
+    },
+    {
+      "id": "microphone-test",
+      "title": "Teste de microfone: confira o nível sem gravar áudio",
+      "description": "Verifique se o navegador recebe som do microfone, interprete o medidor e confira silêncio, permissões e dispositivo de entrada por etapas.",
+      "heading": "Como testar o microfone com um medidor de nível",
+      "lead": "O medidor desta página indica se o navegador recebe um sinal de áudio. Ele não reproduz sua voz nem salva uma gravação; permite conferir a entrada antes de investigar problemas dentro de uma chamada.",
+      "imageAlt": "Microfone conectado a um medidor de nível de áudio",
+      "sections": [
+        {
+          "heading": "Prepare a entrada que deseja verificar",
+          "paragraphs": [
+            "Conecte o microfone ou o headset e confira o botão físico de silêncio. Se estiver usando uma interface de áudio, identifique o canal em que o microfone está conectado. Mantenha um volume de voz normal durante as comparações.",
+            "Escolha a entrada correta no sistema ou nos ajustes do navegador. O notebook, a webcam e os fones podem aparecer como microfones distintos, mesmo quando você pretende usar apenas um deles."
+          ]
+        },
+        {
+          "heading": "Observe a resposta do medidor",
+          "paragraphs": [
+            "Pressione Testar microfone e autorize somente o áudio. Fale por alguns segundos, faça uma pausa e repita. Observe se o nível muda durante a fala e diminui quando você fica em silêncio.",
+            "A escala mostra atividade relativa do sinal, sem ser uma medição calibrada em decibéis ou uma nota de qualidade. Um ventilador também pode movimentar o medidor. Para avaliar clareza e eco, faça uma verificação de escuta separada em um aplicativo de confiança."
+          ]
+        },
+        {
+          "heading": "Se o nível não mudar",
+          "paragraphs": [
+            "Confira a autorização do site, o acesso do navegador no sistema e o silêncio físico. Depois verifique o volume de entrada. Altere uma opção por vez e repita a mesma frase para comparar os resultados.",
+            "Se o sistema detecta áudio, mas o navegador não, concentre-se na seleção de entrada e nas permissões. Se também não houver sinal no sistema, revise a conexão e o dispositivo antes de alterar configurações da videochamada."
+          ]
+        },
+        {
+          "heading": "Interprete o resultado com cuidado",
+          "paragraphs": [
+            "Um nível alto e constante pode indicar ruído ou uma entrada diferente da esperada. Aproxime a voz do microfone escolhido e compare com um intervalo de silêncio, sem bater no dispositivo.",
+            "Ao terminar, pressione Parar. Um teste local bem-sucedido confirma a chegada de áudio ao navegador naquele momento. Ele não verifica o envio a outra pessoa nem garante que o aplicativo de chamadas esteja usando a mesma entrada."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Soluções para microfones no Windows",
+          "url": "https://support.microsoft.com/en-us/windows/hardware/drivers/fix-microphone-problems"
+        },
+        {
+          "label": "Seleção de microfone no Chrome",
+          "url": "https://support.google.com/chrome/answer/2693767"
+        }
+      ],
+      "related": [
+        "camera-permissions",
+        "webcam-test"
+      ]
+    },
+    {
+      "id": "webcam-image-quality",
+      "title": "Melhorar a imagem da webcam: luz, foco e movimento",
+      "description": "Investigue uma webcam escura, desfocada ou com movimentos travados. Compare luz, distância e resolução na prévia antes de trocar de equipamento.",
+      "heading": "Como melhorar uma imagem de webcam escura ou desfocada",
+      "lead": "Antes de aumentar a resolução, identifique o defeito que está vendo. Falta de detalhes, desfoque e movimentos travados podem parecer semelhantes em uma chamada, mas precisam de comparações diferentes.",
+      "imageAlt": "A mesma cena geométrica com diferentes níveis de iluminação e nitidez",
+      "sections": [
+        {
+          "heading": "Prepare uma comparação repetível",
+          "paragraphs": [
+            "Mantenha a câmera no mesmo lugar e use uma cena com detalhes reconhecíveis: um objeto na mesa e sua mão em movimento. Mude apenas um ajuste e observe novamente a mesma cena.",
+            "Comece pela prévia local. Se ela estiver boa e a chamada piorar a imagem, investigue depois o aplicativo e a conexão. Comprar outra câmera sem essa comparação pode deixar a causa original sem solução."
+          ]
+        },
+        {
+          "heading": "Confira a luz e a lente",
+          "paragraphs": [
+            "Limpe a lente de acordo com o manual do fabricante. Evite uma janela muito clara atrás de você e experimente uma luz suave à frente ou um pouco ao lado. Compare o resultado sem alterar o restante do enquadramento.",
+            "Se aparecer muito ruído ou um rastro durante o movimento, teste primeiro uma iluminação melhor. Não há um valor universal de exposição ou brilho adequado a todas as câmeras e ambientes."
+          ]
+        },
+        {
+          "heading": "Verifique foco e distância",
+          "paragraphs": [
+            "Fique na distância em que normalmente usa a câmera e permaneça parado por alguns segundos. Quando o modelo permitir ajuste de foco, consulte o manual antes de modificá-lo. Algumas webcams têm foco fixo; a ausência de um controle pode ser uma característica do aparelho.",
+            "Evite aproximar objetos repetidamente da lente se isso fizer o foco mudar durante a chamada. Confira também se o programa está aplicando um recorte ou zoom que amplia defeitos da imagem original."
+          ]
+        },
+        {
+          "heading": "Separe resolução e fluidez",
+          "paragraphs": [
+            "Uma imagem maior não garante mais detalhes úteis. Se o vídeo trava, compare uma configuração mais moderada no aplicativo e veja se o movimento melhora. Registre o que alterou para poder retornar à configuração anterior.",
+            "Desative efeitos de fundo e filtros durante uma comparação. Se a prévia continuar falhando, investigue conexão e dispositivo. Se apenas a chamada falhar, compare os ajustes e a conexão dessa sessão com outra sob condições parecidas."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Controles de imagem da Logitech C920",
+          "url": "https://secure.logitech.com/assets/42685/c920-quickstart-guide.pdf"
+        },
+        {
+          "label": "Resolução de vídeo solicitada pelo navegador",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia"
+        }
+      ],
+      "related": [
+        "webcam-test",
+        "logitech-webcam",
+        "webcam-background",
+        "webcam-lighting"
+      ]
+    },
+    {
+      "id": "webcam-in-use",
+      "title": "Câmera em uso por outro aplicativo: como liberar a webcam",
+      "description": "Identifique qual aplicativo pode estar usando a webcam, libere o dispositivo e diferencie um conflito de uma falha de permissão ou conexão.",
+      "heading": "Câmera em uso por outro aplicativo: o que verificar",
+      "lead": "Uma câmera pode funcionar em um aplicativo e não abrir em outro. Investigue um possível conflito deixando apenas um aplicativo de câmera aberto por vez. Um erro de leitura do dispositivo é uma pista, não a confirmação de que outro programa esteja usando a câmera.",
+      "imageAlt": "Duas janelas de aplicativos ligadas a uma câmera, com uma das conexões interrompida.",
+      "sections": [
+        {
+          "heading": "Anote o sintoma antes de fechar aplicativos",
+          "paragraphs": [
+            "Anote qual aplicativo funciona, qual falha e a mensagem exata. Permissão negada, câmera ausente e falha ao abrir uma câmera detectada exigem verificações diferentes. Não altere várias permissões só porque um aplicativo informa que a câmera está ocupada.",
+            "Se estiver em uma reunião, salve seu trabalho e saia dela antes do teste. Fechar um aplicativo de câmera interrompe o vídeo que ele está usando."
+          ]
+        },
+        {
+          "heading": "Deixe apenas um aplicativo usando a câmera",
+          "steps": [
+            "Interrompa prévias em outras abas, aplicativos de reunião e utilitários de configuração da câmera.",
+            "Feche esses aplicativos normalmente. Confira a área de notificação ou a barra de menus: um utilitário pode continuar aberto mesmo depois de sua janela ser fechada.",
+            "Recarregue a página que falha e tente abrir a câmera uma vez. Se funcionar, encerre o teste antes de reabrir outro aplicativo.",
+            "Reabra os demais aplicativos um por vez, repetindo a mesma verificação para descobrir quando o conflito retorna."
+          ],
+          "paragraphs": [
+            "Uma nova tentativa bem-sucedida revela uma solução prática. Isso não significa que toda câmera ou todo sistema operacional impeça o acesso simultâneo."
+          ]
+        },
+        {
+          "heading": "Se o erro continuar com os outros aplicativos fechados",
+          "paragraphs": [
+            "Teste o aplicativo de câmera do sistema sozinho; depois feche-o e tente novamente no navegador. Se apenas o navegador falhar, confira a câmera selecionada e suas permissões. Se ambos falharem, verifique a conexão USB ou o interruptor físico antes de reinstalar qualquer coisa.",
+            "O erro NotReadableError do navegador também pode indicar um problema do sistema operacional ou do hardware. Guarde a mensagem como observação, sem tratá-la como uma causa já confirmada."
+          ]
+        },
+        {
+          "heading": "Obtenha um resultado que possa repetir",
+          "paragraphs": [
+            "Se ainda não estiver claro quem mantém a câmera ocupada, salve seu trabalho, reinicie o computador e abra somente o aplicativo desejado. Compare esse início com o resultado anterior.",
+            "Em um computador gerenciado, informe ao suporte o modelo da câmera, o aplicativo com falha, o erro e o resultado do teste com um único aplicativo. Evite desativar proteções ou encerrar repetidamente processos do sistema que você não conhece."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "MDN: erros de acesso à câmera",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia"
+        },
+        {
+          "label": "Microsoft: solução de problemas da câmera",
+          "url": "https://support.microsoft.com/en-us/windows/hardware/camera/camera-doesn-t-work-in-windows"
+        }
+      ],
+      "related": [
+        "webcam-test",
+        "camera-permissions"
+      ]
+    },
+    {
+      "id": "webcam-resolution-fps",
+      "title": "Resolução e FPS da webcam: como entender os números",
+      "description": "Entenda resolução, taxa de quadros configurada e vídeo recebido. Compare ajustes sem confundir uma prévia no navegador com uma medição de desempenho.",
+      "heading": "Resolução e FPS da webcam: o que significam",
+      "lead": "A resolução descreve as dimensões de cada quadro; a taxa indica quantos quadros há por segundo. Nenhum número sozinho explica a aparência de uma chamada. Separe as capacidades anunciadas da câmera, os ajustes do aplicativo e o vídeo que outra pessoa recebe.",
+      "imageAlt": "Duas grades de pixels ao lado de uma sequência de quadros distribuídos em uma linha do tempo.",
+      "sections": [
+        {
+          "heading": "Leia a resolução como dimensões do quadro",
+          "paragraphs": [
+            "Um ajuste como 1280 × 720 indica a largura e a altura do quadro em pixels. O tamanho da prévia na tela é outra medida: o navegador pode exibir esse quadro em uma área menor ou maior.",
+            "O teste de câmera desta seção mostra as dimensões informadas pelo navegador para a faixa de vídeo atual, quando disponíveis. Isso não mede o detalhe da lente nem garante que um aplicativo de reuniões escolha as mesmas dimensões."
+          ]
+        },
+        {
+          "heading": "Diferencie FPS configurado de entrega medida",
+          "paragraphs": [
+            "Os valores de getSettings() descrevem a configuração da faixa ativa. O campo frameRate não conta os quadros que chegaram corretamente a outra pessoa durante uma chamada.",
+            "A prévia ainda pode parar ou apresentar movimentos irregulares. Não apresente um valor configurado como medição de desempenho nem deduza a capacidade máxima da câmera a partir de um teste com ajustes padrão."
+          ]
+        },
+        {
+          "heading": "Compare ajustes usando a mesma cena",
+          "steps": [
+            "Use a posição e a iluminação habituais. Anote os ajustes originais de resolução e taxa de quadros, se o aplicativo os mostrar.",
+            "Observe um objeto parado e depois mova a mão pelo quadro em um ritmo constante.",
+            "Altere apenas um ajuste disponível e repita as duas observações. Compare os detalhes legíveis e o movimento separadamente.",
+            "Termine com uma breve verificação no aplicativo de chamadas. Pergunte à outra pessoa se ela vê desfoque, blocos ou pausas."
+          ]
+        },
+        {
+          "heading": "Escolha os ajustes conforme o problema observado",
+          "paragraphs": [
+            "Mais pixels não corrigem uma lente tampada nem explicam por que o navegador não consegue abrir a câmera. Um número maior no menu não garante uma imagem melhor no seu equipamento.",
+            "Mantenha a alteração quando a imagem ou o movimento melhorarem de forma consistente. Se a prévia local estiver estável e o resultado remoto for ruim, reúna os diagnósticos de conexão do aplicativo em vez de continuar alterando a câmera sem uma referência."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "MDN: largura de vídeo configurada",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/MediaTrackSettings/width"
+        },
+        {
+          "label": "MDN: taxa de quadros configurada",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/MediaTrackSettings/frameRate"
+        },
+        {
+          "label": "MDN: leitura dos ajustes de uma faixa",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/MediaStreamTrack/getSettings"
+        }
+      ],
+      "related": [
+        "webcam-test",
+        "webcam-image-quality"
+      ]
+    },
+    {
+      "id": "webcam-background",
+      "title": "Fundo para webcam: enquadramento, desfoque e imagem",
+      "description": "Prepare o fundo da webcam, compare o enquadramento com desfoque ou substituição por imagem e confira bordas e desempenho antes da chamada.",
+      "heading": "Como escolher o fundo da sua webcam",
+      "lead": "O fundo pode ser o ambiente atrás de você ou um efeito aplicado pelo aplicativo de chamadas. Comece pelo que a câmera realmente captura. Depois decida se mudar o enquadramento, desfocar o ambiente ou substituí-lo por uma imagem atende ao que você precisa.",
+      "imageAlt": "Imagem de uma pessoa na câmera ao lado de exemplos de fundo liso e desfocado.",
+      "sections": [
+        {
+          "heading": "Prepare primeiro a parte visível do ambiente",
+          "paragraphs": [
+            "Abra uma prévia local e confira as quatro bordas. Retire documentos pessoais, etiquetas com nomes e outros detalhes que não queira mostrar. Verifique também reflexos, não apenas a área atrás da cadeira.",
+            "Experimente apontar a câmera para uma parede lisa ou mudar de posição. Assim você terá uma alternativa caso o efeito fique indisponível. O teste local desta seção mostra a imagem da câmera; ele não adiciona efeitos de fundo."
+          ]
+        },
+        {
+          "heading": "Aplique o efeito no aplicativo de chamadas",
+          "steps": [
+            "Abra a prévia do próprio aplicativo antes da chamada, quando essa opção estiver disponível.",
+            "Procure os controles de fundo ou efeitos de vídeo. No Google Meet, use Planos de fundo e efeitos; as opções dependem do dispositivo e da conta.",
+            "Compare o desfoque com uma imagem simples de substituição. Use uma imagem própria ou que você tenha permissão para utilizar.",
+            "Confira o resultado no aplicativo de reuniões: o teste separado do navegador não necessariamente recebe esse efeito."
+          ],
+          "paragraphs": [
+            "No Meet, selecionar um efeito pode ligar a câmera. Prepare o ambiente real antes de abrir a prévia do efeito."
+          ]
+        },
+        {
+          "heading": "Teste movimentos e bordas difíceis",
+          "paragraphs": [
+            "Mova a cabeça, as mãos e a cadeira como faria normalmente. Observe se cabelo, óculos ou objetos desaparecem na imagem de substituição. Teste uma posição parada e o movimento; um quadro correto não garante que o efeito continue convincente.",
+            "Desfoque e substituição são efeitos visuais, não uma barreira de privacidade confiável. Mantenha detalhes sensíveis fora do campo real da câmera mesmo quando a prévia parecer limpa."
+          ]
+        },
+        {
+          "heading": "Mantenha uma alternativa simples",
+          "paragraphs": [
+            "Se o movimento ficar irregular depois de ativar um efeito, compare a mesma prévia com os efeitos desligados. O Google informa que eles podem afetar o desempenho e a bateria; a comparação ajuda a decidir se a aparência compensa no seu aparelho.",
+            "Antes de uma chamada importante, escolha o fundo que permanece claro e estável durante movimentos normais. Se uma opção estiver ausente, confira os requisitos atuais do aplicativo antes de baixar um utilitário desconhecido para imitá-la."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Google Meet: planos de fundo, efeitos e requisitos",
+          "url": "https://support.google.com/meet/answer/10058482?hl=en"
+        },
+        {
+          "label": "Microsoft Teams Gratuito: efeitos de vídeo e ajustes do dispositivo",
+          "url": "https://support.microsoft.com/en-us/teams/free/settings/manage-your-device-settings-in-microsoft-teams-free"
+        }
+      ],
+      "related": [
+        "webcam-test",
+        "webcam-image-quality",
+        "obs-webcam-frame"
+      ]
+    },
+    {
+      "id": "webcam-mirror",
+      "title": "Espelhar a webcam: prévia local e vídeo enviado",
+      "description": "Inverta uma prévia local da webcam, confira a orientação do texto e diferencie sua própria imagem daquela recebida por outras pessoas.",
+      "heading": "Como espelhar a prévia da webcam e conferir o resultado",
+      "lead": "Uma prévia espelhada troca esquerda e direita. Ela pode tornar sua própria imagem mais familiar, mas também inverte textos. Antes de alterar qualquer ajuste, defina se deseja mudar sua prévia ou a imagem recebida por outra pessoa.",
+      "imageAlt": "Duas prévias da câmera com uma figura assimétrica refletida em torno de um eixo vertical.",
+      "sections": [
+        {
+          "heading": "Use uma referência assimétrica",
+          "paragraphs": [
+            "Segure uma folha com uma palavra comum ou coloque um objeto em um dos lados da cena. Um rosto sozinho dificulta a avaliação da orientação. Observe as letras e a posição do objeto em vez de se basear apenas na familiaridade do reflexo.",
+            "Inverter horizontalmente é diferente de girar uma imagem que está de cabeça para baixo. Se a câmera estiver invertida dessa forma, confira primeiro a montagem e os controles de rotação do aplicativo."
+          ]
+        },
+        {
+          "heading": "Compare as duas opções no teste local",
+          "steps": [
+            "Abra o teste de webcam, inicie a câmera e conceda permissão caso ela seja solicitada.",
+            "Altere Espelhar esta prévia e compare a mesma palavra ou objeto com a caixa marcada e desmarcada.",
+            "Deixe a caixa na posição que preferir e encerre o teste ao terminar."
+          ],
+          "paragraphs": [
+            "Esse controle inverte apenas a prévia exibida nesta página. Ele não altera o driver da câmera, não configura outro aplicativo, não cria gravação e não envia vídeo a ninguém. Ao abrir um aplicativo de reuniões, confira seu comportamento separadamente."
+          ]
+        },
+        {
+          "heading": "Confira o que a outra pessoa vê",
+          "paragraphs": [
+            "Peça a alguém na chamada que leia a palavra que você está segurando. Compare a resposta com sua prévia antes de aplicar outra inversão. Uma prévia espelhada pode coexistir com um vídeo enviado cujo texto está legível.",
+            "Por exemplo, a Microsoft descreve Espelhar meu vídeo no Teams Gratuito para computador como uma mudança na sua própria visualização. Não presuma que um ajuste parecido em outro aplicativo tenha o mesmo alcance: consulte a documentação e teste."
+          ]
+        },
+        {
+          "heading": "Evite corrigir a imagem duas vezes",
+          "paragraphs": [
+            "Se o software da câmera, uma câmera virtual e o aplicativo de chamadas oferecerem transformações, anote quais controles você alterou. Duas inversões horizontais podem se anular e deixar uma sequência de ajustes difícil de entender.",
+            "Desfaça a última alteração se o resultado ficar menos claro. Ao mostrar textos ou objetos com etiquetas, priorize a legibilidade do vídeo enviado e verifique isso no aplicativo final. A preferência por uma prévia espelhada não deve decidir esse resultado sozinha."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Microsoft Teams Gratuito: alcance de Espelhar meu vídeo",
+          "url": "https://support.microsoft.com/en-us/teams/free/settings/manage-your-device-settings-in-microsoft-teams-free"
+        },
+        {
+          "label": "MDN: escala horizontal com CSS",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scaleX"
+        }
+      ],
+      "related": [
+        "webcam-test",
+        "webcam-background",
+        "obs-webcam-setup"
+      ]
+    },
+    {
+      "id": "obs-webcam-setup",
+      "title": "Como adicionar uma webcam ao OBS Studio e enquadrar",
+      "description": "Adicione a webcam a uma cena do OBS, selecione o dispositivo correto e confira visibilidade, resolução e enquadramento na prévia local.",
+      "heading": "Como adicionar e testar uma webcam no OBS Studio",
+      "lead": "Use uma cena simples para verificar se o OBS recebe a câmera desejada antes de adicionar uma moldura ou outras fontes. A prévia local basta para essa verificação; não é necessário iniciar uma gravação nem conectar uma conta de transmissão.",
+      "imageAlt": "Câmera ligada à área de uma cena com uma fonte de vídeo selecionada no painel lateral.",
+      "sections": [
+        {
+          "heading": "Adicione a câmera como fonte de vídeo",
+          "steps": [
+            "Encerre outros testes de câmera e abra uma cena nova ou existente do OBS para essa verificação.",
+            "Use o botão de adição em Fontes e adicione Dispositivo de captura de vídeo no Windows ou macOS. No Linux, a fonte correspondente é Dispositivo de captura de vídeo (V4L2).",
+            "Dê um nome reconhecível à fonte e selecione a câmera física nas propriedades do dispositivo.",
+            "Comece com os ajustes padrão e confira se a prévia muda quando você se movimenta."
+          ]
+        },
+        {
+          "heading": "Diferencie uma fonte oculta de uma falha da câmera",
+          "paragraphs": [
+            "Se a câmera aparece nas propriedades, mas não na área da cena, confira a visibilidade e a posição da fonte. Outra fonte acima dela pode cobrir a imagem. Oculte temporariamente essa outra fonte para testar a explicação.",
+            "Se as propriedades também não mostrarem imagem, confira a câmera escolhida, a permissão do sistema e os outros aplicativos que a utilizam. Ajustar a composição não corrige um dispositivo que o OBS não conseguiu abrir."
+          ]
+        },
+        {
+          "heading": "Posicione a imagem sem deformá-la",
+          "paragraphs": [
+            "Selecione a fonte da câmera e mova ou redimensione sua caixa na prévia. Use Transformar e Editar transformação quando precisar de valores precisos. Preserve as proporções naturais em vez de esticar um rosto para preencher uma área de outro formato.",
+            "Se a imagem precisar caber em uma abertura mais estreita, escolha conscientemente o que pode ser cortado. Confira cabeça e mãos durante movimentos normais, não apenas enquanto estiver parado. Deixe espaço suficiente para o objetivo da imagem."
+          ]
+        },
+        {
+          "heading": "Altere a captura depois de obter uma imagem funcional",
+          "paragraphs": [
+            "Quando a imagem padrão funcionar, anote seus ajustes antes de tentar outra resolução ou taxa de quadros compatível. Combinações não aceitas podem deixar a prévia sem imagem. Restaure o ajuste que funcionava se a alteração falhar.",
+            "Mude para outra cena e volte para conferir se a composição permanece correta. Teste o áudio separadamente: uma webcam visível não comprova o microfone. Ao terminar, feche ou desative a fonte da câmera para que o próximo aplicativo possa usá-la."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "OBS: dispositivos de captura de vídeo e propriedades",
+          "url": "https://obsproject.com/kb/video-capture-sources"
+        },
+        {
+          "label": "OBS: visibilidade, ordem e transformações das fontes",
+          "url": "https://obsproject.com/kb/sources-guide"
+        },
+        {
+          "label": "OBS: proporção e recorte",
+          "url": "https://obsproject.com/kb/aspect-ratio-guide"
+        }
+      ],
+      "related": [
+        "webcam-in-use",
+        "webcam-resolution-fps",
+        "obs-webcam-frame",
+        "obs-webcam-black-screen",
+        "webcam-crop"
+      ]
+    },
+    {
+      "id": "obs-webcam-frame",
+      "title": "Moldura de webcam no OBS: PNG transparente e alinhamento",
+      "description": "Coloque uma moldura PNG transparente sobre a webcam no OBS, alinhe a abertura e resolva problemas de camadas, transparência e recorte.",
+      "heading": "Como colocar uma moldura na webcam no OBS",
+      "lead": "Uma moldura costuma ser uma imagem separada posicionada acima da fonte de câmera. A abertura precisa ser transparente para que o vídeo continue visível por baixo. Primeiro faça a câmera funcionar na cena; depois adicione e alinhe a moldura.",
+      "imageAlt": "Moldura retangular transparente sobre uma imagem de câmera com alças de alinhamento.",
+      "sections": [
+        {
+          "heading": "Confira a imagem antes de importá-la",
+          "paragraphs": [
+            "Use uma moldura que você criou ou tem permissão para usar. Um PNG pode conter transparência, mas a extensão não garante isso. Abra a imagem em um editor que mostre o canal alfa e confira a abertura central.",
+            "Um padrão quadriculado desenhado na imagem não é transparência. Se ele fizer parte dos pixels do arquivo, cobrirá a câmera como uma cor sólida. Guarde o original para corrigir a abertura sem reconstruir a cena."
+          ]
+        },
+        {
+          "heading": "Adicione a moldura acima da câmera",
+          "steps": [
+            "Na mesma cena do OBS em que a câmera funciona, adicione uma fonte Imagem e selecione o arquivo da moldura.",
+            "Coloque a imagem acima da câmera na lista Fontes para que a borda seja desenhada por cima.",
+            "Posicione e redimensione a moldura; depois ajuste a câmera abaixo dela para encaixar na abertura transparente.",
+            "Use Editar transformação para posicionar com precisão. Bloqueie as fontes organizadas para reduzir movimentos acidentais ao trabalhar na cena."
+          ]
+        },
+        {
+          "heading": "Alinhe a abertura sem esticar rostos",
+          "paragraphs": [
+            "Compare o formato da abertura com a imagem da câmera. Se as proporções forem diferentes, redimensionar pode deixar espaços vazios ou distorções. Escolha uma moldura adequada ou recorte uma parte deliberada da imagem, preservando as proporções da pessoa.",
+            "Mova-se normalmente e confira a borda ao redor da cabeça e das mãos. Uma composição que serve para um rosto parado pode cortar gestos. Examine a cena no tamanho em que será exibida: uma borda muito elaborada pode dominar uma janela pequena."
+          ]
+        },
+        {
+          "heading": "Verifique uma camada por vez",
+          "paragraphs": [
+            "Se toda a imagem desaparecer, oculte a moldura temporariamente. Se a câmera voltar, investigue a opacidade, a abertura e o posicionamento da imagem. Se apenas a borda estiver ausente, confira a visibilidade e sua ordem em relação à câmera.",
+            "Mantenha o arquivo em uma pasta local estável, pois a fonte Imagem usa esse caminho. Depois de mover arquivos, reabra a cena e procure imagens ausentes antes de confiar na composição salva."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "OBS: fontes de imagem e suporte ao canal alfa",
+          "url": "https://obsproject.com/kb/image-sources"
+        },
+        {
+          "label": "OBS: ordem e posicionamento das camadas",
+          "url": "https://obsproject.com/kb/sources-guide"
+        },
+        {
+          "label": "OBS: preservar a proporção e recortar",
+          "url": "https://obsproject.com/kb/aspect-ratio-guide"
+        }
+      ],
+      "related": [
+        "obs-webcam-setup",
+        "webcam-background",
+        "webcam-resolution-fps",
+        "webcam-crop"
+      ]
+    },
+    {
+      "id": "phone-as-webcam",
+      "title": "Celular como webcam: escolha a conexão compatível",
+      "description": "Compare Android com Windows, iPhone com Mac e um aplicativo separado. Confira compatibilidade, suporte, bateria e câmera selecionada antes da chamada.",
+      "heading": "Como usar seu celular como webcam",
+      "lead": "Um celular pode fornecer uma câmera útil quando a imagem integrada do notebook não é suficiente. Primeiro escolha um método compatível com os dois aparelhos: instalar aplicativos aleatórios dificulta identificar problemas de conexão.",
+      "imageAlt": "Celular ligado a um computador por caminhos sem fio e por cabo.",
+      "sections": [
+        {
+          "heading": "Escolha o método antes de instalar qualquer coisa",
+          "paragraphs": [
+            "Para um celular Android compatível e um PC com Windows 11, a câmera conectada da Microsoft é uma opção. Para iPhone e Mac, confira os requisitos da Câmera de Continuidade da Apple. O Iriun é outra opção baseada em aplicativos, explicada em seu próprio guia; confira a disponibilidade e os requisitos para seus aparelhos específicos.",
+            "Anote o modelo do celular e as versões dos sistemas do telefone e do computador. Um método funcionar em outro aparelho não confirma a compatibilidade com o seu. Mantenha os requisitos atuais do fabricante abertos durante a configuração."
+          ]
+        },
+        {
+          "heading": "Prepare uma posição estável",
+          "steps": [
+            "Coloque o celular em um suporte seguro e mantenha a lente escolhida desobstruída. Limpe essa lente e confira o enquadramento antes de entrar na chamada.",
+            "Evite que os cabos puxem o suporte e deixe espaço para ventilação ao redor do celular. Confira a bateria antes de uma sessão longa.",
+            "Feche outros aplicativos de câmera no telefone. Use uma conexão local confiável e siga as instruções de pareamento do fornecedor escolhido."
+          ]
+        },
+        {
+          "heading": "Selecione o celular no aplicativo receptor",
+          "paragraphs": [
+            "Depois do pareamento, escolha explicitamente o celular no menu de câmeras do aplicativo do computador. A mensagem de conexão bem-sucedida não significa que ele deixou de usar a câmera do notebook. Cubra brevemente a lente do telefone para identificar a fonte ativa.",
+            "Confira o áudio separadamente. O vídeo do celular não garante que o aplicativo selecionou o microfone desejado. Encerre o teste deste site antes de abrir a prévia do aplicativo receptor."
+          ]
+        },
+        {
+          "heading": "Isole pausas e desconexões",
+          "paragraphs": [
+            "Se a imagem parar, observe se o aplicativo do celular parou, se a conexão desapareceu ou se apenas um aplicativo do computador congelou. Teste o mesmo método em uma sessão mais curta e com a iluminação inalterada. Mude um elemento de cada vez.",
+            "Um telefone aquecido, com pouca bateria ou em um suporte instável é motivo para interromper o teste e corrigir a montagem. Se os cortes persistirem, use uma câmera que esteja funcionando para a chamada e investigue depois. Um aplicativo aceitar conexão sem fio não significa que também aceite USB."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Microsoft: usar a câmera de um dispositivo móvel",
+          "url": "https://support.microsoft.com/en-us/windows/apps/phonelink/use-your-mobile-device-s-camera"
+        },
+        {
+          "label": "Apple: compatibilidade e configuração da Câmera de Continuidade",
+          "url": "https://support.apple.com/en-au/102546"
+        }
+      ],
+      "related": [
+        "iriun-webcam",
+        "webcam-test",
+        "microphone-test"
+      ]
+    },
+    {
+      "id": "webcam-setup",
+      "title": "Configurar a webcam: foco, exposição e enquadramento",
+      "description": "Ajuste uma webcam conectada comparando enquadramento, foco, exposição e opções do aplicativo. Mantenha apenas as mudanças que melhoram a imagem.",
+      "heading": "Como configurar a webcam depois de conectá-la",
+      "lead": "Depois que a câmera funciona, a configuração é uma sequência de pequenos ajustes. Mantenha uma referência clara para desfazer uma alteração que piore a imagem, em vez de acumular filtros sobre o problema.",
+      "imageAlt": "Prévia de câmera ao lado de três controles de ajuste independentes.",
+      "sections": [
+        {
+          "heading": "Registre o ponto de partida",
+          "paragraphs": [
+            "Abra uma única prévia, sente-se na posição habitual e anote a câmera selecionada. Confira se o rosto está nítido, se o fundo está claro e se o movimento é suave. Uma captura de tela é opcional: uma anotação curta basta e evita salvar uma imagem do ambiente.",
+            "Se não houver imagem em movimento, corrija primeiro a detecção ou as permissões. Controles de brilho não consertam uma fonte de vídeo ausente. Os guias de conexão e tela preta explicam essas etapas anteriores."
+          ]
+        },
+        {
+          "heading": "Ajuste a posição antes dos controles de imagem",
+          "steps": [
+            "Suba ou abaixe a câmera até obter um enquadramento confortável. Mantenha a lente limpa e evite que a borda de uma tela bloqueie a visão.",
+            "Fique de frente para uma luz suave e reduza a contraluz intensa. Se usa óculos, confira os reflexos.",
+            "Fique à distância habitual para falar. Se o foco oscilar, compare uma cena parada com o movimento da mão antes de mudar os controles de foco."
+          ]
+        },
+        {
+          "heading": "Altere um ajuste compatível por vez",
+          "paragraphs": [
+            "O Windows 11 oferece controles em Bluetooth e dispositivos, Câmeras quando o dispositivo é compatível. O aplicativo do fabricante ou o de chamadas pode oferecer controles diferentes. A ausência de um ajuste não significa necessariamente defeito na câmera.",
+            "Altere um único controle, como exposição ou contraste, e compare a mesma cena. Anote o valor anterior. Evite um zoom digital muito alto apenas para preencher o quadro: mover a câmera pode preservar mais detalhes úteis."
+          ]
+        },
+        {
+          "heading": "Verifique no aplicativo que será usado",
+          "paragraphs": [
+            "Feche a prévia de configuração e abra o aplicativo desejado. Seus ajustes podem substituir os padrões do sistema, então compare novamente. Se uma mudança desaparecer, identifique qual aplicativo controla o ajuste ativo em vez de repetir alterações sem relação.",
+            "Prefira um resultado estável mesmo com menos efeitos. Confira novamente no horário habitual: uma configuração feita perto de uma janela clara de manhã pode parecer muito diferente à noite. Isso verifica a imagem local, sem medir o vídeo recebido por participantes remotos."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Microsoft: configurações de câmera no Windows 11",
+          "url": "https://support.microsoft.com/en-us/windows/hardware/camera/manage-cameras-with-camera-settings-in-windows-11"
+        }
+      ],
+      "related": [
+        "webcam-for-pc",
+        "webcam-lighting",
+        "webcam-resolution-fps",
+        "webcam-image-quality"
+      ]
+    },
+    {
+      "id": "webcam-on-off",
+      "title": "Ligar e desligar a webcam: controles e permissões",
+      "description": "Diferencie a tampa da câmera, o acesso do sistema, a permissão do site e o botão de parar. Confira qual controle realmente encerra a sessão.",
+      "heading": "Como ligar a webcam e encerrar seu uso",
+      "lead": "Uma tampa, uma configuração do dispositivo e a permissão de um site fazem coisas diferentes. Use o controle adequado ao objetivo: mostrar a imagem agora, parar a sessão atual ou impedir o acesso de um aplicativo no futuro.",
+      "imageAlt": "Webcam ao lado de controles separados de ativação e desativação.",
+      "sections": [
+        {
+          "heading": "Confira o controle físico",
+          "paragraphs": [
+            "Algumas câmeras têm uma tampa deslizante; alguns notebooks têm uma tecla ou um interruptor de câmera. A tampa pode apenas bloquear a lente, enquanto um interruptor pode desconectar o dispositivo. Consulte o manual em vez de presumir que a luz indicadora significa a mesma coisa em todos os modelos.",
+            "Abra a tampa somente quando estiver pronto para verificar a imagem. Uma lente descoberta não concede permissão a um site nem inicia sozinha o teste desta página."
+          ]
+        },
+        {
+          "heading": "Inicie uma única sessão de forma deliberada",
+          "steps": [
+            "Confira se o sistema operacional permite que o aplicativo desejado use a câmera.",
+            "Abra o teste e pressione Iniciar câmera. Responda à solicitação de permissão do navegador para este site.",
+            "Mova a mão no quadro para confirmar que a imagem está ao vivo. Se ela vier de outra câmera, confira a fonte selecionada."
+          ]
+        },
+        {
+          "heading": "Encerre a sessão e verifique o resultado",
+          "paragraphs": [
+            "Pressione Parar no teste deste site. A prévia é limpa e as faixas de mídia são liberadas. O teste também para quando a aba fica oculta. Outro aplicativo ainda pode usar a mesma câmera ou outra; se uma luz continuar acesa, confira as demais prévias abertas.",
+            "Em outro aplicativo, use seus próprios controles de câmera e confira o comportamento documentado. Fechar uma janela pode deixar o aplicativo aberto em segundo plano. Salve seu trabalho antes de sair dele por completo."
+          ]
+        },
+        {
+          "heading": "Decida quais acessos devem continuar permitidos",
+          "paragraphs": [
+            "Revogar a permissão de câmera de um site controla futuras solicitações desse site; isso é diferente de desativar o dispositivo inteiro. Use as configurações do navegador para um site específico e os ajustes de privacidade do sistema para o acesso de aplicativos.",
+            "Se desativar a câmera em todo o sistema, anote como reativá-la antes da próxima chamada. Em um computador gerenciado, esses ajustes podem ser controlados por um administrador. Solicite o acesso necessário ao aplicativo específico sem contornar os controles."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Microsoft: controles físicos e permissões de câmera",
+          "url": "https://support.microsoft.com/en-us/windows/hardware/camera/camera-doesn-t-work-in-windows"
+        },
+        {
+          "label": "MDN: encerrar uma faixa de mídia",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/MediaStreamTrack/stop"
+        }
+      ],
+      "related": [
+        "camera-permissions",
+        "webcam-test",
+        "webcam-in-use"
+      ]
+    },
+    {
+      "id": "obs-webcam-black-screen",
+      "title": "Webcam com tela preta no OBS: confira fonte e cena",
+      "description": "Investigue uma webcam com imagem preta no OBS: propriedades, visibilidade, ordem das camadas, acesso à câmera e modo de captura compatível.",
+      "heading": "Como resolver a imagem preta da webcam no OBS",
+      "lead": "Primeiro descubra se o OBS não recebe imagem da câmera ou se a cena está escondendo uma imagem que já recebe. Essas situações exigem verificações diferentes e não devem levar diretamente à reinstalação de drivers.",
+      "imageAlt": "Fonte de câmera escura em uma cena ao lado de um painel separado de propriedades.",
+      "sections": [
+        {
+          "heading": "Compare a prévia da fonte com a cena",
+          "paragraphs": [
+            "Abra as propriedades da fonte de câmera e examine a prévia. Se houver imagem ali, mas não na cena, confira visibilidade, ordem das fontes e transformações. Uma imagem totalmente opaca acima da câmera pode cobri-la.",
+            "Se a prévia da fonte também estiver vazia, verifique o dispositivo selecionado. Uma câmera virtual de nome parecido não é necessariamente a câmera USB à sua frente. Anote qualquer mensagem de erro antes de alterar configurações."
+          ]
+        },
+        {
+          "heading": "Teste uma cena simples",
+          "steps": [
+            "Crie uma cena temporária e adicione apenas a fonte de câmera existente. Mantenha a cena original intacta.",
+            "Confira a visibilidade da fonte e redefina sua transformação na cena temporária caso esteja fora da área visível.",
+            "Comece com um modo de captura padrão compatível. Se você havia imposto uma resolução ou taxa de quadros personalizada, remova essa variável e tente novamente."
+          ]
+        },
+        {
+          "heading": "Libere a câmera em outros aplicativos",
+          "paragraphs": [
+            "Feche testes no navegador e prévias de outros aplicativos; depois tente o OBS novamente. Para comparar com o aplicativo de câmera do sistema, libere primeiro a câmera no OBS e faça apenas um teste por vez. Um dispositivo ocupado é uma causa possível, não uma conclusão para toda imagem preta.",
+            "Se o aplicativo do sistema também falhar, confira cabo, tampa física e permissões. Se apenas o OBS falhar, registre as configurações da fonte e a versão do programa para uma solicitação de suporte específica."
+          ]
+        },
+        {
+          "heading": "Recupere uma configuração que funcione",
+          "paragraphs": [
+            "Quando a cena temporária mostrar uma imagem em movimento, volte à original e reintroduza as camadas uma por vez. Pare quando a fonte desaparecer: a última alteração é uma pista útil.",
+            "Evite baixar pacotes aleatórios de drivers ou plugins como primeira medida. Mantenha a cena temporária até confirmar que funciona depois de fechar e reabrir o OBS. Esse procedimento verifica a captura local; não diagnostica um serviço remoto nem a conexão com a internet."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "OBS: fontes de captura de vídeo",
+          "url": "https://obsproject.com/kb/video-capture-sources"
+        },
+        {
+          "label": "OBS: ordem e transformação das fontes",
+          "url": "https://obsproject.com/kb/sources-guide"
+        }
+      ],
+      "related": [
+        "obs-webcam-setup",
+        "webcam-in-use",
+        "webcam-black-screen"
+      ]
+    },
+    {
+      "id": "webcam-crop",
+      "title": "Recortar a webcam no OBS sem deformar a imagem",
+      "description": "Recorte as bordas da câmera, preserve a proporção e confira o enquadramento no OBS. Diferencie recortar uma fonte de alterar seu tamanho.",
+      "heading": "Como recortar e posicionar a webcam no OBS",
+      "lead": "Recortar remove bordas indesejadas; redimensionar altera o tamanho exibido. Para uma janela de câmera mais estreita, recorte primeiro e redimensione proporcionalmente a imagem restante, preservando o formato de rostos e objetos.",
+      "imageAlt": "Cantos de recorte ao redor da imagem de câmera com uma referência circular sem deformação.",
+      "sections": [
+        {
+          "heading": "Defina o enquadramento necessário",
+          "paragraphs": [
+            "Decida o que precisa continuar visível: cabeça, mãos ou um objeto na mesa. Deixe espaço para movimentos normais. Um quadro que só funciona quando você fica imóvel cortará informações úteis durante a chamada.",
+            "Guarde uma cópia da composição ou anote os valores de transformação antes de editar. Uma câmera pode parecer esticada mesmo funcionando corretamente; nesse caso, o problema é da composição, não do sensor."
+          ]
+        },
+        {
+          "heading": "Faça um recorte que possa desfazer",
+          "steps": [
+            "Selecione a fonte da câmera no OBS e abra Editar transformação. Ajuste os valores de recorte das bordas que deseja remover.",
+            "Como alternativa, segure Alt no Windows ou Option no macOS enquanto arrasta as alças da caixa da fonte, conforme a documentação do OBS.",
+            "Redimensione e posicione o resultado sem esticá-lo deliberadamente para outra proporção. Use os controles de transformação quando precisar de posicionamento preciso."
+          ]
+        },
+        {
+          "heading": "Confira o que o recorte alterou",
+          "paragraphs": [
+            "Mova as mãos em direção às bordas e incline-se um pouco para cada lado. Se uma área importante desaparecer, reduza o recorte ou reposicione a câmera. Observe um objeto redondo: uma forma claramente oval pode revelar um esticamento indesejado.",
+            "O recorte não cria detalhes novos. Ampliar uma região pequena pode deixá-la menos nítida. Antes de aumentar a nitidez artificial, compare um recorte menos agressivo no mesmo tamanho de exibição."
+          ]
+        },
+        {
+          "heading": "Separe enquadramento de privacidade",
+          "paragraphs": [
+            "Confira todas as cenas que utilizam a câmera. Recortar uma composição não garante que outras cenas ou aplicativos usem esse recorte. Retire do campo real os objetos sensíveis cuja aparição acidental seria um problema.",
+            "Se usar uma moldura decorativa, coloque-a acima da câmera e confira a abertura transparente. O guia de molduras explica essa camada separadamente. Salve a composição depois de verificar movimentos normais e as dimensões de saída desejadas."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "OBS: recorte e transformação das fontes",
+          "url": "https://obsproject.com/kb/sources-guide"
+        },
+        {
+          "label": "OBS: proporção da imagem",
+          "url": "https://obsproject.com/kb/aspect-ratio-guide"
+        }
+      ],
+      "related": [
+        "obs-webcam-frame",
+        "obs-webcam-setup",
+        "webcam-background"
+      ]
+    },
+    {
+      "id": "webcam-lighting",
+      "title": "Iluminação para webcam: melhore um rosto escuro",
+      "description": "Compare a iluminação da webcam: posicione a luz, reduza contraluz e reflexos e confira a imagem antes de alterar os ajustes de exposição.",
+      "heading": "Ilumine sua webcam com o que você já tem",
+      "lead": "Um ambiente mais claro nem sempre produz um rosto mais visível na câmera. A posição da luz importa. Comece com a janela ou luminária disponível e compare algumas posições antes de decidir que precisa de equipamento novo.",
+      "imageAlt": "Pessoa entre duas fontes de luz suave com uma câmera acima.",
+      "sections": [
+        {
+          "heading": "Identifique a área mais clara",
+          "paragraphs": [
+            "Olhe a prévia e encontre o elemento mais brilhante: uma janela, uma lâmpada, uma tela ou seu rosto. Se uma janela clara ocupar o fundo, mude de posição para que ela ilumine você pela frente ou pelo lado.",
+            "Mantenha a posição da câmera fixa durante a comparação. Mudar luz, exposição e distância ao mesmo tempo dificulta saber o que ajudou."
+          ]
+        },
+        {
+          "heading": "Faça uma comparação curta",
+          "steps": [
+            "Confira a imagem com a iluminação habitual. Observe se os olhos estão visíveis e se o rosto está iluminado de maneira uniforme.",
+            "Mova uma luminária para um dos lados da câmera, fora do quadro, ou vire-se para uma janela. Mantenha lâmpadas quentes longe de tecidos e siga suas instruções de uso.",
+            "Mova-se devagar e confira se a imagem continua clara. Se usa óculos, ajuste o ângulo da luz para reduzir reflexos em vez de apenas aumentar o brilho."
+          ]
+        },
+        {
+          "heading": "Ajuste a câmera depois da luz",
+          "paragraphs": [
+            "Espere a exposição automática se estabilizar depois de cada mudança. Se houver suporte, compare um pequeno ajuste de exposição com o valor anterior. Os controles variam por câmera e o aplicativo de chamadas pode aplicar ajustes próprios.",
+            "Se uma luz colorida deixar a pele ou objetos brancos com aparência estranha, compare com uma única fonte de luz mais simples. Evite combinar vários efeitos fortes enquanto investiga o problema inicial. O objetivo é uma imagem estável e útil, não um filtro específico."
+          ]
+        },
+        {
+          "heading": "Confira as condições reais de uso",
+          "paragraphs": [
+            "Repita a verificação no horário habitual da chamada. A luz do dia e o conteúdo da tela podem alterar o resultado. Se aparecerem faixas ou pulsações de brilho, compare com outra fonte de luz e consulte os ajustes antioscilação compatíveis com a câmera.",
+            "Uma boa imagem local não comprova a qualidade do vídeo remoto. Se aqui estiver boa e outra pessoa receber uma imagem ruim, mantenha essa iluminação e investigue o aplicativo ou a conexão separadamente. Anote a disposição escolhida para reproduzi-la facilmente."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Microsoft: controles de imagem compatíveis e ajustes próprios dos aplicativos",
+          "url": "https://support.microsoft.com/en-us/windows/hardware/camera/manage-cameras-with-camera-settings-in-windows-11"
+        }
+      ],
+      "related": [
+        "webcam-image-quality",
+        "webcam-setup",
+        "webcam-background"
+      ]
+    }
+  ]
+}

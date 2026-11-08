@@ -1,0 +1,21 @@
+{
+  "name": "stripchat-static-site",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "scripts": {
+    "build": "node _build/build.mjs",
+    "preview": "node _build/preview.mjs",
+    "check:site": "python _build/check-site.py",
+    "check:browser": "node _build/check-help-browser.cjs",
+    "check:fullsite": "node _build/check-fullsite-browser.cjs",
+    "images:help": "node _build/help-illustrations.mjs",
+    "images:social": "node _build/site-social.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.64.1",
+    "sharp": "0.35.5"
+  }
+}

@@ -33,6 +33,7 @@ export const SECTIONS = {
     nav: [
       ['/kategorii/', 'Категории'],
       ['/gid/', 'Гиды'],
+      ['/help/', 'Камера и звук'],
       ['/model/', 'Стать моделью'],
       ['/partner/', 'Партнёрам'],
     ],
@@ -56,6 +57,7 @@ export const SECTIONS = {
       ['/model/', 'Работа моделью'],
       ['/model/skolko-zarabatyvayut/', 'Доход'],
       ['/model/kak-nachat/', 'Как начать'],
+      ['/help/', 'Камера и звук'],
     ],
     cta: { href: LINKS.modelSignup, text: 'Стать моделью', external: true },
     footer: [
@@ -74,6 +76,7 @@ export const SECTIONS = {
       ['/partner/', 'Партнёрская программа'],
       ['/partner/kak-zarabotat/', 'Как заработать'],
       ['/partner/instrumenty/', 'Инструменты'],
+      ['/help/', 'Камера и звук'],
     ],
     cta: { href: LINKS.partnerSignup, text: 'Регистрация в Stripcash', external: true },
     footer: [

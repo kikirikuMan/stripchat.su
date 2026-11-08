@@ -1,0 +1,318 @@
+{
+  "reviewDate": "2026-11-08",
+  "scope": "Read-only comparison of supplied Russian source against machine-translated locale files. Exact replacements restore meaning and terminology; they do not add new content.",
+  "globalEdits": [
+    {
+      "locale": "en",
+      "from": "privates",
+      "to": "private shows",
+      "reason": "Private shows are a platform mode; the bare plural is misleading in English."
+    },
+    {
+      "locale": "en",
+      "from": "Privates",
+      "to": "Private shows",
+      "reason": "Same terminology at sentence start."
+    },
+    {
+      "locale": "en",
+      "from": "type menu",
+      "to": "tip menu",
+      "reason": "Russian тип-меню means the tipping menu, not a menu type."
+    },
+    {
+      "locale": "en",
+      "from": "menu type",
+      "to": "tip menu",
+      "reason": "Restore platform terminology."
+    },
+    {
+      "locale": "en",
+      "from": "Menu type",
+      "to": "Tip menu",
+      "reason": "Restore platform terminology in headings."
+    },
+    {
+      "locale": "en",
+      "from": "without water",
+      "to": "without filler",
+      "reason": "Без воды is an idiom about concise writing."
+    },
+    {
+      "locale": "en",
+      "from": "All 20 themes",
+      "to": "All 20 topics",
+      "reason": "Technical guide topics, not visual themes."
+    },
+    {
+      "locale": "es",
+      "from": "tipos de menú",
+      "to": "menús de propinas",
+      "reason": "Restore Russian тип-меню terminology."
+    },
+    {
+      "locale": "es",
+      "from": "menú de tipos",
+      "to": "menú de propinas",
+      "reason": "Restore Russian тип-меню terminology."
+    }
+  ],
+  "edits": [
+    {
+      "locale": "en",
+      "route": "/",
+      "path": "meta.title",
+      "from": "Stripchat - online webcam for free 18+",
+      "to": "Stripchat: free live webcam streams · 18+",
+      "reason": "Natural translation of the supplied title, retaining the brand and adult qualifier."
+    },
+    {
+      "locale": "en",
+      "route": "/",
+      "path": "meta.h1",
+      "from": "Strip chat: free webcam chat with girls online",
+      "to": "Stripchat: free online webcam chat with girls",
+      "reason": "Preserve the site brand and natural word order."
+    },
+    {
+      "locale": "en",
+      "route": "/",
+      "path": "body",
+      "from": "call her privately",
+      "to": "invite her to a private show",
+      "reason": "Source means the platform's private-show mode, not a private telephone call."
+    },
+    {
+      "locale": "en",
+      "route": "/gid/",
+      "path": "body",
+      "from": "while another can only write to users with tokens",
+      "to": "while another only lets users with tokens write in chat",
+      "reason": "Machine translation reverses who is allowed to write."
+    },
+    {
+      "locale": "en",
+      "route": "/gid/",
+      "path": "body",
+      "from": "How can I prevent a purchase from appearing on my bank statement?",
+      "to": "How can I keep a purchase from standing out on my bank statement?",
+      "reason": "Original says not to attract attention, not to hide a purchase from the statement entirely."
+    },
+    {
+      "locale": "en",
+      "route": "/gid/",
+      "path": "meta.description",
+      "from": "how a private differs from a group show",
+      "to": "how a private show differs from a group show",
+      "reason": "Use the correct noun phrase."
+    },
+    {
+      "locale": "en",
+      "route": "/gid/",
+      "path": "body",
+      "from": "an exclusive private is different from a regular one",
+      "to": "an exclusive private show differs from a regular one",
+      "reason": "Use the correct noun phrase."
+    },
+    {
+      "locale": "en",
+      "route": "/gid/anonimnost/",
+      "path": "meta.description",
+      "from": "accurate payment",
+      "to": "careful payment practices",
+      "reason": "Аккуратная оплата refers to handling payment carefully, not numerical accuracy."
+    },
+    {
+      "locale": "en",
+      "route": "/gid/anonimnost/",
+      "path": "meta.card",
+      "from": "Nick, separate mail, payment and protection from fraudsters",
+      "to": "Nickname, separate email, payment and protection from scammers",
+      "reason": "Nick is not a person's name here; mail means email."
+    },
+    {
+      "locale": "en",
+      "route": "/gid/anonimnost/",
+      "path": "body",
+      "from": "Nick: the first thing they know about you",
+      "to": "Your nickname: the first thing people learn about you",
+      "reason": "Restore the noun's intended meaning."
+    },
+    {
+      "locale": "en",
+      "route": "/gid/anonimnost/",
+      "path": "body",
+      "from": "The model and other spectators see only him.",
+      "to": "The model and other viewers only see that username.",
+      "reason": "Russian pronoun refers to the nickname, not a man."
+    },
+    {
+      "locale": "en",
+      "route": "/gid/anonimnost/",
+      "path": "body",
+      "from": "Keep with you:",
+      "to": "Keep these details to yourself:",
+      "reason": "Original asks users not to disclose these details, not to carry them."
+    },
+    {
+      "locale": "en",
+      "route": "/gid/anonimnost/",
+      "path": "body",
+      "from": "Turn on your camera in cam-to-cam mode and see what's in the frame.",
+      "to": "When using your camera in cam-to-cam mode, check what is visible in the frame.",
+      "reason": "Retain conditional advice rather than a new instruction to activate a camera."
+    },
+    {
+      "locale": "en",
+      "route": "/gid/anonimnost/",
+      "path": "body",
+      "from": "write to support the platform",
+      "to": "contact the platform's support team",
+      "reason": "Natural translation; support is the help department, not an instruction to endorse the platform."
+    },
+    {
+      "locale": "en",
+      "route": "/gid/chaevye/",
+      "path": "body",
+      "from": "A goal is a goal that a model sets on the airwaves.",
+      "to": "A goal is a token target that a model sets during a stream.",
+      "reason": "Clarify existing source meaning and remove the mistranslated broadcast medium."
+    },
+    {
+      "locale": "en",
+      "route": "/gid/chaevye/",
+      "path": "body",
+      "from": "If a model or other viewers are quick to tip, you don't owe them anything.",
+      "to": "If a model or other viewers pressure you to tip, you do not owe them anything.",
+      "reason": "Source торопят с чаевыми means pressuring the reader, not tipping quickly themselves."
+    },
+    {
+      "locale": "en",
+      "route": "/gid/besplatno/",
+      "path": "meta.faq.2.q",
+      "from": "Can I get into private for free?",
+      "to": "Can I join a private show for free?",
+      "reason": "Platform terminology."
+    },
+    {
+      "locale": "en",
+      "route": "/gid/besplatno/",
+      "path": "body",
+      "from": "Didn't catch the air?",
+      "to": "Did the stream fail to interest you?",
+      "reason": "Не зацепил эфир describes the viewer's interest, not a reception failure."
+    },
+    {
+      "locale": "en",
+      "route": "/gid/bez-registracii/",
+      "path": "body",
+      "from": "trying private one day",
+      "to": "trying a private show one day",
+      "reason": "Platform terminology."
+    },
+    {
+      "locale": "en",
+      "route": "/gid/bez-registracii/",
+      "path": "body",
+      "from": "I want to try private or thank the model",
+      "to": "I want to try a private show or thank the model",
+      "reason": "Platform terminology."
+    },
+    {
+      "locale": "es",
+      "route": "/",
+      "path": "meta.faq.1.a",
+      "from": "No es necesario mirar.",
+      "to": "No es necesario registrarse para mirar.",
+      "reason": "Critical meaning reversal: source says registration is unnecessary for viewing, not that viewing is unnecessary."
+    },
+    {
+      "locale": "es",
+      "route": "/",
+      "path": "meta.h1",
+      "from": "Chat de striptease: chat de cámara web gratuito con chicas en línea",
+      "to": "Stripchat: chat gratuito con chicas por webcam en línea",
+      "reason": "Preserve the brand rather than translating its name as an activity."
+    },
+    {
+      "locale": "es",
+      "route": "/",
+      "path": "body",
+      "from": "llámala en privado",
+      "to": "invítala a un show privado",
+      "reason": "Source refers to a platform mode, not a telephone call."
+    },
+    {
+      "locale": "es",
+      "route": "/gid/alternativa-chat-ruletke/",
+      "path": "meta.streamTitle",
+      "from": "Éteres que tú mismo eliges",
+      "to": "Transmisiones que eliges tú",
+      "reason": "Эфиры means streams, not the chemical substance ether."
+    },
+    {
+      "locale": "es",
+      "route": "/gid/alternativa-chat-ruletke/",
+      "path": "body",
+      "from": "Mostrar y chatear con el modelo",
+      "to": "Espectáculo y chat con la modelo",
+      "reason": "Шоу is a noun, not an imperative to show something."
+    },
+    {
+      "locale": "es",
+      "route": "/gid/alternativa-chat-ruletke/",
+      "path": "body",
+      "from": "En la ruleta de tu interlocutor, se te da una cola: presiona el botón y atrapa al que se encuentra allí.",
+      "to": "En la ruleta de chat te asignan un interlocutor al azar: pulsas el botón y hablas con quien aparezca.",
+      "reason": "Machine translation of figurative source is nonsensical; restore the random matching meaning."
+    },
+    {
+      "locale": "es",
+      "route": "/gid/alternativa-chat-ruletke/",
+      "path": "body",
+      "from": "el modelo funciona aquí",
+      "to": "la modelo está trabajando aquí",
+      "reason": "Работает means works as a person, not functions as a device."
+    },
+    {
+      "locale": "en",
+      "route": "/kategorii/populyarnye/",
+      "path": "meta.faq.1.a",
+      "from": "Not required.",
+      "to": "Not necessarily.",
+      "reason": "Не обязательно answers whether a popular model is necessarily the best; it is not a requirement statement."
+    },
+    {
+      "locale": "en",
+      "route": "/kategorii/populyarnye/",
+      "path": "meta.faq.3.a",
+      "from": "invite a model to private.",
+      "to": "invite a model to a private show.",
+      "reason": "Restore the platform mode noun phrase."
+    },
+    {
+      "locale": "en",
+      "route": "/kategorii/populyarnye/",
+      "path": "body",
+      "from": "<th>Small ether</th>",
+      "to": "<th>Small stream</th>",
+      "reason": "Эфир means live stream, not ether."
+    },
+    {
+      "locale": "en",
+      "route": "/kategorii/populyarnye/",
+      "path": "body",
+      "from": "<td>Private</td>",
+      "to": "<td>Private show</td>",
+      "reason": "Restore platform terminology."
+    },
+    {
+      "locale": "en",
+      "route": "/kategorii/populyarnye/",
+      "path": "body",
+      "from": "you will go on air that are lost in the general sorting",
+      "to": "you will find streams that get lost in the general feed",
+      "reason": "Source says viewer finds streams; translation incorrectly makes viewer start broadcasting."
+    }
+  ]
+}

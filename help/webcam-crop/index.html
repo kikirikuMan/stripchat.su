@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ru" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Как обрезать вебку в OBS без растянутого изображения</title>
+  <meta name="description" content="Обрезка краёв камеры в OBS, сохранение пропорций и проверка итогового кадра. Чем кадрирование отличается от изменения размера изображения.">
+  <link rel="canonical" href="https://stripchat.su/help/webcam-crop/">
+  <link rel="alternate" hreflang="ru" href="https://stripchat.su/help/webcam-crop/">
+  <link rel="alternate" hreflang="en" href="https://stripchat.su/en/help/webcam-crop/">
+  <link rel="alternate" hreflang="es" href="https://stripchat.su/es/help/webcam-crop/">
+  <link rel="alternate" hreflang="pt" href="https://stripchat.su/pt/help/webcam-crop/">
+  <link rel="alternate" hreflang="de" href="https://stripchat.su/de/help/webcam-crop/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://stripchat.su/zh/help/webcam-crop/">
+  <link rel="alternate" hreflang="hi" href="https://stripchat.su/hi/help/webcam-crop/">
+  <link rel="alternate" hreflang="ar" href="https://stripchat.su/ar/help/webcam-crop/">
+  <link rel="alternate" hreflang="x-default" href="https://stripchat.su/en/help/webcam-crop/">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="theme-color" content="#0f0f14">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="pt_BR">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:locale:alternate" content="zh_CN">
+  <meta property="og:locale:alternate" content="hi_IN">
+  <meta property="og:locale:alternate" content="ar_SA">
+  <meta property="og:title" content="Как обрезать вебку в OBS без растянутого изображения">
+  <meta property="og:description" content="Обрезка краёв камеры в OBS, сохранение пропорций и проверка итогового кадра. Чем кадрирование отличается от изменения размера изображения.">
+  <meta property="og:url" content="https://stripchat.su/help/webcam-crop/">
+  <meta property="og:image" content="https://stripchat.su/img/help/webcam-crop.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Углы кадрирования вокруг изображения камеры и круг для проверки пропорций.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://stripchat.su/img/help/webcam-crop.png">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="stylesheet" href="/assets/site.css?v=fbae5070">
+  <link rel="stylesheet" href="/assets/help.css?v=de76c1516f">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://stripchat.su/help/webcam-crop/#page","url":"https://stripchat.su/help/webcam-crop/","name":"Как обрезать вебку в OBS без растянутого изображения","description":"Обрезка краёв камеры в OBS, сохранение пропорций и проверка итогового кадра. Чем кадрирование отличается от изменения размера изображения.","inLanguage":"ru","dateModified":"2026-11-08","isPartOf":{"@id":"https://stripchat.su/#website"},"breadcrumb":{"@id":"https://stripchat.su/help/webcam-crop/#breadcrumb"}},{"@type":"WebSite","@id":"https://stripchat.su/#website","url":"https://stripchat.su/","name":"Stripchat.su","inLanguage":"ru"},{"@type":"BreadcrumbList","@id":"https://stripchat.su/help/webcam-crop/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Главная","item":"https://stripchat.su/"},{"@type":"ListItem","position":2,"name":"Помощь с камерой и микрофоном","item":"https://stripchat.su/help/"},{"@type":"ListItem","position":3,"name":"Как обрезать и расположить изображение вебки в OBS","item":"https://stripchat.su/help/webcam-crop/"}]},{"@type":"TechArticle","@id":"https://stripchat.su/help/webcam-crop/#article","headline":"Как обрезать и расположить изображение вебки в OBS","description":"Обрезка краёв камеры в OBS, сохранение пропорций и проверка итогового кадра. Чем кадрирование отличается от изменения размера изображения.","inLanguage":"ru","dateModified":"2026-11-08","mainEntityOfPage":{"@id":"https://stripchat.su/help/webcam-crop/#page"},"image":"https://stripchat.su/img/help/webcam-crop.png","citation":["https://obsproject.com/kb/sources-guide","https://obsproject.com/kb/aspect-ratio-guide"]}]}</script>
+
+</head>
+<body class="section-help">
+  <a class="skip-link" href="#main">Перейти к содержанию</a>
+  <header class="site-header"><a class="logo" href="/"><img src="/favicon.svg" width="28" height="28" alt=""><span dir="ltr">Stripchat.su</span></a><nav class="site-nav" dir="ltr" aria-label="Основное меню"><a href="/">Главная</a><a href="/help/">Все инструкции</a><a href="/o-sajte/">О сайте</a></nav><details class="language-switcher" dir="ltr"><summary class="language-toggle" aria-label="Язык: Русский" title="Язык"><svg class="language-globe" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c5 5 5 13 0 18-5-5-5-13 0-18Z"/></svg><span class="language-current" lang="ru">Русский</span><span class="language-code" aria-hidden="true">RU</span><svg class="language-chevron" viewBox="0 0 16 16" width="12" height="12" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="m4 6 4 4 4-4"/></svg></summary><nav class="language-nav" aria-label="Язык"><a href="/help/webcam-crop/" lang="ru" hreflang="ru" dir="ltr" aria-current="page">Русский<span class="language-check" aria-hidden="true">✓</span></a><a href="/en/help/webcam-crop/" lang="en" hreflang="en" dir="ltr">English</a><a href="/es/help/webcam-crop/" lang="es" hreflang="es" dir="ltr">Español</a><a href="/pt/help/webcam-crop/" lang="pt" hreflang="pt" dir="ltr">Português</a><a href="/de/help/webcam-crop/" lang="de" hreflang="de" dir="ltr">Deutsch</a><a href="/zh/help/webcam-crop/" lang="zh-Hans" hreflang="zh-Hans" dir="ltr">简体中文</a><a href="/hi/help/webcam-crop/" lang="hi" hreflang="hi" dir="ltr">हिन्दी</a><a href="/ar/help/webcam-crop/" lang="ar" hreflang="ar" dir="rtl">العربية</a></nav></details><script src="/assets/language-switcher.js?v=5b205ca92360" defer></script></header>
+  <main id="main">
+    <nav class="crumbs breadcrumbs" aria-label="Хлебные крошки"><a href="/">Главная</a><span class="sep" aria-hidden="true">›</span><a href="/help/">Помощь с камерой и микрофоном</a><span class="sep" aria-hidden="true">›</span><span aria-current="page">Как обрезать и расположить изображение вебки в OBS</span></nav>
+    <article>
+      <header class="article-header"><p class="eyebrow">Проверено <time datetime="2026-11-08">8 ноября 2026 г.</time></p><h1 class="page-title">Как обрезать и расположить изображение вебки в OBS</h1><p class="lead">Кадрирование убирает края изображения, а масштабирование меняет его размер на экране. Для узкого окна камеры сначала обрежьте лишнее, затем пропорционально измените размер, сохранив естественную форму лиц и предметов.</p></header>
+
+
+        <figure class="article-image"><img src="/img/help/webcam-crop.svg" width="1200" height="630" alt="Углы кадрирования вокруг изображения камеры и круг для проверки пропорций." decoding="async" fetchpriority="high"></figure>
+        <nav class="contents" aria-label="В этой инструкции"><h2>В этой инструкции</h2><ol><li><a href="#section-1">Определите нужные границы кадра</a></li><li><a href="#section-2">Выполните обратимую обрезку</a></li><li><a href="#section-3">Проверьте последствия обрезки</a></li><li><a href="#section-4">Не путайте кадрирование с защитой приватности</a></li></ol></nav>
+        <section class="article-section" aria-labelledby="section-1"><h2 id="section-1">Определите нужные границы кадра</h2><p>Решите, что должно оставаться видимым: голова, руки или предмет на столе. Оставьте запас для обычных движений. Кадр, который подходит только для неподвижной позы, будет обрезать полезные детали во время разговора.</p><p>Сохраните копию композиции или запишите значения трансформации перед правкой. Растянутая картинка может быть следствием компоновки сцены, даже если сама камера исправна.</p></section><section class="article-section" aria-labelledby="section-2"><h2 id="section-2">Выполните обратимую обрезку</h2><ol><li>Выберите источник камеры в OBS и откройте «Изменить трансформацию». Укажите обрезку для нужных краёв.</li><li>Другой способ из документации OBS: удерживайте Alt в Windows или Option в macOS и перемещайте маркеры рамки источника.</li><li>Расположите обрезанное изображение и измените его размер, сохраняя пропорции. Для точного размещения используйте числовые параметры трансформации.</li></ol></section><section class="article-section" aria-labelledby="section-3"><h2 id="section-3">Проверьте последствия обрезки</h2><p>Подведите руки к границам кадра и немного наклонитесь в стороны. Если нужная часть исчезает, уменьшите обрезку или переставьте камеру. Круглый предмет поможет заметить растяжение: явный овал вместо круга указывает на нарушенные пропорции.</p><p>Обрезка не добавляет деталей. При сильном увеличении маленького участка изображение может выглядеть мягче. Прежде чем усиливать резкость, сравните менее тесный кадр при том же размере на экране.</p></section><section class="article-section" aria-labelledby="section-4"><h2 id="section-4">Не путайте кадрирование с защитой приватности</h2><p>Проверьте каждую сцену, использующую камеру. Обрезка в одной композиции не означает, что другие сцены или приложения применяют её тоже. Уберите чувствительные детали из комнаты, если их случайное появление недопустимо.</p><p>Декоративную рамку размещайте выше камеры и проверяйте её прозрачное окно. Отдельная инструкция посвящена этому слою. Сохраняйте композицию после проверки обычных движений и нужных выходных размеров.</p></section>
+        <section class="sources" aria-labelledby="sources"><h2 id="sources">Официальная документация</h2><ul><li><a href="https://obsproject.com/kb/sources-guide" rel="noopener noreferrer">OBS: официальная документация по источникам и композиции</a></li><li><a href="https://obsproject.com/kb/aspect-ratio-guide" rel="noopener noreferrer">OBS: официальная документация по источникам и композиции</a></li></ul></section>
+        <section aria-labelledby="related"><h2 id="related">Другие инструкции</h2><ul class="cards help-cards"><li><a href="/help/obs-webcam-frame/"><img src="/img/help/obs-webcam-frame.svg" width="1200" height="630" alt="" loading="lazy" decoding="async"><h3>Как добавить рамку для веб-камеры в OBS</h3><p>Добавьте прозрачную PNG-рамку поверх веб-камеры в OBS, совместите её с изображением и исправьте ошибки слоёв, прозрачности и обрезки.</p></a></li><li><a href="/help/obs-webcam-setup/"><img src="/img/help/obs-webcam-setup.svg" width="1200" height="630" alt="" loading="lazy" decoding="async"><h3>Как добавить и проверить веб-камеру в OBS Studio</h3><p>Добавьте веб-камеру в сцену OBS, выберите нужное устройство и проверьте изображение, видимость, разрешение и расположение в локальном предпросмотре.</p></a></li><li><a href="/help/webcam-background/"><img src="/img/help/webcam-background.svg" width="1200" height="630" alt="" loading="lazy" decoding="async"><h3>Как выбрать и настроить фон для веб-камеры</h3><p>Подготовьте фон для веб-камеры, сравните обычную комнату с размытием или картинкой и проверьте края изображения перед видеозвонком.</p></a></li></ul></section>
+
+    </article>
+  </main>
+  <footer class="site-footer"><section id="privacy"><h2>Конфиденциальность</h2><p>Тест начинается только после нажатия кнопки запуска и разрешения браузера. Видео и звук обрабатываются локально в браузере: этот инструмент не записывает и не отправляет их на сервер. При загрузке страницы хостинг получает обычные HTTP-запросы.</p><nav class="footer-nav" aria-label="Разделы сайта"><a href="/">Главная</a><a href="/help/">Все инструкции</a></nav><nav class="footer-nav footer-nav--info" aria-label="О сайте"><a href="/o-sajte/">О сайте</a><a href="/politika-konfidencialnosti/">Политика конфиденциальности</a><a href="/otkaz-ot-otvetstvennosti/">Отказ от ответственности</a></nav><p dir="ltr">© 2026 Stripchat.su</p></section></footer>
+</body>
+</html>

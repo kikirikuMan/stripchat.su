@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Camera in use by another app: find and release the webcam</title>
+  <meta name="description" content="Find which app may be holding your webcam, release it safely and distinguish a camera conflict from a permission or connection problem.">
+  <link rel="canonical" href="https://stripchat.su/en/help/webcam-in-use/">
+  <link rel="alternate" hreflang="ru" href="https://stripchat.su/help/webcam-in-use/">
+  <link rel="alternate" hreflang="en" href="https://stripchat.su/en/help/webcam-in-use/">
+  <link rel="alternate" hreflang="es" href="https://stripchat.su/es/help/webcam-in-use/">
+  <link rel="alternate" hreflang="pt" href="https://stripchat.su/pt/help/webcam-in-use/">
+  <link rel="alternate" hreflang="de" href="https://stripchat.su/de/help/webcam-in-use/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://stripchat.su/zh/help/webcam-in-use/">
+  <link rel="alternate" hreflang="hi" href="https://stripchat.su/hi/help/webcam-in-use/">
+  <link rel="alternate" hreflang="ar" href="https://stripchat.su/ar/help/webcam-in-use/">
+  <link rel="alternate" hreflang="x-default" href="https://stripchat.su/en/help/webcam-in-use/">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="theme-color" content="#0f0f14">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="ru_RU">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="pt_BR">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:locale:alternate" content="zh_CN">
+  <meta property="og:locale:alternate" content="hi_IN">
+  <meta property="og:locale:alternate" content="ar_SA">
+  <meta property="og:title" content="Camera in use by another app: find and release the webcam">
+  <meta property="og:description" content="Find which app may be holding your webcam, release it safely and distinguish a camera conflict from a permission or connection problem.">
+  <meta property="og:url" content="https://stripchat.su/en/help/webcam-in-use/">
+  <meta property="og:image" content="https://stripchat.su/img/help/webcam-in-use.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Two application windows connected to one camera, with one connection stopped.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://stripchat.su/img/help/webcam-in-use.png">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="/en/site.webmanifest">
+  <link rel="stylesheet" href="/assets/site.css?v=fbae5070">
+  <link rel="stylesheet" href="/assets/help.css?v=de76c1516f">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://stripchat.su/en/help/webcam-in-use/#page","url":"https://stripchat.su/en/help/webcam-in-use/","name":"Camera in use by another app: find and release the webcam","description":"Find which app may be holding your webcam, release it safely and distinguish a camera conflict from a permission or connection problem.","inLanguage":"en","dateModified":"2026-11-08","isPartOf":{"@id":"https://stripchat.su/en/#website"},"breadcrumb":{"@id":"https://stripchat.su/en/help/webcam-in-use/#breadcrumb"}},{"@type":"WebSite","@id":"https://stripchat.su/en/#website","url":"https://stripchat.su/en/","name":"Stripchat.su","inLanguage":"en"},{"@type":"BreadcrumbList","@id":"https://stripchat.su/en/help/webcam-in-use/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://stripchat.su/en/"},{"@type":"ListItem","position":2,"name":"Camera and microphone help","item":"https://stripchat.su/en/help/"},{"@type":"ListItem","position":3,"name":"Camera in use by another app: what to check","item":"https://stripchat.su/en/help/webcam-in-use/"}]},{"@type":"TechArticle","@id":"https://stripchat.su/en/help/webcam-in-use/#article","headline":"Camera in use by another app: what to check","description":"Find which app may be holding your webcam, release it safely and distinguish a camera conflict from a permission or connection problem.","inLanguage":"en","dateModified":"2026-11-08","mainEntityOfPage":{"@id":"https://stripchat.su/en/help/webcam-in-use/#page"},"image":"https://stripchat.su/img/help/webcam-in-use.png","citation":["https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia","https://support.microsoft.com/en-us/windows/hardware/camera/camera-doesn-t-work-in-windows"]}]}</script>
+
+</head>
+<body class="section-help">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header"><a class="logo" href="/en/"><img src="/favicon.svg" width="28" height="28" alt=""><span dir="ltr">Stripchat.su</span></a><nav class="site-nav" dir="ltr" aria-label="Main menu"><a href="/en/">Home</a><a href="/en/help/">All guides</a><a href="/en/o-sajte/">About this site</a></nav><details class="language-switcher" dir="ltr"><summary class="language-toggle" aria-label="Language: English" title="Language"><svg class="language-globe" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c5 5 5 13 0 18-5-5-5-13 0-18Z"/></svg><span class="language-current" lang="en">English</span><span class="language-code" aria-hidden="true">EN</span><svg class="language-chevron" viewBox="0 0 16 16" width="12" height="12" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="m4 6 4 4 4-4"/></svg></summary><nav class="language-nav" aria-label="Language"><a href="/help/webcam-in-use/" lang="ru" hreflang="ru" dir="ltr">Русский</a><a href="/en/help/webcam-in-use/" lang="en" hreflang="en" dir="ltr" aria-current="page">English<span class="language-check" aria-hidden="true">✓</span></a><a href="/es/help/webcam-in-use/" lang="es" hreflang="es" dir="ltr">Español</a><a href="/pt/help/webcam-in-use/" lang="pt" hreflang="pt" dir="ltr">Português</a><a href="/de/help/webcam-in-use/" lang="de" hreflang="de" dir="ltr">Deutsch</a><a href="/zh/help/webcam-in-use/" lang="zh-Hans" hreflang="zh-Hans" dir="ltr">简体中文</a><a href="/hi/help/webcam-in-use/" lang="hi" hreflang="hi" dir="ltr">हिन्दी</a><a href="/ar/help/webcam-in-use/" lang="ar" hreflang="ar" dir="rtl">العربية</a></nav></details><script src="/assets/language-switcher.js?v=5b205ca92360" defer></script></header>
+  <main id="main">
+    <nav class="crumbs breadcrumbs" aria-label="Breadcrumbs"><a href="/en/">Home</a><span class="sep" aria-hidden="true">›</span><a href="/en/help/">Camera and microphone help</a><span class="sep" aria-hidden="true">›</span><span aria-current="page">Camera in use by another app: what to check</span></nav>
+    <article>
+      <header class="article-header"><p class="eyebrow">Reviewed <time datetime="2026-11-08">November 8, 2026</time></p><h1 class="page-title">Camera in use by another app: what to check</h1><p class="lead">A camera can work in one app and refuse to open in another. Test for a conflict by leaving one camera app open at a time. An error saying the device could not be read is a clue, not proof that another app owns it.</p></header>
+
+
+        <figure class="article-image"><img src="/img/help/webcam-in-use.svg" width="1200" height="630" alt="Two application windows connected to one camera, with one connection stopped." decoding="async" fetchpriority="high"></figure>
+        <nav class="contents" aria-label="On this page"><h2>On this page</h2><ol><li><a href="#section-1">Record the symptom before closing apps</a></li><li><a href="#section-2">Reduce the test to one camera user</a></li><li><a href="#section-3">If the error remains with other apps closed</a></li><li><a href="#section-4">Finish with a repeatable result</a></li></ol></nav>
+        <section class="article-section" aria-labelledby="section-1"><h2 id="section-1">Record the symptom before closing apps</h2><p>Note which app works, which fails and the exact error message. A denied permission, missing camera and failed attempt to open a listed camera need different checks. Do not change several permissions just because one app says the camera is busy.</p><p>If you are currently in a meeting, save your work and leave it before testing. Closing a camera app will interrupt its video.</p></section><section class="article-section" aria-labelledby="section-2"><h2 id="section-2">Reduce the test to one camera user</h2><p>A successful retry identifies a useful workaround. It does not establish that every camera or operating system prevents simultaneous access.</p><ol><li>Stop previews in other browser tabs, meeting apps and camera configuration utilities.</li><li>Close those apps normally. Check the notification area or menu bar for a utility that remained running after its window closed.</li><li>Reload the failing page and try the camera once. If it starts, stop the test before reopening another app.</li><li>Reopen the other apps individually, repeating the same check to identify when the conflict returns.</li></ol></section><section class="article-section" aria-labelledby="section-3"><h2 id="section-3">If the error remains with other apps closed</h2><p>Try the system camera app by itself, then close it and retry the browser. If only the browser fails, check its selected camera and permissions. If both fail, check the USB connection or physical camera switch before reinstalling anything.</p><p>A browser NotReadableError can also reflect an operating-system or hardware problem. Keep the message in your notes instead of treating it as the name of a confirmed cause.</p></section><section class="article-section" aria-labelledby="section-4"><h2 id="section-4">Finish with a repeatable result</h2><p>If the owner of the camera is still unclear, save your work, restart the computer and open only the intended app. Compare this clean start with the earlier result.</p><p>For a managed computer, send support the camera model, failing app, error and the one-app test result. Avoid disabling security controls or repeatedly terminating unfamiliar system processes.</p></section>
+        <section class="sources" aria-labelledby="sources"><h2 id="sources">Official documentation</h2><ul><li><a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia" rel="noopener noreferrer">MDN: camera access errors</a></li><li><a href="https://support.microsoft.com/en-us/windows/hardware/camera/camera-doesn-t-work-in-windows" rel="noopener noreferrer">Microsoft: camera troubleshooting</a></li></ul></section>
+        <section aria-labelledby="related"><h2 id="related">Related guides</h2><ul class="cards help-cards"><li><a href="/en/help/webcam-test/"><img src="/img/help/webcam-test.svg" width="1200" height="630" alt="" loading="lazy" decoding="async"><h3>Test your webcam before a call</h3><p>Run a local webcam test, check the picture and selected camera, and work out whether a problem comes from the device, browser or calling app.</p></a></li><li><a href="/en/help/camera-permissions/"><img src="/img/help/camera-permissions.svg" width="1200" height="630" alt="" loading="lazy" decoding="async"><h3>Restore camera and microphone permissions</h3><p>Restore camera access by checking the site&#39;s permission, browser device choice and Windows or macOS settings without resetting every website.</p></a></li></ul></section>
+
+    </article>
+  </main>
+  <footer class="site-footer"><section id="privacy"><h2>Privacy</h2><p>The test starts only when you press a start button and the browser permits access. Video and audio are processed locally in your browser; this tool does not record or upload them. The hosting service still receives normal HTTP requests when you load this page.</p><nav class="footer-nav" aria-label="Site sections"><a href="/en/">Home</a><a href="/en/help/">All guides</a></nav><nav class="footer-nav footer-nav--info" aria-label="About this site"><a href="/en/o-sajte/">About this site</a><a href="/en/politika-konfidencialnosti/">Privacy policy</a><a href="/en/otkaz-ot-otvetstvennosti/">Disclaimer</a></nav><p dir="ltr">© 2026 Stripchat.su</p></section></footer>
+</body>
+</html>

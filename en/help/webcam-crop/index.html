@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Crop a webcam in OBS without stretching the picture</title>
+  <meta name="description" content="Crop camera edges, preserve aspect ratio and check the final frame in OBS. Understand the difference between trimming a source and scaling it.">
+  <link rel="canonical" href="https://stripchat.su/en/help/webcam-crop/">
+  <link rel="alternate" hreflang="ru" href="https://stripchat.su/help/webcam-crop/">
+  <link rel="alternate" hreflang="en" href="https://stripchat.su/en/help/webcam-crop/">
+  <link rel="alternate" hreflang="es" href="https://stripchat.su/es/help/webcam-crop/">
+  <link rel="alternate" hreflang="pt" href="https://stripchat.su/pt/help/webcam-crop/">
+  <link rel="alternate" hreflang="de" href="https://stripchat.su/de/help/webcam-crop/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://stripchat.su/zh/help/webcam-crop/">
+  <link rel="alternate" hreflang="hi" href="https://stripchat.su/hi/help/webcam-crop/">
+  <link rel="alternate" hreflang="ar" href="https://stripchat.su/ar/help/webcam-crop/">
+  <link rel="alternate" hreflang="x-default" href="https://stripchat.su/en/help/webcam-crop/">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="theme-color" content="#0f0f14">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="ru_RU">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="pt_BR">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:locale:alternate" content="zh_CN">
+  <meta property="og:locale:alternate" content="hi_IN">
+  <meta property="og:locale:alternate" content="ar_SA">
+  <meta property="og:title" content="Crop a webcam in OBS without stretching the picture">
+  <meta property="og:description" content="Crop camera edges, preserve aspect ratio and check the final frame in OBS. Understand the difference between trimming a source and scaling it.">
+  <meta property="og:url" content="https://stripchat.su/en/help/webcam-crop/">
+  <meta property="og:image" content="https://stripchat.su/img/help/webcam-crop.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Crop corners around a camera picture with an unchanged circular reference.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://stripchat.su/img/help/webcam-crop.png">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="/en/site.webmanifest">
+  <link rel="stylesheet" href="/assets/site.css?v=fbae5070">
+  <link rel="stylesheet" href="/assets/help.css?v=de76c1516f">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://stripchat.su/en/help/webcam-crop/#page","url":"https://stripchat.su/en/help/webcam-crop/","name":"Crop a webcam in OBS without stretching the picture","description":"Crop camera edges, preserve aspect ratio and check the final frame in OBS. Understand the difference between trimming a source and scaling it.","inLanguage":"en","dateModified":"2026-11-08","isPartOf":{"@id":"https://stripchat.su/en/#website"},"breadcrumb":{"@id":"https://stripchat.su/en/help/webcam-crop/#breadcrumb"}},{"@type":"WebSite","@id":"https://stripchat.su/en/#website","url":"https://stripchat.su/en/","name":"Stripchat.su","inLanguage":"en"},{"@type":"BreadcrumbList","@id":"https://stripchat.su/en/help/webcam-crop/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://stripchat.su/en/"},{"@type":"ListItem","position":2,"name":"Camera and microphone help","item":"https://stripchat.su/en/help/"},{"@type":"ListItem","position":3,"name":"Crop and position a webcam picture in OBS","item":"https://stripchat.su/en/help/webcam-crop/"}]},{"@type":"TechArticle","@id":"https://stripchat.su/en/help/webcam-crop/#article","headline":"Crop and position a webcam picture in OBS","description":"Crop camera edges, preserve aspect ratio and check the final frame in OBS. Understand the difference between trimming a source and scaling it.","inLanguage":"en","dateModified":"2026-11-08","mainEntityOfPage":{"@id":"https://stripchat.su/en/help/webcam-crop/#page"},"image":"https://stripchat.su/img/help/webcam-crop.png","citation":["https://obsproject.com/kb/sources-guide","https://obsproject.com/kb/aspect-ratio-guide"]}]}</script>
+
+</head>
+<body class="section-help">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header"><a class="logo" href="/en/"><img src="/favicon.svg" width="28" height="28" alt=""><span dir="ltr">Stripchat.su</span></a><nav class="site-nav" dir="ltr" aria-label="Main menu"><a href="/en/">Home</a><a href="/en/help/">All guides</a><a href="/en/o-sajte/">About this site</a></nav><details class="language-switcher" dir="ltr"><summary class="language-toggle" aria-label="Language: English" title="Language"><svg class="language-globe" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c5 5 5 13 0 18-5-5-5-13 0-18Z"/></svg><span class="language-current" lang="en">English</span><span class="language-code" aria-hidden="true">EN</span><svg class="language-chevron" viewBox="0 0 16 16" width="12" height="12" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="m4 6 4 4 4-4"/></svg></summary><nav class="language-nav" aria-label="Language"><a href="/help/webcam-crop/" lang="ru" hreflang="ru" dir="ltr">Русский</a><a href="/en/help/webcam-crop/" lang="en" hreflang="en" dir="ltr" aria-current="page">English<span class="language-check" aria-hidden="true">✓</span></a><a href="/es/help/webcam-crop/" lang="es" hreflang="es" dir="ltr">Español</a><a href="/pt/help/webcam-crop/" lang="pt" hreflang="pt" dir="ltr">Português</a><a href="/de/help/webcam-crop/" lang="de" hreflang="de" dir="ltr">Deutsch</a><a href="/zh/help/webcam-crop/" lang="zh-Hans" hreflang="zh-Hans" dir="ltr">简体中文</a><a href="/hi/help/webcam-crop/" lang="hi" hreflang="hi" dir="ltr">हिन्दी</a><a href="/ar/help/webcam-crop/" lang="ar" hreflang="ar" dir="rtl">العربية</a></nav></details><script src="/assets/language-switcher.js?v=5b205ca92360" defer></script></header>
+  <main id="main">
+    <nav class="crumbs breadcrumbs" aria-label="Breadcrumbs"><a href="/en/">Home</a><span class="sep" aria-hidden="true">›</span><a href="/en/help/">Camera and microphone help</a><span class="sep" aria-hidden="true">›</span><span aria-current="page">Crop and position a webcam picture in OBS</span></nav>
+    <article>
+      <header class="article-header"><p class="eyebrow">Reviewed <time datetime="2026-11-08">November 8, 2026</time></p><h1 class="page-title">Crop and position a webcam picture in OBS</h1><p class="lead">Cropping removes unwanted edges; scaling changes the displayed size. If you want a narrower camera panel, crop first and resize the remaining picture proportionally so faces and objects keep their shape.</p></header>
+
+
+        <figure class="article-image"><img src="/img/help/webcam-crop.svg" width="1200" height="630" alt="Crop corners around a camera picture with an unchanged circular reference." decoding="async" fetchpriority="high"></figure>
+        <nav class="contents" aria-label="On this page"><h2>On this page</h2><ol><li><a href="#section-1">Define the frame you need</a></li><li><a href="#section-2">Crop with a reversible transform</a></li><li><a href="#section-3">Check what the crop changed</a></li><li><a href="#section-4">Keep framing separate from privacy</a></li></ol></nav>
+        <section class="article-section" aria-labelledby="section-1"><h2 id="section-1">Define the frame you need</h2><p>Decide which part of the picture must remain visible: your head, hands or an object on the desk. Leave room for normal movement. A frame that fits only while you sit perfectly still will clip useful content during a call.</p><p>Keep a copy of the scene layout or note the transform values before editing. A camera can look stretched even when it is working correctly; that is a layout issue rather than a sensor fault.</p></section><section class="article-section" aria-labelledby="section-2"><h2 id="section-2">Crop with a reversible transform</h2><ol><li>Select the camera source in OBS and open Edit Transform. Adjust the crop values for the edges you want to trim.</li><li>Alternatively, hold Alt on Windows or Option on macOS while dragging the source&#39;s bounding-box handles, as described in OBS documentation.</li><li>Resize and position the cropped result without deliberately stretching it to a different aspect ratio. Use the transform controls when precise placement matters.</li></ol></section><section class="article-section" aria-labelledby="section-3"><h2 id="section-3">Check what the crop changed</h2><p>Move your hands toward the edges and lean slightly in each direction. If an important area disappears, reduce the crop or reposition the camera. Check a round object in the picture; an obvious oval can reveal unwanted stretching.</p><p>Cropping does not create more camera detail. Enlarging a small cropped region can make it look softer. Before increasing sharpening, compare a less aggressive crop at the same displayed size.</p></section><section class="article-section" aria-labelledby="section-4"><h2 id="section-4">Keep framing separate from privacy</h2><p>Check every scene that uses the camera. Cropping one source layout does not guarantee every other scene or app uses that crop. Remove sensitive objects from the room when their accidental appearance would matter.</p><p>When using a decorative overlay, place it above the camera and inspect its transparent opening. The frame guide covers that layer separately. Save the layout only after checking normal movement and the intended output dimensions.</p></section>
+        <section class="sources" aria-labelledby="sources"><h2 id="sources">Official documentation</h2><ul><li><a href="https://obsproject.com/kb/sources-guide" rel="noopener noreferrer">OBS: source cropping and transforms</a></li><li><a href="https://obsproject.com/kb/aspect-ratio-guide" rel="noopener noreferrer">OBS: aspect ratio</a></li></ul></section>
+        <section aria-labelledby="related"><h2 id="related">Related guides</h2><ul class="cards help-cards"><li><a href="/en/help/obs-webcam-frame/"><img src="/img/help/obs-webcam-frame.svg" width="1200" height="630" alt="" loading="lazy" decoding="async"><h3>How to add a frame around your webcam in OBS</h3><p>Place a transparent PNG frame above a webcam in OBS, align the camera opening and fix common layer, transparency and cropping problems.</p></a></li><li><a href="/en/help/obs-webcam-setup/"><img src="/img/help/obs-webcam-setup.svg" width="1200" height="630" alt="" loading="lazy" decoding="async"><h3>How to add and check a webcam in OBS Studio</h3><p>Add a webcam source to an OBS scene, select the correct device and check visibility, resolution and layout in the local preview.</p></a></li><li><a href="/en/help/webcam-background/"><img src="/img/help/webcam-background.svg" width="1200" height="630" alt="" loading="lazy" decoding="async"><h3>How to choose a background for your webcam</h3><p>Choose a webcam background, compare room framing with blur or a replacement image, and check edges and performance before a video call.</p></a></li></ul></section>
+
+    </article>
+  </main>
+  <footer class="site-footer"><section id="privacy"><h2>Privacy</h2><p>The test starts only when you press a start button and the browser permits access. Video and audio are processed locally in your browser; this tool does not record or upload them. The hosting service still receives normal HTTP requests when you load this page.</p><nav class="footer-nav" aria-label="Site sections"><a href="/en/">Home</a><a href="/en/help/">All guides</a></nav><nav class="footer-nav footer-nav--info" aria-label="About this site"><a href="/en/o-sajte/">About this site</a><a href="/en/politika-konfidencialnosti/">Privacy policy</a><a href="/en/otkaz-ot-otvetstvennosti/">Disclaimer</a></nav><p dir="ltr">© 2026 Stripchat.su</p></section></footer>
+</body>
+</html>

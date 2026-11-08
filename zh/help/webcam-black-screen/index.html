@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="zh-Hans" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>摄像头黑屏排查：遮挡、设备占用、权限和连接</title>
+  <meta name="description" content="从黑屏、冻结和找不到设备的区别开始，检查镜头遮挡、应用占用和浏览器权限。用系统预览与网页预览定位问题所在。">
+  <link rel="canonical" href="https://stripchat.su/zh/help/webcam-black-screen/">
+  <link rel="alternate" hreflang="ru" href="https://stripchat.su/help/webcam-black-screen/">
+  <link rel="alternate" hreflang="en" href="https://stripchat.su/en/help/webcam-black-screen/">
+  <link rel="alternate" hreflang="es" href="https://stripchat.su/es/help/webcam-black-screen/">
+  <link rel="alternate" hreflang="pt" href="https://stripchat.su/pt/help/webcam-black-screen/">
+  <link rel="alternate" hreflang="de" href="https://stripchat.su/de/help/webcam-black-screen/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://stripchat.su/zh/help/webcam-black-screen/">
+  <link rel="alternate" hreflang="hi" href="https://stripchat.su/hi/help/webcam-black-screen/">
+  <link rel="alternate" hreflang="ar" href="https://stripchat.su/ar/help/webcam-black-screen/">
+  <link rel="alternate" hreflang="x-default" href="https://stripchat.su/en/help/webcam-black-screen/">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="theme-color" content="#0f0f14">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:locale:alternate" content="ru_RU">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="pt_BR">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:locale:alternate" content="hi_IN">
+  <meta property="og:locale:alternate" content="ar_SA">
+  <meta property="og:title" content="摄像头黑屏排查：遮挡、设备占用、权限和连接">
+  <meta property="og:description" content="从黑屏、冻结和找不到设备的区别开始，检查镜头遮挡、应用占用和浏览器权限。用系统预览与网页预览定位问题所在。">
+  <meta property="og:url" content="https://stripchat.su/zh/help/webcam-black-screen/">
+  <meta property="og:image" content="https://stripchat.su/img/help/webcam-black-screen.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="黑屏预览旁的镜头、权限和连接检查示意图">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://stripchat.su/img/help/webcam-black-screen.png">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="/zh/site.webmanifest">
+  <link rel="stylesheet" href="/assets/site.css?v=fbae5070">
+  <link rel="stylesheet" href="/assets/help.css?v=de76c1516f">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://stripchat.su/zh/help/webcam-black-screen/#page","url":"https://stripchat.su/zh/help/webcam-black-screen/","name":"摄像头黑屏排查：遮挡、设备占用、权限和连接","description":"从黑屏、冻结和找不到设备的区别开始，检查镜头遮挡、应用占用和浏览器权限。用系统预览与网页预览定位问题所在。","inLanguage":"zh-Hans","dateModified":"2026-11-08","isPartOf":{"@id":"https://stripchat.su/zh/#website"},"breadcrumb":{"@id":"https://stripchat.su/zh/help/webcam-black-screen/#breadcrumb"}},{"@type":"WebSite","@id":"https://stripchat.su/zh/#website","url":"https://stripchat.su/zh/","name":"Stripchat.su","inLanguage":"zh-Hans"},{"@type":"BreadcrumbList","@id":"https://stripchat.su/zh/help/webcam-black-screen/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://stripchat.su/zh/"},{"@type":"ListItem","position":2,"name":"摄像头与麦克风帮助","item":"https://stripchat.su/zh/help/"},{"@type":"ListItem","position":3,"name":"摄像头黑屏时按什么顺序排查","item":"https://stripchat.su/zh/help/webcam-black-screen/"}]},{"@type":"TechArticle","@id":"https://stripchat.su/zh/help/webcam-black-screen/#article","headline":"摄像头黑屏时按什么顺序排查","description":"从黑屏、冻结和找不到设备的区别开始，检查镜头遮挡、应用占用和浏览器权限。用系统预览与网页预览定位问题所在。","inLanguage":"zh-Hans","dateModified":"2026-11-08","mainEntityOfPage":{"@id":"https://stripchat.su/zh/help/webcam-black-screen/#page"},"image":"https://stripchat.su/img/help/webcam-black-screen.png","citation":["https://support.microsoft.com/en-us/windows/hardware/camera/camera-doesn-t-work-in-windows","https://support.apple.com/en-gb/102437"]}]}</script>
+
+</head>
+<body class="section-help">
+  <a class="skip-link" href="#main">跳到正文</a>
+  <header class="site-header"><a class="logo" href="/zh/"><img src="/favicon.svg" width="28" height="28" alt=""><span dir="ltr">Stripchat.su</span></a><nav class="site-nav" dir="ltr" aria-label="主菜单"><a href="/zh/">首页</a><a href="/zh/help/">全部指南</a><a href="/zh/o-sajte/">关于本站</a></nav><details class="language-switcher" dir="ltr"><summary class="language-toggle" aria-label="语言: 简体中文" title="语言"><svg class="language-globe" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c5 5 5 13 0 18-5-5-5-13 0-18Z"/></svg><span class="language-current" lang="zh-Hans">简体中文</span><span class="language-code" aria-hidden="true">ZH</span><svg class="language-chevron" viewBox="0 0 16 16" width="12" height="12" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="m4 6 4 4 4-4"/></svg></summary><nav class="language-nav" aria-label="语言"><a href="/help/webcam-black-screen/" lang="ru" hreflang="ru" dir="ltr">Русский</a><a href="/en/help/webcam-black-screen/" lang="en" hreflang="en" dir="ltr">English</a><a href="/es/help/webcam-black-screen/" lang="es" hreflang="es" dir="ltr">Español</a><a href="/pt/help/webcam-black-screen/" lang="pt" hreflang="pt" dir="ltr">Português</a><a href="/de/help/webcam-black-screen/" lang="de" hreflang="de" dir="ltr">Deutsch</a><a href="/zh/help/webcam-black-screen/" lang="zh-Hans" hreflang="zh-Hans" dir="ltr" aria-current="page">简体中文<span class="language-check" aria-hidden="true">✓</span></a><a href="/hi/help/webcam-black-screen/" lang="hi" hreflang="hi" dir="ltr">हिन्दी</a><a href="/ar/help/webcam-black-screen/" lang="ar" hreflang="ar" dir="rtl">العربية</a></nav></details><script src="/assets/language-switcher.js?v=5b205ca92360" defer></script></header>
+  <main id="main">
+    <nav class="crumbs breadcrumbs" aria-label="面包屑导航"><a href="/zh/">首页</a><span class="sep" aria-hidden="true">›</span><a href="/zh/help/">摄像头与麦克风帮助</a><span class="sep" aria-hidden="true">›</span><span aria-current="page">摄像头黑屏时按什么顺序排查</span></nav>
+    <article>
+      <header class="article-header"><p class="eyebrow">核对日期 <time datetime="2026-11-08">2026年11月8日</time></p><h1 class="page-title">摄像头黑屏时按什么顺序排查</h1><p class="lead">黑屏、静止的旧画面和“找不到设备”是不同现象。先记下实际表现，再按连接、系统、浏览器的顺序检查，能减少不必要的设置改动。</p></header>
+
+
+        <figure class="article-image"><img src="/img/help/webcam-black-screen.svg" width="1200" height="630" alt="黑屏预览旁的镜头、权限和连接检查示意图" decoding="async" fetchpriority="high"></figure>
+        <nav class="contents" aria-label="本页目录"><h2>本页目录</h2><ol><li><a href="#section-1">确认是黑屏还是画面没有更新</a></li><li><a href="#section-2">排除最容易确认的原因</a></li><li><a href="#section-3">用两种预览定位问题</a></li><li><a href="#section-4">一次只改变一个条件</a></li></ol></nav>
+        <section class="article-section" aria-labelledby="section-1"><h2 id="section-1">确认是黑屏还是画面没有更新</h2><p>在镜头前慢慢移动一个物体。如果还能看到微弱轮廓，问题可能与光线或曝光有关；如果始终是同一张画面，则可能是视频轨道或应用冻结。出现明确错误提示时，把错误文字记下来，比单说黑屏更有用。</p><p>观察摄像头指示灯可以作为线索，但不同设备的指示方式不同，不能单凭灯亮就判断图像已被正常读取。也不要把灯灭视为没有任何应用获得权限的保证。</p></section><section class="article-section" aria-labelledby="section-2"><h2 id="section-2">排除最容易确认的原因</h2><p>先检查遮挡片、保护膜和系统快捷键，再处理软件。USB设备可以重新插接，但应避免在插头或线缆明显损坏时继续反复测试。</p><ol><li>打开镜头遮挡片，在脸部前方增加柔和照明。</li><li>确认当前选择的是正确镜头，而不是没有输入的虚拟摄像头。</li><li>关闭会议和录制程序，停止其他网页的摄像头测试。</li><li>重新启动一次测试，记录现象是否改变。</li></ol></section><section class="article-section" aria-labelledby="section-3"><h2 id="section-3">用两种预览定位问题</h2><p>先在系统相机应用查看，再关闭它并尝试浏览器。两者都失败，说明排查应优先集中在设备连接、系统识别或系统权限。只有浏览器失败，重点看站点授权、默认输入及浏览器设置。</p><p>若USB摄像头换接口后恢复，下一步可以逐个加回延长线或拓展坞，确认故障是否跟随某一环出现。若在另一台兼容电脑上也失败，保留结果并联系设备支持，而不是继续随机安装驱动。</p></section><section class="article-section" aria-labelledby="section-4"><h2 id="section-4">一次只改变一个条件</h2><p>不要同时更换浏览器、重装驱动和调整所有权限，否则即使恢复，也难以知道原因。写下简短记录，例如“系统预览正常，Chrome被拒绝；更改该站点权限后正常”。这对问题再次出现时很有帮助。</p><p>系统或浏览器更新后，先按官方说明检查兼容性。工作电脑的安全软件或管理策略可能限制访问，应该由管理员处理。排查完后恢复临时改动，只保留确实需要的设备授权。</p></section>
+        <section class="sources" aria-labelledby="sources"><h2 id="sources">官方文档</h2><ul><li><a href="https://support.microsoft.com/en-us/windows/hardware/camera/camera-doesn-t-work-in-windows" rel="noopener noreferrer">Microsoft：Windows摄像头无法工作</a></li><li><a href="https://support.apple.com/en-gb/102437" rel="noopener noreferrer">Apple：Mac内置摄像头无法工作</a></li></ul></section>
+        <section aria-labelledby="related"><h2 id="related">相关指南</h2><ul class="cards help-cards"><li><a href="/zh/help/camera-permissions/"><img src="/img/help/camera-permissions.svg" width="1200" height="630" alt="" loading="lazy" decoding="async"><h3>检查浏览器和系统的摄像头权限</h3><p>区分网站权限、浏览器设备选择和操作系统限制。按顺序检查摄像头访问，并在完成测试后撤销不再需要的授权。</p></a></li><li><a href="/zh/help/webcam-for-pc/"><img src="/img/help/webcam-for-pc.svg" width="1200" height="630" alt="" loading="lazy" decoding="async"><h3>连接和设置电脑摄像头</h3><p>将摄像头连接到电脑后，依次检查USB接口、系统识别、浏览器输入和麦克风。用可重复的排查步骤区分连接问题与应用设置问题。</p></a></li></ul></section>
+
+    </article>
+  </main>
+  <footer class="site-footer"><section id="privacy"><h2>隐私说明</h2><p>只有点击启动并允许访问后，测试才会读取所需设备。此工具在浏览器本地处理摄像头画面或麦克风信号，不录制、不上传这些内容。网站托管服务仍会接收加载页面所需的普通HTTP请求。</p><nav class="footer-nav" aria-label="网站栏目"><a href="/zh/">首页</a><a href="/zh/help/">返回全部指南</a></nav><nav class="footer-nav footer-nav--info" aria-label="关于本站"><a href="/zh/o-sajte/">关于本站</a><a href="/zh/politika-konfidencialnosti/">隐私政策</a><a href="/zh/otkaz-ot-otvetstvennosti/">免责声明</a></nav><p dir="ltr">© 2026 Stripchat.su</p></section></footer>
+</body>
+</html>

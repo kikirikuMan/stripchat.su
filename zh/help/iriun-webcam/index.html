@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="zh-Hans" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Iriun Webcam设置与排查：把手机用作电脑摄像头</title>
+  <meta name="description" content="了解Iriun手机端和电脑端的连接流程，检查虚拟摄像头选择、网络与画面冻结问题，并区分本地测试和第三方应用的隐私范围。">
+  <link rel="canonical" href="https://stripchat.su/zh/help/iriun-webcam/">
+  <link rel="alternate" hreflang="ru" href="https://stripchat.su/help/iriun-webcam/">
+  <link rel="alternate" hreflang="en" href="https://stripchat.su/en/help/iriun-webcam/">
+  <link rel="alternate" hreflang="es" href="https://stripchat.su/es/help/iriun-webcam/">
+  <link rel="alternate" hreflang="pt" href="https://stripchat.su/pt/help/iriun-webcam/">
+  <link rel="alternate" hreflang="de" href="https://stripchat.su/de/help/iriun-webcam/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://stripchat.su/zh/help/iriun-webcam/">
+  <link rel="alternate" hreflang="hi" href="https://stripchat.su/hi/help/iriun-webcam/">
+  <link rel="alternate" hreflang="ar" href="https://stripchat.su/ar/help/iriun-webcam/">
+  <link rel="alternate" hreflang="x-default" href="https://stripchat.su/en/help/iriun-webcam/">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="theme-color" content="#0f0f14">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:locale:alternate" content="ru_RU">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="pt_BR">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:locale:alternate" content="hi_IN">
+  <meta property="og:locale:alternate" content="ar_SA">
+  <meta property="og:title" content="Iriun Webcam设置与排查：把手机用作电脑摄像头">
+  <meta property="og:description" content="了解Iriun手机端和电脑端的连接流程，检查虚拟摄像头选择、网络与画面冻结问题，并区分本地测试和第三方应用的隐私范围。">
+  <meta property="og:url" content="https://stripchat.su/zh/help/iriun-webcam/">
+  <meta property="og:image" content="https://stripchat.su/img/help/iriun-webcam.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="手机通过无线连接向电脑提供摄像头画面的示意图">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://stripchat.su/img/help/iriun-webcam.png">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="/zh/site.webmanifest">
+  <link rel="stylesheet" href="/assets/site.css?v=fbae5070">
+  <link rel="stylesheet" href="/assets/help.css?v=de76c1516f">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://stripchat.su/zh/help/iriun-webcam/#page","url":"https://stripchat.su/zh/help/iriun-webcam/","name":"Iriun Webcam设置与排查：把手机用作电脑摄像头","description":"了解Iriun手机端和电脑端的连接流程，检查虚拟摄像头选择、网络与画面冻结问题，并区分本地测试和第三方应用的隐私范围。","inLanguage":"zh-Hans","dateModified":"2026-11-08","isPartOf":{"@id":"https://stripchat.su/zh/#website"},"breadcrumb":{"@id":"https://stripchat.su/zh/help/iriun-webcam/#breadcrumb"}},{"@type":"WebSite","@id":"https://stripchat.su/zh/#website","url":"https://stripchat.su/zh/","name":"Stripchat.su","inLanguage":"zh-Hans"},{"@type":"BreadcrumbList","@id":"https://stripchat.su/zh/help/iriun-webcam/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://stripchat.su/zh/"},{"@type":"ListItem","position":2,"name":"摄像头与麦克风帮助","item":"https://stripchat.su/zh/help/"},{"@type":"ListItem","position":3,"name":"用Iriun把手机连接为电脑摄像头","item":"https://stripchat.su/zh/help/iriun-webcam/"}]},{"@type":"TechArticle","@id":"https://stripchat.su/zh/help/iriun-webcam/#article","headline":"用Iriun把手机连接为电脑摄像头","description":"了解Iriun手机端和电脑端的连接流程，检查虚拟摄像头选择、网络与画面冻结问题，并区分本地测试和第三方应用的隐私范围。","inLanguage":"zh-Hans","dateModified":"2026-11-08","mainEntityOfPage":{"@id":"https://stripchat.su/zh/help/iriun-webcam/#page"},"image":"https://stripchat.su/img/help/iriun-webcam.png","citation":["https://iriun.com/","https://support.google.com/chrome/answer/2693767"]}]}</script>
+
+</head>
+<body class="section-help">
+  <a class="skip-link" href="#main">跳到正文</a>
+  <header class="site-header"><a class="logo" href="/zh/"><img src="/favicon.svg" width="28" height="28" alt=""><span dir="ltr">Stripchat.su</span></a><nav class="site-nav" dir="ltr" aria-label="主菜单"><a href="/zh/">首页</a><a href="/zh/help/">全部指南</a><a href="/zh/o-sajte/">关于本站</a></nav><details class="language-switcher" dir="ltr"><summary class="language-toggle" aria-label="语言: 简体中文" title="语言"><svg class="language-globe" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c5 5 5 13 0 18-5-5-5-13 0-18Z"/></svg><span class="language-current" lang="zh-Hans">简体中文</span><span class="language-code" aria-hidden="true">ZH</span><svg class="language-chevron" viewBox="0 0 16 16" width="12" height="12" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="m4 6 4 4 4-4"/></svg></summary><nav class="language-nav" aria-label="语言"><a href="/help/iriun-webcam/" lang="ru" hreflang="ru" dir="ltr">Русский</a><a href="/en/help/iriun-webcam/" lang="en" hreflang="en" dir="ltr">English</a><a href="/es/help/iriun-webcam/" lang="es" hreflang="es" dir="ltr">Español</a><a href="/pt/help/iriun-webcam/" lang="pt" hreflang="pt" dir="ltr">Português</a><a href="/de/help/iriun-webcam/" lang="de" hreflang="de" dir="ltr">Deutsch</a><a href="/zh/help/iriun-webcam/" lang="zh-Hans" hreflang="zh-Hans" dir="ltr" aria-current="page">简体中文<span class="language-check" aria-hidden="true">✓</span></a><a href="/hi/help/iriun-webcam/" lang="hi" hreflang="hi" dir="ltr">हिन्दी</a><a href="/ar/help/iriun-webcam/" lang="ar" hreflang="ar" dir="rtl">العربية</a></nav></details><script src="/assets/language-switcher.js?v=5b205ca92360" defer></script></header>
+  <main id="main">
+    <nav class="crumbs breadcrumbs" aria-label="面包屑导航"><a href="/zh/">首页</a><span class="sep" aria-hidden="true">›</span><a href="/zh/help/">摄像头与麦克风帮助</a><span class="sep" aria-hidden="true">›</span><span aria-current="page">用Iriun把手机连接为电脑摄像头</span></nav>
+    <article>
+      <header class="article-header"><p class="eyebrow">核对日期 <time datetime="2026-11-08">2026年11月8日</time></p><h1 class="page-title">用Iriun把手机连接为电脑摄像头</h1><p class="lead">Iriun把手机摄像头提供给电脑上的视频应用。排查时应分清手机是否在拍摄、电脑端是否收到画面，以及目标应用是否选中了Iriun输入。</p></header>
+
+
+        <figure class="article-image"><img src="/img/help/iriun-webcam.svg" width="1200" height="630" alt="手机通过无线连接向电脑提供摄像头画面的示意图" decoding="async" fetchpriority="high"></figure>
+        <nav class="contents" aria-label="本页目录"><h2>本页目录</h2><ol><li><a href="#section-1">从官方入口核对兼容性</a></li><li><a href="#section-2">按连接链逐段确认</a></li><li><a href="#section-3">画面没有到达哪一环</a></li><li><a href="#section-4">比较效果并结束连接</a></li></ol></nav>
+        <section class="article-section" aria-labelledby="section-1"><h2 id="section-1">从官方入口核对兼容性</h2><p>Iriun官网提供电脑端软件，并说明需要手机端应用配合。下载前核对你的操作系统和当前支持要求；安装包版本与系统要求会变化，不宜照搬旧教程中的版本号。手机应用也应从官方入口指向的应用商店获取。</p><p>先用手机自带相机确认镜头能正常工作，再把手机固定在稳定支架上。检查电量和散热空间，避免长时间使用时被手掌、保护壳支架或其他物品遮挡镜头。</p></section><section class="article-section" aria-labelledby="section-2"><h2 id="section-2">按连接链逐段确认</h2><p>先让Iriun电脑端出现手机画面，然后再检查视频应用。这一步能避免把手机与电脑之间的问题误认为浏览器权限问题。</p><ol><li>按当前官方说明安装相应电脑端和手机端应用。</li><li>允许手机端使用摄像头，并启动两端程序。</li><li>无线连接失败时，核对两端是否处于可以相互通信的本地网络；访客网络可能隔离设备。</li><li>电脑端有画面后，在视频应用中选择Iriun对应的摄像头输入，再进行预览。</li></ol></section><section class="article-section" aria-labelledby="section-3"><h2 id="section-3">画面没有到达哪一环</h2><p>手机有画面、电脑端没有画面时，重点检查连接状态、网络隔离和应用是否仍在运行。可以查看系统防火墙是否阻止了该程序，但不要为了测试直接长期关闭防火墙。公司或学校网络由管理员管理时，应先询问其限制。</p><p>电脑端有画面、浏览器没有画面时，先检查浏览器选中的设备。安装后一直打开的应用可能需要重新启动，才能重新读取设备列表。若画面冻结，分别观察手机预览和电脑预览，记录从哪一环开始停止更新。</p></section><section class="article-section" aria-labelledby="section-4"><h2 id="section-4">比较效果并结束连接</h2><p>保持同一位置和光线，比较手机摄像头与原有摄像头的取景、稳定性和声音来源。手机画面更清楚不代表通话延迟一定更低，也不代表目标应用会采用同样的分辨率。音频仍需单独检查。</p><p>本页摄像头测试不会上传视频，但Iriun本身是另一个软件，应另外阅读它的权限与隐私说明。用完后停止网页测试并退出不再使用的手机端、电脑端应用，再确认摄像头访问已结束。</p></section>
+        <section class="sources" aria-labelledby="sources"><h2 id="sources">官方文档</h2><ul><li><a href="https://iriun.com/" rel="noopener noreferrer">Iriun：官方软件下载与兼容性说明</a></li><li><a href="https://support.google.com/chrome/answer/2693767" rel="noopener noreferrer">Google：选择Chrome的默认摄像头</a></li></ul></section>
+        <section aria-labelledby="related"><h2 id="related">相关指南</h2><ul class="cards help-cards"><li><a href="/zh/help/webcam-test/"><img src="/img/help/webcam-test.svg" width="1200" height="630" alt="" loading="lazy" decoding="async"><h3>如何在浏览器中测试摄像头</h3><p>手动启动浏览器摄像头测试，检查取景、光线和设备是否正确。了解黑屏、权限被拒以及本地预览正常却无法通话时的下一步。</p></a></li><li><a href="/zh/help/microphone-test/"><img src="/img/help/microphone-test.svg" width="1200" height="630" alt="" loading="lazy" decoding="async"><h3>用输入电平检查麦克风</h3><p>使用本地电平测试检查麦克风是否收到声音，不录制也不回放。排查输入选错、静音、权限被拒和电平过低等常见问题。</p></a></li><li><a href="/zh/help/phone-as-webcam/"><img src="/img/help/phone-as-webcam.svg" width="1200" height="630" alt="" loading="lazy" decoding="async"><h3>如何把手机当作电脑摄像头</h3><p>比较 Android 与 Windows、iPhone 与 Mac，以及独立摄像头应用的连接方式。通话前检查兼容性、支架、电量和视频来源。</p></a></li></ul></section>
+
+    </article>
+  </main>
+  <footer class="site-footer"><section id="privacy"><h2>隐私说明</h2><p>只有点击启动并允许访问后，测试才会读取所需设备。此工具在浏览器本地处理摄像头画面或麦克风信号，不录制、不上传这些内容。网站托管服务仍会接收加载页面所需的普通HTTP请求。</p><nav class="footer-nav" aria-label="网站栏目"><a href="/zh/">首页</a><a href="/zh/help/">返回全部指南</a></nav><nav class="footer-nav footer-nav--info" aria-label="关于本站"><a href="/zh/o-sajte/">关于本站</a><a href="/zh/politika-konfidencialnosti/">隐私政策</a><a href="/zh/otkaz-ot-otvetstvennosti/">免责声明</a></nav><p dir="ltr">© 2026 Stripchat.su</p></section></footer>
+</body>
+</html>

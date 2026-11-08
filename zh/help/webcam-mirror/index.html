@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="zh-Hans" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>摄像头镜像：区分本地预览和对方收到的画面</title>
+  <meta name="description" content="水平翻转本地摄像头预览，通过文字检查方向，分清自己看到的镜像与通话参与者实际收到的视频，避免重复翻转。">
+  <link rel="canonical" href="https://stripchat.su/zh/help/webcam-mirror/">
+  <link rel="alternate" hreflang="ru" href="https://stripchat.su/help/webcam-mirror/">
+  <link rel="alternate" hreflang="en" href="https://stripchat.su/en/help/webcam-mirror/">
+  <link rel="alternate" hreflang="es" href="https://stripchat.su/es/help/webcam-mirror/">
+  <link rel="alternate" hreflang="pt" href="https://stripchat.su/pt/help/webcam-mirror/">
+  <link rel="alternate" hreflang="de" href="https://stripchat.su/de/help/webcam-mirror/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://stripchat.su/zh/help/webcam-mirror/">
+  <link rel="alternate" hreflang="hi" href="https://stripchat.su/hi/help/webcam-mirror/">
+  <link rel="alternate" hreflang="ar" href="https://stripchat.su/ar/help/webcam-mirror/">
+  <link rel="alternate" hreflang="x-default" href="https://stripchat.su/en/help/webcam-mirror/">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="theme-color" content="#0f0f14">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:locale:alternate" content="ru_RU">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="pt_BR">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:locale:alternate" content="hi_IN">
+  <meta property="og:locale:alternate" content="ar_SA">
+  <meta property="og:title" content="摄像头镜像：区分本地预览和对方收到的画面">
+  <meta property="og:description" content="水平翻转本地摄像头预览，通过文字检查方向，分清自己看到的镜像与通话参与者实际收到的视频，避免重复翻转。">
+  <meta property="og:url" content="https://stripchat.su/zh/help/webcam-mirror/">
+  <meta property="og:image" content="https://stripchat.su/img/help/webcam-mirror.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="两个摄像头预览中的非对称图形沿竖直轴左右翻转。">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://stripchat.su/img/help/webcam-mirror.png">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="/zh/site.webmanifest">
+  <link rel="stylesheet" href="/assets/site.css?v=fbae5070">
+  <link rel="stylesheet" href="/assets/help.css?v=de76c1516f">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://stripchat.su/zh/help/webcam-mirror/#page","url":"https://stripchat.su/zh/help/webcam-mirror/","name":"摄像头镜像：区分本地预览和对方收到的画面","description":"水平翻转本地摄像头预览，通过文字检查方向，分清自己看到的镜像与通话参与者实际收到的视频，避免重复翻转。","inLanguage":"zh-Hans","dateModified":"2026-11-08","isPartOf":{"@id":"https://stripchat.su/zh/#website"},"breadcrumb":{"@id":"https://stripchat.su/zh/help/webcam-mirror/#breadcrumb"}},{"@type":"WebSite","@id":"https://stripchat.su/zh/#website","url":"https://stripchat.su/zh/","name":"Stripchat.su","inLanguage":"zh-Hans"},{"@type":"BreadcrumbList","@id":"https://stripchat.su/zh/help/webcam-mirror/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://stripchat.su/zh/"},{"@type":"ListItem","position":2,"name":"摄像头与麦克风帮助","item":"https://stripchat.su/zh/help/"},{"@type":"ListItem","position":3,"name":"如何镜像摄像头预览并确认方向","item":"https://stripchat.su/zh/help/webcam-mirror/"}]},{"@type":"TechArticle","@id":"https://stripchat.su/zh/help/webcam-mirror/#article","headline":"如何镜像摄像头预览并确认方向","description":"水平翻转本地摄像头预览，通过文字检查方向，分清自己看到的镜像与通话参与者实际收到的视频，避免重复翻转。","inLanguage":"zh-Hans","dateModified":"2026-11-08","mainEntityOfPage":{"@id":"https://stripchat.su/zh/help/webcam-mirror/#page"},"image":"https://stripchat.su/img/help/webcam-mirror.png","citation":["https://support.microsoft.com/en-us/teams/free/settings/manage-your-device-settings-in-microsoft-teams-free","https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scaleX"]}]}</script>
+
+</head>
+<body class="section-help">
+  <a class="skip-link" href="#main">跳到正文</a>
+  <header class="site-header"><a class="logo" href="/zh/"><img src="/favicon.svg" width="28" height="28" alt=""><span dir="ltr">Stripchat.su</span></a><nav class="site-nav" dir="ltr" aria-label="主菜单"><a href="/zh/">首页</a><a href="/zh/help/">全部指南</a><a href="/zh/o-sajte/">关于本站</a></nav><details class="language-switcher" dir="ltr"><summary class="language-toggle" aria-label="语言: 简体中文" title="语言"><svg class="language-globe" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c5 5 5 13 0 18-5-5-5-13 0-18Z"/></svg><span class="language-current" lang="zh-Hans">简体中文</span><span class="language-code" aria-hidden="true">ZH</span><svg class="language-chevron" viewBox="0 0 16 16" width="12" height="12" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="m4 6 4 4 4-4"/></svg></summary><nav class="language-nav" aria-label="语言"><a href="/help/webcam-mirror/" lang="ru" hreflang="ru" dir="ltr">Русский</a><a href="/en/help/webcam-mirror/" lang="en" hreflang="en" dir="ltr">English</a><a href="/es/help/webcam-mirror/" lang="es" hreflang="es" dir="ltr">Español</a><a href="/pt/help/webcam-mirror/" lang="pt" hreflang="pt" dir="ltr">Português</a><a href="/de/help/webcam-mirror/" lang="de" hreflang="de" dir="ltr">Deutsch</a><a href="/zh/help/webcam-mirror/" lang="zh-Hans" hreflang="zh-Hans" dir="ltr" aria-current="page">简体中文<span class="language-check" aria-hidden="true">✓</span></a><a href="/hi/help/webcam-mirror/" lang="hi" hreflang="hi" dir="ltr">हिन्दी</a><a href="/ar/help/webcam-mirror/" lang="ar" hreflang="ar" dir="rtl">العربية</a></nav></details><script src="/assets/language-switcher.js?v=5b205ca92360" defer></script></header>
+  <main id="main">
+    <nav class="crumbs breadcrumbs" aria-label="面包屑导航"><a href="/zh/">首页</a><span class="sep" aria-hidden="true">›</span><a href="/zh/help/">摄像头与麦克风帮助</a><span class="sep" aria-hidden="true">›</span><span aria-current="page">如何镜像摄像头预览并确认方向</span></nav>
+    <article>
+      <header class="article-header"><p class="eyebrow">核对日期 <time datetime="2026-11-08">2026年11月8日</time></p><h1 class="page-title">如何镜像摄像头预览并确认方向</h1><p class="lead">镜像预览会交换左右方向，看自己时可能更自然，却也会让文字反向。调整前先明确目标：改变自己的预览，还是改变对方收到的画面。</p></header>
+
+
+        <figure class="article-image"><img src="/img/help/webcam-mirror.svg" width="1200" height="630" alt="两个摄像头预览中的非对称图形沿竖直轴左右翻转。" decoding="async" fetchpriority="high"></figure>
+        <nav class="contents" aria-label="本页目录"><h2>本页目录</h2><ol><li><a href="#section-1">用非对称参照物判断</a></li><li><a href="#section-2">在本地测试中比较两种视图</a></li><li><a href="#section-3">确认对方实际看到什么</a></li><li><a href="#section-4">避免在多处重复修正</a></li></ol></nav>
+        <section class="article-section" aria-labelledby="section-1"><h2 id="section-1">用非对称参照物判断</h2><p>举起写有普通文字的纸，或把一个物品放在画面一侧。仅看人脸很难确认左右方向，应观察文字和物品位置，而不是凭镜中形象是否熟悉来判断。</p><p>水平翻转与旋转倒置图像不同。如果画面上下颠倒，先检查安装方向和应用中的旋转选项。</p></section><section class="article-section" aria-labelledby="section-2"><h2 id="section-2">在本地测试中比较两种视图</h2><p>这个选项只水平翻转当前网页上的预览，不修改摄像头驱动、不配置其他应用、不生成录像，也不向任何人发送视频。打开会议软件后，需要另行检查该软件的行为。</p><ol><li>打开摄像头测试，点击启动，并在提示时授予权限。</li><li>切换“镜像此预览”，比较同一段文字或物品的方向。</li><li>选择自己习惯的显示方式，完成后停止测试。</li></ol></section><section class="article-section" aria-labelledby="section-3"><h2 id="section-3">确认对方实际看到什么</h2><p>请一位参与者读出纸上的文字。添加第二次翻转前，将对方反馈与自己的预览比较。自己的视图是反向的，并不代表发送出去的文字也反向。</p><p>例如 Microsoft 对桌面版 Teams 免费版的说明指出，“镜像我的视频”改变的是自己的视图。不要假设其他软件的同名选项作用范围相同，应查看说明并实际验证。</p></section><section class="article-section" aria-labelledby="section-4"><h2 id="section-4">避免在多处重复修正</h2><p>如果摄像头软件、虚拟摄像头和会议应用都提供变换功能，记下在哪些位置做过调整。两次水平翻转可能相互抵消，形成难以理解的设置链。</p><p>结果更混乱时，先恢复最后一次修改。展示文字或带标签的物品时，应优先确保最终应用发送的画面可读，并实际确认，不能只按自己的镜像偏好决定。</p></section>
+        <section class="sources" aria-labelledby="sources"><h2 id="sources">官方文档</h2><ul><li><a href="https://support.microsoft.com/en-us/teams/free/settings/manage-your-device-settings-in-microsoft-teams-free" rel="noopener noreferrer">Microsoft Teams 免费版：“镜像我的视频”的作用范围</a></li><li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scaleX" rel="noopener noreferrer">MDN：用 CSS 进行水平缩放</a></li></ul></section>
+        <section aria-labelledby="related"><h2 id="related">相关指南</h2><ul class="cards help-cards"><li><a href="/zh/help/webcam-test/"><img src="/img/help/webcam-test.svg" width="1200" height="630" alt="" loading="lazy" decoding="async"><h3>如何在浏览器中测试摄像头</h3><p>手动启动浏览器摄像头测试，检查取景、光线和设备是否正确。了解黑屏、权限被拒以及本地预览正常却无法通话时的下一步。</p></a></li><li><a href="/zh/help/webcam-background/"><img src="/img/help/webcam-background.svg" width="1200" height="630" alt="" loading="lazy" decoding="async"><h3>如何选择和设置摄像头背景</h3><p>选择适合视频通话的摄像头背景，比较真实房间、背景模糊和替换图片，并在通话前检查边缘效果与设备表现。</p></a></li><li><a href="/zh/help/obs-webcam-setup/"><img src="/img/help/obs-webcam-setup.svg" width="1200" height="630" alt="" loading="lazy" decoding="async"><h3>如何在 OBS Studio 中添加并检查摄像头</h3><p>在 OBS 场景中添加摄像头来源，选择正确设备，并通过本地预览检查可见性、分辨率和布局，无需开始录制。</p></a></li></ul></section>
+
+    </article>
+  </main>
+  <footer class="site-footer"><section id="privacy"><h2>隐私说明</h2><p>只有点击启动并允许访问后，测试才会读取所需设备。此工具在浏览器本地处理摄像头画面或麦克风信号，不录制、不上传这些内容。网站托管服务仍会接收加载页面所需的普通HTTP请求。</p><nav class="footer-nav" aria-label="网站栏目"><a href="/zh/">首页</a><a href="/zh/help/">返回全部指南</a></nav><nav class="footer-nav footer-nav--info" aria-label="关于本站"><a href="/zh/o-sajte/">关于本站</a><a href="/zh/politika-konfidencialnosti/">隐私政策</a><a href="/zh/otkaz-ot-otvetstvennosti/">免责声明</a></nav><p dir="ltr">© 2026 Stripchat.su</p></section></footer>
+</body>
+</html>

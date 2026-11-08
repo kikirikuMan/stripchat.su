@@ -1,0 +1,1223 @@
+{
+  "locale": "en",
+  "ui": {
+    "name": "English",
+    "dir": "ltr",
+    "title": "Webcam and microphone help: tests, setup and fixes",
+    "description": "Check your webcam and microphone, restore browser permissions, connect a USB camera or Iriun, and troubleshoot a black screen or poor image quality.",
+    "heading": "Camera and microphone help",
+    "intro": "Check your devices before a call and follow the guide that matches the problem you can see. The optional tests run in your browser after you start them and grant access.",
+    "guides": "All guides",
+    "languages": "Language",
+    "contents": "On this page",
+    "sources": "Official documentation",
+    "related": "Related guides",
+    "updated": "Reviewed",
+    "skip": "Skip to content",
+    "back": "All guides",
+    "privacy": "Privacy",
+    "privacyText": "The test starts only when you press a start button and the browser permits access. Video and audio are processed locally in your browser; this tool does not record or upload them. The hosting service still receives normal HTTP requests when you load this page.",
+    "startCamera": "Start camera",
+    "startMic": "Test microphone",
+    "stop": "Stop",
+    "idle": "The test has not started.",
+    "pending": "Waiting for the browser's permission request.",
+    "active": "The test is running.",
+    "stopped": "The test has stopped.",
+    "denied": "Access was denied. Check this site's permission and your operating system's camera or microphone settings, then try again.",
+    "missing": "No suitable device was found. Check its connection and whether the operating system can see it.",
+    "busy": "The device could not be opened. Close other apps using it, check its connection, and retry.",
+    "error": "The test could not start. Check your device and browser settings, then reload the page.",
+    "unsupported": "This browser cannot start the test here. Use a current browser and open the page over HTTPS.",
+    "level": "Microphone input level",
+    "settings": "Device settings",
+    "noScript": "JavaScript is required for the device test. The guides can be read without it.",
+    "toolHeading": "Local device test",
+    "toolNote": "Start only the device you want to check. The camera preview and microphone level stay in this browser; no recording is created. The test stops when this tab is hidden.",
+    "mirrorPreview": "Mirror this preview",
+    "configuredFrameRate": "Configured frame rate (fps)",
+    "aboutSite": "About this site (Russian)"
+  },
+  "articles": [
+    {
+      "id": "webcam-test",
+      "title": "Webcam test: check your camera before a call",
+      "description": "Run a local webcam test, check the picture and selected camera, and work out whether a problem comes from the device, browser or calling app.",
+      "heading": "Test your webcam before a call",
+      "lead": "A camera test is useful when it answers a specific question: does the picture appear, is this the intended camera, and does it keep updating? Use the short check below before changing drivers or buying another device.",
+      "imageAlt": "Browser preview beside a camera and check marks.",
+      "sections": [
+        {
+          "heading": "Start with one camera test",
+          "paragraphs": [
+            "Close any camera preview already open in another tab or app. Place something recognizable in view, such as your hand, so you can tell a live picture from a frozen frame."
+          ],
+          "steps": [
+            "Press Start camera and respond to the browser's permission request.",
+            "Move your hand across the picture, then sit where you will be during the call.",
+            "If the wrong camera appears, check the browser's camera choice, stop the test and restart it."
+          ]
+        },
+        {
+          "heading": "Read the result",
+          "paragraphs": [
+            "A moving preview confirms that this browser can receive video from the selected source right now. It does not measure the quality another person will receive, test your microphone, or certify a camera's advertised resolution.",
+            "For example, a sharp preview with a dark face points toward lighting or exposure. A picture that never appears calls for a connection or permission check first."
+          ]
+        },
+        {
+          "heading": "Separate browser and device problems",
+          "paragraphs": [
+            "Compare the result with the computer's camera app, opening one test at a time. If that app also fails, note whether the camera is missing entirely or listed with a black picture. These are different symptoms.",
+            "If the camera app works and this page does not, use the permissions guide. Record the exact browser message before changing anything; it gives a more useful starting point than “the camera is broken.”"
+          ]
+        },
+        {
+          "heading": "Finish in the app you will use",
+          "paragraphs": [
+            "Press Stop when the preview is no longer needed. Then open the intended meeting app and check its own preview and camera selection. A successful browser test cannot confirm every setting in a separate app.",
+            "For a repeatable comparison, leave the camera position and lighting unchanged between tests. Change one setting, retry the same movement, and keep the change only if it helps."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "MDN: browser camera access and errors",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia"
+        },
+        {
+          "label": "Microsoft: troubleshoot a camera in Windows",
+          "url": "https://support.microsoft.com/en-us/windows/hardware/camera/camera-doesn-t-work-in-windows"
+        }
+      ],
+      "related": [
+        "camera-permissions",
+        "webcam-black-screen",
+        "webcam-mirror",
+        "webcam-resolution-fps"
+      ]
+    },
+    {
+      "id": "webcam-for-pc",
+      "title": "Webcam for PC: connect, select and check a USB camera",
+      "description": "Set up a webcam for your PC with a connection check, the correct camera selection and a practical test before troubleshooting drivers.",
+      "heading": "Connect a webcam to your PC",
+      "lead": "When a new webcam arrives, first establish that the computer recognizes it and that the intended app selects it. This sequence also helps when a camera stops working after moving a laptop to a different desk.",
+      "imageAlt": "USB webcam connected directly to a desktop computer.",
+      "sections": [
+        {
+          "heading": "Match the connection to your equipment",
+          "paragraphs": [
+            "Read the model's instructions for supported operating systems and connections. A connector that fits is only the beginning: adapters, docks and extension cables become additional parts to check if the camera is absent.",
+            "Keep the model name handy. A support article for a similar-looking camera can describe controls or software that your device does not have."
+          ]
+        },
+        {
+          "heading": "Establish a direct connection",
+          "paragraphs": [
+            "For the first check, connect the webcam directly to the computer where possible. Open a basic camera preview before adding a dock or other accessories. This creates a known starting point."
+          ],
+          "steps": [
+            "Open the camera's physical privacy cover, if fitted.",
+            "Connect the camera and wait for the system to recognize it.",
+            "Check the device list and preview in the computer's camera application."
+          ]
+        },
+        {
+          "heading": "Choose the camera in each app",
+          "paragraphs": [
+            "A laptop may expose its built-in camera alongside the USB webcam. Look for the intended model or device name in the app's video settings, then move a hand in front of that lens to confirm the choice.",
+            "Camera and microphone selections are separate. If a headset supplies your audio, selecting the webcam for video does not establish that the headset is the active microphone. Check both before a call."
+          ]
+        },
+        {
+          "heading": "Investigate a missing device",
+          "paragraphs": [
+            "Try a second suitable USB port and repeat the same preview check. If the camera works directly but disappears through a dock, that comparison identifies the connection path to investigate next.",
+            "Use Windows Update and the manufacturer's model-specific support page for driver guidance. Avoid installing a bundle solely because its filename contains “webcam.” If another computer is available, a comparison there can help narrow the fault; it does not by itself prove a hardware diagnosis."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Logitech: connect and set up a webcam",
+          "url": "https://www.logitech.com/en-gb/discover/a/setup-webcams-and-headsets"
+        },
+        {
+          "label": "Microsoft: troubleshoot a camera in Windows",
+          "url": "https://support.microsoft.com/en-us/windows/hardware/camera/camera-doesn-t-work-in-windows"
+        },
+        {
+          "label": "Apple: select an external camera on Mac",
+          "url": "https://support.apple.com/en-lb/guide/mac-help/mchl034033f4/mac"
+        }
+      ],
+      "related": [
+        "webcam-test",
+        "microphone-test",
+        "webcam-setup",
+        "webcam-on-off"
+      ]
+    },
+    {
+      "id": "iriun-webcam",
+      "title": "Iriun Webcam setup: connect your phone and find the missing link",
+      "description": "Set up Iriun Webcam on a phone and computer, select its video source, and isolate a missing connection, frozen preview or wrong camera.",
+      "heading": "Set up Iriun Webcam on a phone and computer",
+      "lead": "Iriun adds another link to a camera setup: the phone must send a picture to the desktop software before a calling app can use that source. Check those stages separately when the final preview is blank.",
+      "imageAlt": "Smartphone camera connected wirelessly to a computer.",
+      "sections": [
+        {
+          "heading": "Install the matching components",
+          "paragraphs": [
+            "Use the desktop downloads on iriun.com and the mobile app published by Iriun. Check the stated system requirements before installing; requirements and available features can differ between platforms.",
+            "Keep the phone and computer where you can see both screens during the first test. Put the phone on a stable support so handling it does not obscure whether the video is updating."
+          ]
+        },
+        {
+          "heading": "Make the first connection",
+          "paragraphs": [
+            "The Android publisher's instructions call for starting the phone app and the desktop server, then choosing Iriun as the video source in the receiving app. Begin with a simple local network setup."
+          ],
+          "steps": [
+            "Open Iriun on the phone and allow the camera access it requests.",
+            "Start the Iriun desktop software and check whether it receives a moving picture.",
+            "Only after that works, open the calling app and choose Iriun Webcam in its camera settings."
+          ]
+        },
+        {
+          "heading": "Find where the picture stops",
+          "paragraphs": [
+            "If the phone preview itself fails, investigate the phone's camera permission first. If the phone shows video but the desktop does not, check their network connection and the desktop program's connection state.",
+            "For a Wi-Fi comparison, place both devices on the same trusted home network rather than separate guest networks. Network isolation or a VPN configuration is a possible area to investigate, not a reason to disable every security control.",
+            "If the desktop preview works but the calling app is blank, reselect the Iriun source and restart that app. Reinstalling the phone app is unlikely to be the most informative first comparison."
+          ]
+        },
+        {
+          "heading": "Check sound and end the session",
+          "paragraphs": [
+            "Choose the microphone separately in the receiving app; do not infer working sound from a moving picture. Make a short input-level test before the call.",
+            "If video freezes later, note which preview stops first and what changed on the phone at that moment. After use, stop the receiving test and close the Iriun session. This page's local-test privacy description does not describe Iriun's own software or policies."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Iriun: official desktop downloads",
+          "url": "https://iriun.com/"
+        },
+        {
+          "label": "Iriun Oy: Android app and connection instructions",
+          "url": "https://play.google.com/store/apps/details?id=com.jacksoftw.webcam"
+        }
+      ],
+      "related": [
+        "webcam-test",
+        "microphone-test",
+        "phone-as-webcam"
+      ]
+    },
+    {
+      "id": "logitech-webcam",
+      "title": "Logitech webcam setup: identify the model and solve detection problems",
+      "description": "Check a Logitech webcam's model, USB connection, selected video source and focus type before changing software or troubleshooting a blank picture.",
+      "heading": "Set up and check a Logitech webcam",
+      "lead": "Logitech webcams differ in focus controls and supported software. Start with the model printed on the device or its documentation, then use a basic preview to separate connection problems from picture adjustments.",
+      "imageAlt": "External webcam with a USB connection, without a model name or logo.",
+      "sections": [
+        {
+          "heading": "Find the exact model first",
+          "paragraphs": [
+            "Write down the model name before downloading software. A guide for one camera does not establish compatibility for another, even if both have a similar housing.",
+            "For example, Logitech documents the C270 as a fixed-focus camera. A missing autofocus control on that model is not evidence that a driver failed. Confirm the controls your own model actually offers."
+          ]
+        },
+        {
+          "heading": "Test the USB connection",
+          "paragraphs": [
+            "Connect the camera directly to the computer for the first test. If it is not detected, compare another suitable port and restart the camera application. Reintroduce a hub or dock only after the direct connection works.",
+            "Keep a brief note of each result: direct connection works, dock connection fails, or neither works. That observation is more useful for support than a list of unrelated software reinstalls."
+          ]
+        },
+        {
+          "heading": "Confirm which lens supplies the image",
+          "paragraphs": [
+            "Open one preview and select the Logitech device by name. Move a hand in front of its lens. If the picture continues unchanged, another camera or a virtual video source may be selected.",
+            "Then choose the same device in the app used for calls. Treat microphone selection separately, especially if you use a USB headset or a microphone built into a monitor."
+          ]
+        },
+        {
+          "heading": "Adjust the picture within the model's limits",
+          "paragraphs": [
+            "Check for a closed privacy cover and clean the lens according to the device's care instructions. Compare a still face with a moving hand before deciding whether the problem is focus or motion blur.",
+            "For a fixed-focus camera, test the normal seating position and a slightly greater distance. For a model with adjustable focus, use its documented controls. Do not force a lens ring that the manual does not identify as adjustable."
+          ]
+        },
+        {
+          "heading": "Use model-specific support",
+          "paragraphs": [
+            "If the camera is absent in several apps, collect the operating system version, exact model and connection results. Open the manufacturer's support page for that model and check the software compatibility information.",
+            "A working local preview followed by poor call quality warrants an app and connection check before replacing the camera. Keep the original picture settings available so an unsuccessful adjustment can be reversed."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Logitech: connect and set up a webcam",
+          "url": "https://www.logitech.com/en-gb/discover/a/setup-webcams-and-headsets"
+        },
+        {
+          "label": "Logitech: the C270 fixed-focus lens",
+          "url": "https://support.logi.com/hc/en-us/articles/360023230734-Improving-focus-and-image-quality-on-your-Webcam-C270-with-Logitech-Webcam-Software"
+        },
+        {
+          "label": "Logitech: lighting, focus and image quality",
+          "url": "https://support.logi.com/hc/en-us/articles/360023206914-Improving-the-image-quality-for-Logitech-Webcams"
+        }
+      ],
+      "related": [
+        "webcam-for-pc",
+        "webcam-image-quality"
+      ]
+    },
+    {
+      "id": "camera-permissions",
+      "title": "Camera permissions: restore access in your browser and computer",
+      "description": "Restore camera access by checking the site's permission, browser device choice and Windows or macOS settings without resetting every website.",
+      "heading": "Restore camera and microphone permissions",
+      "lead": "Camera access can be blocked at more than one level. A website permission, an operating system setting and a physical privacy switch serve different purposes. Work through the level that matches the message on screen.",
+      "imageAlt": "Browser permission switch beside a shield and a check mark.",
+      "sections": [
+        {
+          "heading": "Identify the blocked permission",
+          "paragraphs": [
+            "Start the test once and read the request. Camera and microphone access are separate, so a microphone prompt is not a substitute for camera permission.",
+            "Check that the page address is the one you intended to open. Browser camera access needs a supported secure context; on this public site, use the HTTPS address. A managed work computer may also restrict settings through its administrator."
+          ]
+        },
+        {
+          "heading": "Review this website in the browser",
+          "paragraphs": [
+            "In Chrome, open the site's settings from the control beside its address and review Camera or Microphone. Change only the permission needed for this site, then reload and retry.",
+            "In Firefox, the camera and microphone lists are under Settings, Privacy & Security, Permissions. Clear or update the saved decision for the relevant site. If prompts were blocked globally, that setting can explain why no new request appears."
+          ]
+        },
+        {
+          "heading": "Check access granted to the browser",
+          "paragraphs": [
+            "On Windows 11, camera settings are under Settings, Privacy & security, Camera. Review device access and the option for desktop apps, which includes browsers.",
+            "On macOS, check System Settings, Privacy & Security, Camera for the browser. Safari also has website-specific camera controls in Safari Settings, Websites. Menu labels can vary with the system language and version."
+          ]
+        },
+        {
+          "heading": "Retry without changing everything",
+          "paragraphs": [
+            "Close the failed preview before testing again. If the browser asks for a restart after an operating system change, follow that request and return to the same page.",
+            "When permission is allowed but the camera is still missing, move to the connection check. Repeatedly granting access cannot reconnect an unplugged camera or choose the intended lens."
+          ]
+        },
+        {
+          "heading": "Remove access when it is no longer needed",
+          "paragraphs": [
+            "Stop the test and review the site's saved permission if you want it to ask again next time. A remembered permission and an active camera session are different states.",
+            "Avoid clearing all browsing data merely to fix one camera permission: first correct the specific site's setting. If a setting is locked by your organization, give the administrator the exact error and site address."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Google Chrome: change a site's permissions",
+          "url": "https://support.google.com/chrome/answer/114662"
+        },
+        {
+          "label": "Mozilla: camera and microphone permissions in Firefox",
+          "url": "https://support.mozilla.org/en-US/kb/how-manage-your-camera-and-microphone-permissions"
+        },
+        {
+          "label": "Microsoft: camera permissions in Windows",
+          "url": "https://support.microsoft.com/en-au/windows/privacy/manage-app-permissions-for-a-camera-in-windows"
+        },
+        {
+          "label": "Apple: control camera access on Mac",
+          "url": "https://support.apple.com/guide/mac-help/control-access-to-your-camera-mchlf6d108da/mac"
+        },
+        {
+          "label": "MDN: browser camera access and errors",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia"
+        }
+      ],
+      "related": [
+        "webcam-black-screen",
+        "webcam-test"
+      ]
+    },
+    {
+      "id": "webcam-black-screen",
+      "title": "Webcam black screen: distinguish a covered lens from a failed connection",
+      "description": "Troubleshoot a black webcam preview by checking the cover, selected source, app access and USB connection in a repeatable order.",
+      "heading": "Find the cause of a black webcam screen",
+      "lead": "A black preview can appear even when a camera is listed. Before replacing hardware, distinguish a covered lens, an inactive video source and a stream that never started. Each leads to a different next check.",
+      "imageAlt": "Black camera preview with a warning symbol, cable and lens shutter.",
+      "sections": [
+        {
+          "heading": "Describe what is actually visible",
+          "paragraphs": [
+            "Note whether the preview is uniformly black, shows a dim outline, displays an error, or holds an old frame. Move a hand in view to test whether the picture is updating.",
+            "Write down the camera name shown in the app and the exact error text. An indicator light alone does not establish that the intended scene is reaching this particular preview."
+          ]
+        },
+        {
+          "heading": "Check the lens and selected source",
+          "paragraphs": [
+            "Open any physical cover and inspect whether the lens is obstructed. If you can see a faint image, try a better-lit position and compare again.",
+            "Confirm the selected camera. A laptop's internal camera, USB webcam and virtual camera can appear in the same list. A virtual source may be present while its producing application is closed."
+          ],
+          "steps": [
+            "Select the physical camera you want to test.",
+            "Stop and restart the preview after changing the selection.",
+            "Check that a movement in front of that lens appears on screen."
+          ]
+        },
+        {
+          "heading": "Compare two apps, one at a time",
+          "paragraphs": [
+            "Close the current preview and open the computer's camera application. Then close that application and retry the browser test. Keeping only one test active makes the comparison easier to interpret.",
+            "If the camera works in one app, check the failing app's source and permissions. If every app fails, continue with the device connection and operating system checks. This comparison narrows the search; it does not identify a failed component with certainty."
+          ]
+        },
+        {
+          "heading": "Isolate the connection path",
+          "paragraphs": [
+            "For an external camera, reconnect it and compare a direct USB connection with the current dock or hub setup. Change one part at a time so you can say which connection worked.",
+            "For a built-in camera, check the laptop's documented privacy key or switch. After a system update, consult the computer manufacturer's camera guidance before making driver changes."
+          ]
+        },
+        {
+          "heading": "Prepare a useful support report",
+          "paragraphs": [
+            "If the picture stays black, record the device model, system version, selected camera name and the two-app comparison. Include whether the fault began after a move, update or new adapter.",
+            "These details help distinguish a repeatable setup problem from an intermittent fault. Do not keep reinstalling unrelated drivers after each unsuccessful preview."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Microsoft: troubleshoot a camera in Windows",
+          "url": "https://support.microsoft.com/en-us/windows/hardware/camera/camera-doesn-t-work-in-windows"
+        },
+        {
+          "label": "MDN: browser camera access and errors",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia"
+        }
+      ],
+      "related": [
+        "camera-permissions",
+        "webcam-for-pc"
+      ]
+    },
+    {
+      "id": "microphone-test",
+      "title": "Microphone test: check input level and choose the correct device",
+      "description": "Test microphone input locally, identify the active device and troubleshoot silence or background noise before checking sound in your calling app.",
+      "heading": "Test your microphone and interpret the input level",
+      "lead": "A moving level meter shows that the selected input is receiving sound. To make that result useful, compare normal speech with silence and confirm which microphone is responding before adjusting its volume.",
+      "imageAlt": "Microphone, waveform and input-level bars.",
+      "sections": [
+        {
+          "heading": "Prepare a repeatable sound check",
+          "paragraphs": [
+            "Stop music or video playback near the microphone. Sit at the distance you expect to use during a call and check any physical mute switch on the headset or microphone."
+          ],
+          "steps": [
+            "Press Test microphone and allow the requested microphone access.",
+            "Say a short sentence at normal speaking volume.",
+            "Pause for a few seconds and compare the meter during speech and silence."
+          ]
+        },
+        {
+          "heading": "Understand what the meter can tell you",
+          "paragraphs": [
+            "A clear change during speech is evidence of an input signal. The meter does not play your voice back, score intelligibility or measure the sound received by another person. This tool does not make a recording. The level is a relative activity display, not a calibrated decibel or sound-pressure measurement.",
+            "If the meter moves while you are silent, listen for a fan, loudspeaker or other nearby sound. If it barely changes when you speak, verify the selected input before increasing every available volume control."
+          ]
+        },
+        {
+          "heading": "Select the intended microphone",
+          "paragraphs": [
+            "A laptop, webcam and headset may each contribute an input. In Windows, open Settings, System, Sound and inspect Input. On Mac, use System Settings, Sound, Input.",
+            "Choose the intended device and repeat the same sentence. For example, moving a headset microphone closer should affect the signal from that headset; a laptop microphone across the desk will behave differently. Avoid tapping directly on a delicate microphone capsule."
+          ]
+        },
+        {
+          "heading": "Investigate silence or excessive level",
+          "paragraphs": [
+            "Check the site's microphone permission and the operating system's access for your browser. A camera preview can work while microphone access remains blocked.",
+            "Adjust input volume in small steps while repeating normal speech. A meter pinned near its maximum leaves little information about quieter and louder parts; a listening test in a recording or calling app is needed to assess audible distortion."
+          ]
+        },
+        {
+          "heading": "Check the actual calling app",
+          "paragraphs": [
+            "Stop this test, select the same microphone in the meeting app, and use that app's audio check. Its noise processing and device settings can produce a different result.",
+            "If the browser meter works but the meeting app receives nothing, inspect that app's mute state and input selection first. Preserve the comparison result so you do not restart hardware troubleshooting unnecessarily."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Microsoft: set up and test a microphone",
+          "url": "https://support.microsoft.com/en-us/windows/hardware/drivers/how-to-set-up-and-test-microphones-in-windows"
+        },
+        {
+          "label": "Apple: sound input settings on Mac",
+          "url": "https://support.apple.com/en-nz/guide/mac-help/mchlp2567/27/mac/27"
+        },
+        {
+          "label": "Apple: allow an app to use audio inputs",
+          "url": "https://support.apple.com/en-us/102071"
+        },
+        {
+          "label": "Microsoft: camera and microphone privacy",
+          "url": "https://support.microsoft.com/en-us/windows/privacy/windows-camera-microphone-and-privacy"
+        }
+      ],
+      "related": [
+        "camera-permissions",
+        "webcam-test"
+      ]
+    },
+    {
+      "id": "webcam-image-quality",
+      "title": "Improve webcam image quality: diagnose light, focus and motion blur",
+      "description": "Compare lighting, focus and movement to improve a webcam picture, then separate local camera quality from the image seen during a call.",
+      "heading": "Improve a blurry, dark or noisy webcam picture",
+      "lead": "Choose one visible problem before adjusting a camera: a dark face, soft detail, moving blur or a poor picture only during calls. A controlled comparison makes it easier to keep changes that actually help.",
+      "imageAlt": "The same geometric scene shown with different lighting and clarity.",
+      "sections": [
+        {
+          "heading": "Improve the light reaching your face",
+          "paragraphs": [
+            "Place a light source in front of you or slightly to the side and compare the preview. A bright window behind you can leave your face dark when the camera adjusts the overall exposure.",
+            "Try changing your position before buying lighting. Keep the scene otherwise unchanged so you can judge the difference. Avoid staring into a bright lamp; the useful comparison is the face in the preview."
+          ]
+        },
+        {
+          "heading": "Separate focus from a dirty lens",
+          "paragraphs": [
+            "Inspect the lens and follow the manufacturer's cleaning instructions. Then compare a still face at your normal seating distance with the background.",
+            "Identify the camera's focus type. A fixed-focus model needs a suitable working distance; a model with adjustable focus uses its documented controls. Move gradually and wait for the picture to settle before deciding that a setting has failed."
+          ]
+        },
+        {
+          "heading": "Test movement separately",
+          "paragraphs": [
+            "Hold still for a moment, then move a hand at an ordinary pace. If still objects look detailed but moving edges smear, record that distinction before turning up sharpening.",
+            "Repeat the movement with better light. Compare both frames and movement; a brighter still picture alone does not establish that the motion problem is solved. If the app exposes resolution or frame-rate choices, change one setting and repeat the same check."
+          ]
+        },
+        {
+          "heading": "Compare local preview and a call",
+          "paragraphs": [
+            "A clear local preview with a poor remote picture points toward something later in the call path, such as the app's video settings or connection. It does not establish that the camera hardware needs replacement.",
+            "Ask the other participant what they actually see: blur, blocks or pauses. Compare that report with your local preview at the same moment. A problem only one participant sees can have a different cause from a poor image for everyone."
+          ]
+        },
+        {
+          "heading": "Keep a baseline you can restore",
+          "paragraphs": [
+            "Write down the original settings or capture their values before changing several controls. Test with the same seat, framing and light, then retain only changes that improve the relevant symptom.",
+            "Digital enlargement can also make imperfections easier to see. Judge the image at the size used for the call before pursuing detail that the final layout will not display."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Logitech: camera placement and lighting",
+          "url": "https://www.logitech.com/content/dam/logitech/en/resources/infographic/top-10-tips-for-looking-your-best-on-video.pdf"
+        },
+        {
+          "label": "Logitech: lighting, focus and image quality",
+          "url": "https://support.logi.com/hc/en-us/articles/360023206914-Improving-the-image-quality-for-Logitech-Webcams"
+        },
+        {
+          "label": "Logitech: connect and set up a webcam",
+          "url": "https://www.logitech.com/en-gb/discover/a/setup-webcams-and-headsets"
+        }
+      ],
+      "related": [
+        "webcam-test",
+        "logitech-webcam",
+        "webcam-background",
+        "webcam-lighting"
+      ]
+    },
+    {
+      "id": "webcam-in-use",
+      "title": "Camera in use by another app: find and release the webcam",
+      "description": "Find which app may be holding your webcam, release it safely and distinguish a camera conflict from a permission or connection problem.",
+      "heading": "Camera in use by another app: what to check",
+      "lead": "A camera can work in one app and refuse to open in another. Test for a conflict by leaving one camera app open at a time. An error saying the device could not be read is a clue, not proof that another app owns it.",
+      "imageAlt": "Two application windows connected to one camera, with one connection stopped.",
+      "sections": [
+        {
+          "heading": "Record the symptom before closing apps",
+          "paragraphs": [
+            "Note which app works, which fails and the exact error message. A denied permission, missing camera and failed attempt to open a listed camera need different checks. Do not change several permissions just because one app says the camera is busy.",
+            "If you are currently in a meeting, save your work and leave it before testing. Closing a camera app will interrupt its video."
+          ]
+        },
+        {
+          "heading": "Reduce the test to one camera user",
+          "steps": [
+            "Stop previews in other browser tabs, meeting apps and camera configuration utilities.",
+            "Close those apps normally. Check the notification area or menu bar for a utility that remained running after its window closed.",
+            "Reload the failing page and try the camera once. If it starts, stop the test before reopening another app.",
+            "Reopen the other apps individually, repeating the same check to identify when the conflict returns."
+          ],
+          "paragraphs": [
+            "A successful retry identifies a useful workaround. It does not establish that every camera or operating system prevents simultaneous access."
+          ]
+        },
+        {
+          "heading": "If the error remains with other apps closed",
+          "paragraphs": [
+            "Try the system camera app by itself, then close it and retry the browser. If only the browser fails, check its selected camera and permissions. If both fail, check the USB connection or physical camera switch before reinstalling anything.",
+            "A browser NotReadableError can also reflect an operating-system or hardware problem. Keep the message in your notes instead of treating it as the name of a confirmed cause."
+          ]
+        },
+        {
+          "heading": "Finish with a repeatable result",
+          "paragraphs": [
+            "If the owner of the camera is still unclear, save your work, restart the computer and open only the intended app. Compare this clean start with the earlier result.",
+            "For a managed computer, send support the camera model, failing app, error and the one-app test result. Avoid disabling security controls or repeatedly terminating unfamiliar system processes."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "MDN: camera access errors",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia"
+        },
+        {
+          "label": "Microsoft: camera troubleshooting",
+          "url": "https://support.microsoft.com/en-us/windows/hardware/camera/camera-doesn-t-work-in-windows"
+        }
+      ],
+      "related": [
+        "webcam-test",
+        "camera-permissions"
+      ]
+    },
+    {
+      "id": "webcam-resolution-fps",
+      "title": "Webcam resolution and FPS: understand what a test reports",
+      "description": "Understand webcam resolution, configured frame rate and delivered video. Compare camera settings without mistaking a browser preview for a benchmark.",
+      "heading": "Webcam resolution and FPS: what the numbers mean",
+      "lead": "Resolution describes the dimensions of a video frame; frame rate describes frames per second. Neither number alone tells you how a call looks. Separate the camera's advertised capabilities, the settings selected by an app and the video another participant actually receives.",
+      "imageAlt": "Two pixel grids beside a sequence of frames spaced along a timeline.",
+      "sections": [
+        {
+          "heading": "Read resolution as frame dimensions",
+          "paragraphs": [
+            "A setting such as 1280 × 720 describes a frame's width and height in pixels. The size of the preview on your screen is a separate quantity: a browser can display that frame in a smaller or larger box.",
+            "The camera test in this guide shows the dimensions reported for the current video track when the browser provides them. This is not a measurement of lens detail or a guarantee that a meeting app will select the same dimensions."
+          ]
+        },
+        {
+          "heading": "Distinguish configured FPS from measured delivery",
+          "paragraphs": [
+            "The browser's getSettings() values describe the active track configuration. A reported frameRate is not a count of frames that successfully reached another person during a call.",
+            "A preview may still pause or show uneven motion. Do not present a configured value as a measured performance result, and do not infer a camera's maximum capability from a test using default settings."
+          ]
+        },
+        {
+          "heading": "Compare settings with the same scene",
+          "steps": [
+            "Use your normal camera position and lighting. Note the original resolution and frame-rate settings if the app exposes them.",
+            "Look at a stationary object, then move your hand across the frame at a steady pace.",
+            "Change only one available setting and repeat both observations. Compare readable detail and motion separately.",
+            "Finish with a short check in the app used for calls. Ask the other participant whether they see blur, blocks or pauses."
+          ]
+        },
+        {
+          "heading": "Choose settings for the problem you observe",
+          "paragraphs": [
+            "More pixels will not correct a covered lens or establish why a browser cannot open the camera. A number that looks better in a settings menu is not automatically the better result for your setup.",
+            "Keep a change when the relevant picture or motion improves consistently. If the local preview is stable but the remote result is poor, collect the calling app's available connection diagnostics instead of continuing to change camera settings blindly."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "MDN: configured video width",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/MediaTrackSettings/width"
+        },
+        {
+          "label": "MDN: configured frame rate",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/MediaTrackSettings/frameRate"
+        },
+        {
+          "label": "MDN: read track settings",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/MediaStreamTrack/getSettings"
+        }
+      ],
+      "related": [
+        "webcam-test",
+        "webcam-image-quality"
+      ]
+    },
+    {
+      "id": "webcam-background",
+      "title": "Webcam background: prepare the room or use blur in a call",
+      "description": "Choose a webcam background, compare room framing with blur or a replacement image, and check edges and performance before a video call.",
+      "heading": "How to choose a background for your webcam",
+      "lead": "A background can mean the room behind you or an effect applied by a calling app. Start with what the camera actually captures. Then decide whether changing the framing, blurring the room or replacing it with an image solves your problem.",
+      "imageAlt": "A camera view of a person beside examples of a plain and a blurred background.",
+      "sections": [
+        {
+          "heading": "Prepare the visible room first",
+          "paragraphs": [
+            "Open a local preview and inspect all four edges. Move personal documents, name labels and other details you do not want visible out of the frame. Check reflections as well as the area directly behind your chair.",
+            "Try turning the camera toward a plain wall or changing the seating position. This gives you a usable fallback if a background effect becomes unavailable. The local camera test here shows your camera image; it does not add background effects."
+          ]
+        },
+        {
+          "heading": "Apply an effect in the calling app",
+          "steps": [
+            "Open the app's own camera preview before the call when that option is available.",
+            "Find its background or video-effects controls. In Google Meet, use Backgrounds and effects; available choices depend on the device and account.",
+            "Compare blur with a simple replacement image. Use an image you own or have permission to use.",
+            "Check the result in the meeting app rather than assuming the separate browser test inherits that effect."
+          ],
+          "paragraphs": [
+            "In Meet, selecting an effect can turn on the camera. Make sure the real room is ready before opening the effect preview."
+          ]
+        },
+        {
+          "heading": "Test movement and difficult edges",
+          "paragraphs": [
+            "Move your head, hands and chair as you normally would. Check whether hair, glasses or objects disappear into the replacement image. Test both a still pose and movement; one good frame does not establish that the effect stays convincing.",
+            "Treat blur and replacement as visual effects, not a reliable privacy barrier. Keep sensitive details outside the camera's real view even when the preview looks clean."
+          ]
+        },
+        {
+          "heading": "Keep a simple fallback",
+          "paragraphs": [
+            "If motion becomes uneven after enabling an effect, compare the same preview with effects disabled. Google notes that effects can affect performance and battery use; the comparison helps you decide whether the appearance is worth that cost on your device.",
+            "Before an important call, keep the background that remains readable and stable during ordinary movement. If an option is missing, check the app's current requirements instead of downloading an unfamiliar camera utility just to imitate it."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Google Meet: backgrounds, effects and requirements",
+          "url": "https://support.google.com/meet/answer/10058482?hl=en"
+        },
+        {
+          "label": "Microsoft Teams Free: video effects and device settings",
+          "url": "https://support.microsoft.com/en-us/teams/free/settings/manage-your-device-settings-in-microsoft-teams-free"
+        }
+      ],
+      "related": [
+        "webcam-test",
+        "webcam-image-quality",
+        "obs-webcam-frame"
+      ]
+    },
+    {
+      "id": "webcam-mirror",
+      "title": "Mirror your webcam: distinguish preview from outgoing video",
+      "description": "Flip a local webcam preview horizontally, check text direction and distinguish what you see from the camera image other participants receive.",
+      "heading": "How to mirror a webcam preview and check the result",
+      "lead": "A mirrored preview swaps left and right. It may make self-view feel more familiar, but it can also reverse writing. Before changing anything, establish whether you want to change your own preview or the image another person receives.",
+      "imageAlt": "Two camera previews with an asymmetric shape flipped across a vertical axis.",
+      "sections": [
+        {
+          "heading": "Use an asymmetric reference",
+          "paragraphs": [
+            "Hold up a sheet with an ordinary word or place an object on one side of the scene. A face alone makes left-right orientation harder to assess. Look at the lettering and object position rather than relying on how familiar your reflection feels.",
+            "A horizontal flip is different from rotating an upside-down image. If the camera is inverted, first check its mounting and the app's rotation controls."
+          ]
+        },
+        {
+          "heading": "Compare both views in the local test",
+          "steps": [
+            "Open the webcam test, start the camera and grant permission if requested.",
+            "Change Mirror this preview and compare the same word or object in both positions.",
+            "Leave the checkbox in the position you prefer, then stop the test when finished."
+          ],
+          "paragraphs": [
+            "This control only flips the displayed preview on this page. It does not change your camera driver, configure another application, create a recording or send video to anyone. Opening a meeting app requires a separate check of that app's behavior."
+          ]
+        },
+        {
+          "heading": "Check what the other participant sees",
+          "paragraphs": [
+            "Ask a participant to read the word you are holding up. Compare their report with your self-view before adding a second flip. A reversed self-view can coexist with readable outgoing video.",
+            "For example, Microsoft documents Mirror my video in Teams Free on desktop as a change to your own view. Do not assume a similarly named setting in every other app has the same scope; consult its documentation and test it."
+          ]
+        },
+        {
+          "heading": "Avoid correcting the image twice",
+          "paragraphs": [
+            "If camera software, a virtual camera and the calling app all offer transformations, record which controls you changed. Two horizontal flips can cancel each other, leaving a confusing chain of settings.",
+            "Restore the last change when the result becomes less clear. For a demonstration with writing or labeled objects, prioritize a readable outgoing picture and verify it in the final app. A preference for mirrored self-view should not decide that result by itself."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Microsoft Teams Free: the scope of Mirror my video",
+          "url": "https://support.microsoft.com/en-us/teams/free/settings/manage-your-device-settings-in-microsoft-teams-free"
+        },
+        {
+          "label": "MDN: horizontal scaling with CSS",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scaleX"
+        }
+      ],
+      "related": [
+        "webcam-test",
+        "webcam-background",
+        "obs-webcam-setup"
+      ]
+    },
+    {
+      "id": "obs-webcam-setup",
+      "title": "Add a webcam in OBS Studio: source, picture and sizing",
+      "description": "Add a webcam source to an OBS scene, select the correct device and check visibility, resolution and layout in the local preview.",
+      "heading": "How to add and check a webcam in OBS Studio",
+      "lead": "Use a simple scene to verify that OBS receives the intended camera before adding a frame or more sources. A local scene preview is enough for this check; you do not need to start recording or connect a broadcasting account.",
+      "imageAlt": "A camera connected to a scene canvas with a selected video source in a side panel.",
+      "sections": [
+        {
+          "heading": "Add the camera as a video source",
+          "steps": [
+            "Stop other camera tests and open a new or existing OBS scene intended for this check.",
+            "Use the plus button in Sources and add Video Capture Device on Windows or macOS. On Linux, the corresponding source is Video Capture Device (V4L2).",
+            "Give the source a recognizable name, then select the physical camera in its device properties.",
+            "Begin with the device's default settings and confirm that the preview changes when you move."
+          ]
+        },
+        {
+          "heading": "Separate a hidden source from a failed camera",
+          "paragraphs": [
+            "If the camera appears in its properties but not on the scene canvas, check the source's visibility and position. Another source above it can cover the picture. Temporarily hide the covering source to test that explanation.",
+            "If the device properties also show no picture, verify the selected camera, operating-system permission and other apps using it. A layout adjustment cannot repair a device OBS has not opened."
+          ]
+        },
+        {
+          "heading": "Place the picture without distorting it",
+          "paragraphs": [
+            "Select the camera source and move or resize its bounding box in the preview. Use Transform and Edit Transform when you need precise values. Keep the proportions natural instead of stretching a face to fill a differently shaped area.",
+            "If the picture needs to fit a narrower opening, decide deliberately what may be cropped. Check the head and hands during normal movement, not just while sitting still. Leave enough space for the purpose of the shot."
+          ]
+        },
+        {
+          "heading": "Change capture settings only after a working baseline",
+          "paragraphs": [
+            "When the default picture works, note its settings before trying another supported resolution or frame rate. Unsupported combinations can produce no picture. Restore the working choice if a change fails.",
+            "Confirm that the scene remains correct after selecting another scene and returning. Check audio separately: a visible webcam image is not a microphone test. When finished, close or deactivate the camera source so the next application can use it."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "OBS: video capture devices and properties",
+          "url": "https://obsproject.com/kb/video-capture-sources"
+        },
+        {
+          "label": "OBS: source visibility, ordering and transforms",
+          "url": "https://obsproject.com/kb/sources-guide"
+        },
+        {
+          "label": "OBS: aspect ratio and cropping",
+          "url": "https://obsproject.com/kb/aspect-ratio-guide"
+        }
+      ],
+      "related": [
+        "webcam-in-use",
+        "webcam-resolution-fps",
+        "obs-webcam-frame",
+        "obs-webcam-black-screen",
+        "webcam-crop"
+      ]
+    },
+    {
+      "id": "obs-webcam-frame",
+      "title": "Add a webcam frame in OBS: transparent PNG and alignment",
+      "description": "Place a transparent PNG frame above a webcam in OBS, align the camera opening and fix common layer, transparency and cropping problems.",
+      "heading": "How to add a frame around your webcam in OBS",
+      "lead": "A webcam frame is usually a separate image placed above the camera source. The opening must be transparent for the video beneath it to remain visible. First get the camera working in the scene, then add and align the decoration.",
+      "imageAlt": "A transparent rectangular frame layered above a camera picture with alignment handles.",
+      "sections": [
+        {
+          "heading": "Check the image before importing it",
+          "paragraphs": [
+            "Use a frame you made or have permission to use. A PNG can contain transparency, but the extension alone does not guarantee it. Open the image in an editor that shows the alpha channel and inspect the center opening.",
+            "A checkerboard drawn into an image is not transparency. If that pattern appears as pixels inside the frame, it will cover the camera just like a solid color. Keep the original file so you can correct the opening without rebuilding the scene."
+          ]
+        },
+        {
+          "heading": "Add the frame above the camera",
+          "steps": [
+            "In the same OBS scene as the working camera, add an Image source and select the frame file.",
+            "Place the image source above the camera in the Sources list so its border is drawn on top.",
+            "Position and resize the frame, then adjust the camera beneath it to fit the transparent opening.",
+            "Use Edit Transform for precise positioning. Lock the arranged sources to reduce accidental movement while working on the scene."
+          ]
+        },
+        {
+          "heading": "Align the opening without stretching faces",
+          "paragraphs": [
+            "Compare the opening's shape with the camera picture. If their proportions differ, resizing alone may leave gaps or distortion. Choose an appropriate frame or crop a deliberate part of the camera image while preserving the subject's proportions.",
+            "Move normally in front of the camera and check the border around the head and hands. A layout that fits a still face may clip gestures. Inspect the scene at its intended display size; an elaborate border can overwhelm a small camera window."
+          ]
+        },
+        {
+          "heading": "Troubleshoot the layers one at a time",
+          "paragraphs": [
+            "If the whole picture disappears, hide the frame temporarily. A returning camera picture points toward image opacity, the opening or frame placement. If only the border is missing, check its visibility and its order relative to the camera.",
+            "Keep the image file in a stable local folder, since the Image source refers to that path. After moving assets, reopen the scene and check for missing images before relying on the saved layout."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "OBS: image sources and alpha-channel support",
+          "url": "https://obsproject.com/kb/image-sources"
+        },
+        {
+          "label": "OBS: layer ordering and positioning",
+          "url": "https://obsproject.com/kb/sources-guide"
+        },
+        {
+          "label": "OBS: preserving aspect ratio and cropping",
+          "url": "https://obsproject.com/kb/aspect-ratio-guide"
+        }
+      ],
+      "related": [
+        "obs-webcam-setup",
+        "webcam-background",
+        "webcam-resolution-fps",
+        "webcam-crop"
+      ]
+    },
+    {
+      "id": "phone-as-webcam",
+      "title": "Phone as a webcam: choose a connection that fits your devices",
+      "description": "Compare Android with Windows, iPhone with Mac and a separate webcam app. Check compatibility, mounting, power and camera selection before a call.",
+      "heading": "Use your phone as a webcam",
+      "lead": "A phone can provide a useful camera when a laptop's built-in picture is poor. First choose a method supported by both devices: installing unrelated apps at random makes connection problems harder to isolate.",
+      "imageAlt": "A phone linked to a computer by wireless and wired paths.",
+      "sections": [
+        {
+          "heading": "Choose the route before installing anything",
+          "paragraphs": [
+            "For a compatible Android phone and Windows 11 PC, Microsoft's connected-camera feature is one option. For an iPhone and Mac, check Apple's Continuity Camera requirements. Iriun is a separate app-based route covered in its own guide; its availability and requirements should be checked for your exact devices.",
+            "Write down the phone model, mobile OS and computer OS. A method working on someone else's phone does not establish compatibility with yours. Keep the manufacturer's current requirements open while setting up."
+          ]
+        },
+        {
+          "heading": "Prepare a stable position",
+          "steps": [
+            "Place the phone in a secure holder with the intended lens unobstructed. Clean that lens and check the framing before joining a call.",
+            "Keep cables clear of the stand and leave space around the phone for ventilation. Check battery level before a longer session.",
+            "Close other camera apps on the phone. Use a trusted local connection and follow the selected provider's pairing prompts."
+          ]
+        },
+        {
+          "heading": "Select the phone in the receiving app",
+          "paragraphs": [
+            "After pairing, choose the phone explicitly in the computer app's camera menu. A successful pairing message alone does not mean that app has switched away from the laptop camera. Cover the phone lens briefly to identify the active source.",
+            "Check audio separately. A phone video source does not guarantee that the meeting app selected the microphone you intended. Stop this site's device test before opening the receiving app's preview."
+          ]
+        },
+        {
+          "heading": "Isolate pauses and disconnects",
+          "paragraphs": [
+            "If the picture stops, note whether the phone app stopped, the connection disappeared or only one computer app froze. Test the same route with a shorter session and unchanged lighting. Change one element at a time.",
+            "A warm phone, depleted battery or unstable stand is a reason to stop and correct the setup. If repeated interruptions persist, use a known working camera for the call and investigate afterward. Do not assume USB is supported by every app merely because it supports wireless pairing."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Microsoft: using a mobile device camera",
+          "url": "https://support.microsoft.com/en-us/windows/apps/phonelink/use-your-mobile-device-s-camera"
+        },
+        {
+          "label": "Apple: Continuity Camera compatibility and setup",
+          "url": "https://support.apple.com/en-au/102546"
+        }
+      ],
+      "related": [
+        "iriun-webcam",
+        "webcam-test",
+        "microphone-test"
+      ]
+    },
+    {
+      "id": "webcam-setup",
+      "title": "Webcam setup: focus, exposure and a repeatable picture",
+      "description": "Set up a connected webcam with a simple comparison: framing, focus, exposure and application settings. Keep only changes that improve the picture.",
+      "heading": "Set up a webcam after connecting it",
+      "lead": "Once the camera works, setup is a sequence of small adjustments. Keep a clear baseline so you can undo a change that makes the picture worse instead of stacking filters over the problem.",
+      "imageAlt": "A camera preview beside three independent adjustment sliders.",
+      "sections": [
+        {
+          "heading": "Record a starting point",
+          "paragraphs": [
+            "Open one preview, sit where you will normally sit and note the selected camera. Check whether the face is sharp, the background is bright and movement is smooth. A screenshot is optional; a short note is enough and avoids saving an image of your room.",
+            "If there is no moving picture, fix detection or permissions first. Brightness sliders cannot repair a missing video source. The connection and black-screen guides cover those earlier steps."
+          ]
+        },
+        {
+          "heading": "Adjust position before image controls",
+          "steps": [
+            "Raise or lower the camera until the framing is comfortable. Keep the lens clean and avoid placing it where a screen edge blocks the view.",
+            "Face a soft light source and reduce strong backlighting. Check reflections if you wear glasses.",
+            "Move to your normal speaking distance. If focus hunts, compare a still scene with hand movement before changing focus controls."
+          ]
+        },
+        {
+          "heading": "Change one supported setting",
+          "paragraphs": [
+            "Windows 11 offers camera controls under Bluetooth & devices, Cameras when the device supports them. A manufacturer's app or the calling app may offer different controls. Missing sliders do not necessarily mean the camera is faulty.",
+            "Adjust one control, such as exposure or contrast, and compare the same scene. Write down the previous value. Avoid a large digital zoom merely to fill the frame; moving the camera may preserve more useful detail."
+          ]
+        },
+        {
+          "heading": "Verify inside the intended app",
+          "paragraphs": [
+            "Close the setup preview and open the app you will use. Its own settings can override system defaults, so compare the result again. If the change disappeared, identify which app owns the active control rather than repeatedly changing unrelated settings.",
+            "Keep a stable result even if it uses fewer effects. Recheck at your usual time of day: a setup made beside a bright morning window can look very different in the evening. This is a local picture check, not a measurement of what remote participants receive."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Microsoft: camera settings in Windows 11",
+          "url": "https://support.microsoft.com/en-us/windows/hardware/camera/manage-cameras-with-camera-settings-in-windows-11"
+        }
+      ],
+      "related": [
+        "webcam-for-pc",
+        "webcam-lighting",
+        "webcam-resolution-fps",
+        "webcam-image-quality"
+      ]
+    },
+    {
+      "id": "webcam-on-off",
+      "title": "Turn a webcam on or off: device, app and browser controls",
+      "description": "Understand the camera shutter, operating-system access, site permission and stop button. Verify which control actually ends the camera session.",
+      "heading": "Turn your webcam on and stop it safely",
+      "lead": "A shutter, a device setting and a site's permission switch do different jobs. Use the control that matches your aim: show a picture now, stop the current session or prevent a particular app from using the camera later.",
+      "imageAlt": "A webcam beside separate active and inactive switches.",
+      "sections": [
+        {
+          "heading": "Check the physical control",
+          "paragraphs": [
+            "Some cameras have a sliding cover; some laptops have a camera key or hardware switch. A cover may only block the lens, while a switch may disconnect the device. Check your device's manual rather than assuming the indicator light has the same meaning on every model.",
+            "Remove a cover only when you are ready to check the picture. An uncovered lens does not by itself grant a website permission or start this site's test."
+          ]
+        },
+        {
+          "heading": "Start one deliberate session",
+          "steps": [
+            "Confirm that the operating system permits the intended app to use the camera.",
+            "Open the camera test and press Start camera. Respond to the browser prompt for this site.",
+            "Move a hand in view to confirm that the picture is live. Check the selected source if the image comes from another camera."
+          ]
+        },
+        {
+          "heading": "Stop the session and verify",
+          "paragraphs": [
+            "Press Stop in this site's test. Its preview clears and it releases the media tracks. This test also stops when the tab is hidden. Another app can still be using the same or a different camera, so inspect other open previews if an indicator remains on.",
+            "In another application, use that application's camera controls and check its documented behavior. Closing a window may leave an app running in the background. Save work before fully quitting it."
+          ]
+        },
+        {
+          "heading": "Decide what should remain permitted",
+          "paragraphs": [
+            "Revoking a site's camera permission controls future requests from that site; it is different from disabling the entire device. Use the browser's site settings for a single website and operating-system privacy settings for application access.",
+            "If you disable the camera system-wide, note how to re-enable it before the next call. On a managed computer, settings may be controlled by an administrator. Do not bypass those controls; request the access needed for the specific application."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Microsoft: physical controls and camera permissions",
+          "url": "https://support.microsoft.com/en-us/windows/hardware/camera/camera-doesn-t-work-in-windows"
+        },
+        {
+          "label": "MDN: stopping a media track",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/MediaStreamTrack/stop"
+        }
+      ],
+      "related": [
+        "camera-permissions",
+        "webcam-test",
+        "webcam-in-use"
+      ]
+    },
+    {
+      "id": "obs-webcam-black-screen",
+      "title": "OBS webcam black screen: isolate the source and scene",
+      "description": "Check an OBS webcam black screen without changing everything: source properties, visibility, layer order, camera access and supported capture mode.",
+      "heading": "Fix a black webcam picture in OBS",
+      "lead": "First find out whether OBS is receiving no camera image or whether the scene is hiding an image it already receives. Those cases need different checks and should not lead straight to reinstalling drivers.",
+      "imageAlt": "A dark camera source in a scene with a separate source-properties panel.",
+      "sections": [
+        {
+          "heading": "Compare the source preview and the scene",
+          "paragraphs": [
+            "Open the camera source's properties and look at its preview. If the picture appears there but not in the scene, inspect visibility, source order and transforms. A fully opaque image source above the camera can cover it.",
+            "If the source preview is also blank, verify the selected device. A similarly named virtual camera is not necessarily the USB camera in front of you. Note any error message before changing settings."
+          ]
+        },
+        {
+          "heading": "Try a clean scene",
+          "steps": [
+            "Create a temporary scene with only the existing camera source added to it. Keep the original scene intact.",
+            "Check the source's visibility and reset its transform in the temporary scene if it lies outside the canvas.",
+            "Use a default supported capture mode first. If you previously forced a custom resolution or frame rate, remove that extra variable and retry."
+          ]
+        },
+        {
+          "heading": "Release the camera elsewhere",
+          "paragraphs": [
+            "Close browser tests and camera previews in other apps, then retry OBS. To compare with the system camera app, release the OBS camera first and run only one test at a time. A busy device is one possible cause, not a conclusion you can draw from every black frame.",
+            "If the system app also fails, check the cable, physical cover and operating-system permissions. If only OBS fails, record the source settings and application version for a focused support request."
+          ]
+        },
+        {
+          "heading": "Restore a known working configuration",
+          "paragraphs": [
+            "Once the temporary scene shows a moving picture, return to the original scene and reintroduce layers one at a time. Stop when the source disappears; the last change is a useful clue.",
+            "Avoid downloading random driver packages or plugins as a first step. Keep the temporary scene until the result survives closing and reopening OBS. This procedure tests local capture only; it does not diagnose a remote service or internet connection."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "OBS: video capture sources",
+          "url": "https://obsproject.com/kb/video-capture-sources"
+        },
+        {
+          "label": "OBS: ordering and transforming sources",
+          "url": "https://obsproject.com/kb/sources-guide"
+        }
+      ],
+      "related": [
+        "obs-webcam-setup",
+        "webcam-in-use",
+        "webcam-black-screen"
+      ]
+    },
+    {
+      "id": "webcam-crop",
+      "title": "Crop a webcam in OBS without stretching the picture",
+      "description": "Crop camera edges, preserve aspect ratio and check the final frame in OBS. Understand the difference between trimming a source and scaling it.",
+      "heading": "Crop and position a webcam picture in OBS",
+      "lead": "Cropping removes unwanted edges; scaling changes the displayed size. If you want a narrower camera panel, crop first and resize the remaining picture proportionally so faces and objects keep their shape.",
+      "imageAlt": "Crop corners around a camera picture with an unchanged circular reference.",
+      "sections": [
+        {
+          "heading": "Define the frame you need",
+          "paragraphs": [
+            "Decide which part of the picture must remain visible: your head, hands or an object on the desk. Leave room for normal movement. A frame that fits only while you sit perfectly still will clip useful content during a call.",
+            "Keep a copy of the scene layout or note the transform values before editing. A camera can look stretched even when it is working correctly; that is a layout issue rather than a sensor fault."
+          ]
+        },
+        {
+          "heading": "Crop with a reversible transform",
+          "steps": [
+            "Select the camera source in OBS and open Edit Transform. Adjust the crop values for the edges you want to trim.",
+            "Alternatively, hold Alt on Windows or Option on macOS while dragging the source's bounding-box handles, as described in OBS documentation.",
+            "Resize and position the cropped result without deliberately stretching it to a different aspect ratio. Use the transform controls when precise placement matters."
+          ]
+        },
+        {
+          "heading": "Check what the crop changed",
+          "paragraphs": [
+            "Move your hands toward the edges and lean slightly in each direction. If an important area disappears, reduce the crop or reposition the camera. Check a round object in the picture; an obvious oval can reveal unwanted stretching.",
+            "Cropping does not create more camera detail. Enlarging a small cropped region can make it look softer. Before increasing sharpening, compare a less aggressive crop at the same displayed size."
+          ]
+        },
+        {
+          "heading": "Keep framing separate from privacy",
+          "paragraphs": [
+            "Check every scene that uses the camera. Cropping one source layout does not guarantee every other scene or app uses that crop. Remove sensitive objects from the room when their accidental appearance would matter.",
+            "When using a decorative overlay, place it above the camera and inspect its transparent opening. The frame guide covers that layer separately. Save the layout only after checking normal movement and the intended output dimensions."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "OBS: source cropping and transforms",
+          "url": "https://obsproject.com/kb/sources-guide"
+        },
+        {
+          "label": "OBS: aspect ratio",
+          "url": "https://obsproject.com/kb/aspect-ratio-guide"
+        }
+      ],
+      "related": [
+        "obs-webcam-frame",
+        "obs-webcam-setup",
+        "webcam-background"
+      ]
+    },
+    {
+      "id": "webcam-lighting",
+      "title": "Webcam lighting: improve a dark face and uneven picture",
+      "description": "Use a repeatable lighting check for your webcam: face the light, reduce backlighting and reflections, then compare before changing exposure settings.",
+      "heading": "Light your webcam picture with what you already have",
+      "lead": "A brighter room does not always produce a clearer face on camera. The light's position matters. Start with the existing window or lamp and compare a few arrangements before deciding that new equipment is necessary.",
+      "imageAlt": "A person between two soft light sources with a camera above.",
+      "sections": [
+        {
+          "heading": "Identify the brightest area",
+          "paragraphs": [
+            "Look at the preview and identify the brightest object: a window, a bare lamp, a screen or your face. If a bright window fills the background, try changing your position so it lights you from the front or side instead.",
+            "Keep the camera position fixed while making a comparison. Changing the light, exposure and distance together makes it difficult to know which change helped."
+          ]
+        },
+        {
+          "heading": "Make a short comparison",
+          "steps": [
+            "Check the picture with the usual room light. Note whether the eyes are visible and the face is evenly lit.",
+            "Move a lamp to one side of the camera, outside the frame, or turn toward a window. Keep hot lamps clear of fabric and use them according to their instructions.",
+            "Move slowly and check whether the image stays clear. If you wear glasses, adjust the light angle to reduce reflections instead of only raising brightness."
+          ]
+        },
+        {
+          "heading": "Adjust the camera after the light",
+          "paragraphs": [
+            "Give automatic exposure time to settle after each change. If supported, compare a small exposure adjustment with the previous setting. Controls vary by camera, and the calling app may apply settings of its own.",
+            "If colored light makes skin or white objects look unusual, compare with one simpler light source. Avoid combining several strong effects while diagnosing the original problem. The goal is a stable, usable picture, not a particular filter."
+          ]
+        },
+        {
+          "heading": "Check the conditions you will actually use",
+          "paragraphs": [
+            "Repeat the check at the usual time of the call. Daylight and screen content can change the apparent result. If stripes or brightness pulses appear, compare with another light source and consult the camera's supported anti-flicker settings.",
+            "A clean local picture does not prove remote video quality. If it looks good here but poor to another participant, keep this lighting setup and investigate the application or connection separately. Save your preferred arrangement as a short note so it is easy to reproduce."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Microsoft: supported image controls and application overrides",
+          "url": "https://support.microsoft.com/en-us/windows/hardware/camera/manage-cameras-with-camera-settings-in-windows-11"
+        }
+      ],
+      "related": [
+        "webcam-image-quality",
+        "webcam-setup",
+        "webcam-background"
+      ]
+    }
+  ]
+}

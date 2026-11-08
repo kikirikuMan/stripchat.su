@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ru" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Чёрный экран веб-камеры в OBS: проверка источника и сцены</title>
+  <meta name="description" content="Что проверить, если вебка в OBS показывает чёрный экран: свойства источника, видимость, слои, доступ к устройству и поддерживаемый режим захвата.">
+  <link rel="canonical" href="https://stripchat.su/help/obs-webcam-black-screen/">
+  <link rel="alternate" hreflang="ru" href="https://stripchat.su/help/obs-webcam-black-screen/">
+  <link rel="alternate" hreflang="en" href="https://stripchat.su/en/help/obs-webcam-black-screen/">
+  <link rel="alternate" hreflang="es" href="https://stripchat.su/es/help/obs-webcam-black-screen/">
+  <link rel="alternate" hreflang="pt" href="https://stripchat.su/pt/help/obs-webcam-black-screen/">
+  <link rel="alternate" hreflang="de" href="https://stripchat.su/de/help/obs-webcam-black-screen/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://stripchat.su/zh/help/obs-webcam-black-screen/">
+  <link rel="alternate" hreflang="hi" href="https://stripchat.su/hi/help/obs-webcam-black-screen/">
+  <link rel="alternate" hreflang="ar" href="https://stripchat.su/ar/help/obs-webcam-black-screen/">
+  <link rel="alternate" hreflang="x-default" href="https://stripchat.su/en/help/obs-webcam-black-screen/">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="theme-color" content="#0f0f14">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="pt_BR">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:locale:alternate" content="zh_CN">
+  <meta property="og:locale:alternate" content="hi_IN">
+  <meta property="og:locale:alternate" content="ar_SA">
+  <meta property="og:title" content="Чёрный экран веб-камеры в OBS: проверка источника и сцены">
+  <meta property="og:description" content="Что проверить, если вебка в OBS показывает чёрный экран: свойства источника, видимость, слои, доступ к устройству и поддерживаемый режим захвата.">
+  <meta property="og:url" content="https://stripchat.su/help/obs-webcam-black-screen/">
+  <meta property="og:image" content="https://stripchat.su/img/help/obs-webcam-black-screen.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Тёмный источник камеры в сцене и отдельная панель его свойств.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://stripchat.su/img/help/obs-webcam-black-screen.png">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="stylesheet" href="/assets/site.css?v=fbae5070">
+  <link rel="stylesheet" href="/assets/help.css?v=de76c1516f">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://stripchat.su/help/obs-webcam-black-screen/#page","url":"https://stripchat.su/help/obs-webcam-black-screen/","name":"Чёрный экран веб-камеры в OBS: проверка источника и сцены","description":"Что проверить, если вебка в OBS показывает чёрный экран: свойства источника, видимость, слои, доступ к устройству и поддерживаемый режим захвата.","inLanguage":"ru","dateModified":"2026-11-08","isPartOf":{"@id":"https://stripchat.su/#website"},"breadcrumb":{"@id":"https://stripchat.su/help/obs-webcam-black-screen/#breadcrumb"}},{"@type":"WebSite","@id":"https://stripchat.su/#website","url":"https://stripchat.su/","name":"Stripchat.su","inLanguage":"ru"},{"@type":"BreadcrumbList","@id":"https://stripchat.su/help/obs-webcam-black-screen/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Главная","item":"https://stripchat.su/"},{"@type":"ListItem","position":2,"name":"Помощь с камерой и микрофоном","item":"https://stripchat.su/help/"},{"@type":"ListItem","position":3,"name":"Как исправить чёрный экран вебки в OBS","item":"https://stripchat.su/help/obs-webcam-black-screen/"}]},{"@type":"TechArticle","@id":"https://stripchat.su/help/obs-webcam-black-screen/#article","headline":"Как исправить чёрный экран вебки в OBS","description":"Что проверить, если вебка в OBS показывает чёрный экран: свойства источника, видимость, слои, доступ к устройству и поддерживаемый режим захвата.","inLanguage":"ru","dateModified":"2026-11-08","mainEntityOfPage":{"@id":"https://stripchat.su/help/obs-webcam-black-screen/#page"},"image":"https://stripchat.su/img/help/obs-webcam-black-screen.png","citation":["https://obsproject.com/kb/video-capture-sources","https://obsproject.com/kb/sources-guide"]}]}</script>
+
+</head>
+<body class="section-help">
+  <a class="skip-link" href="#main">Перейти к содержанию</a>
+  <header class="site-header"><a class="logo" href="/"><img src="/favicon.svg" width="28" height="28" alt=""><span dir="ltr">Stripchat.su</span></a><nav class="site-nav" dir="ltr" aria-label="Основное меню"><a href="/">Главная</a><a href="/help/">Все инструкции</a><a href="/o-sajte/">О сайте</a></nav><details class="language-switcher" dir="ltr"><summary class="language-toggle" aria-label="Язык: Русский" title="Язык"><svg class="language-globe" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c5 5 5 13 0 18-5-5-5-13 0-18Z"/></svg><span class="language-current" lang="ru">Русский</span><span class="language-code" aria-hidden="true">RU</span><svg class="language-chevron" viewBox="0 0 16 16" width="12" height="12" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="m4 6 4 4 4-4"/></svg></summary><nav class="language-nav" aria-label="Язык"><a href="/help/obs-webcam-black-screen/" lang="ru" hreflang="ru" dir="ltr" aria-current="page">Русский<span class="language-check" aria-hidden="true">✓</span></a><a href="/en/help/obs-webcam-black-screen/" lang="en" hreflang="en" dir="ltr">English</a><a href="/es/help/obs-webcam-black-screen/" lang="es" hreflang="es" dir="ltr">Español</a><a href="/pt/help/obs-webcam-black-screen/" lang="pt" hreflang="pt" dir="ltr">Português</a><a href="/de/help/obs-webcam-black-screen/" lang="de" hreflang="de" dir="ltr">Deutsch</a><a href="/zh/help/obs-webcam-black-screen/" lang="zh-Hans" hreflang="zh-Hans" dir="ltr">简体中文</a><a href="/hi/help/obs-webcam-black-screen/" lang="hi" hreflang="hi" dir="ltr">हिन्दी</a><a href="/ar/help/obs-webcam-black-screen/" lang="ar" hreflang="ar" dir="rtl">العربية</a></nav></details><script src="/assets/language-switcher.js?v=5b205ca92360" defer></script></header>
+  <main id="main">
+    <nav class="crumbs breadcrumbs" aria-label="Хлебные крошки"><a href="/">Главная</a><span class="sep" aria-hidden="true">›</span><a href="/help/">Помощь с камерой и микрофоном</a><span class="sep" aria-hidden="true">›</span><span aria-current="page">Как исправить чёрный экран вебки в OBS</span></nav>
+    <article>
+      <header class="article-header"><p class="eyebrow">Проверено <time datetime="2026-11-08">8 ноября 2026 г.</time></p><h1 class="page-title">Как исправить чёрный экран вебки в OBS</h1><p class="lead">Сначала выясните, не получает ли OBS изображение вообще или сцена скрывает уже работающую камеру. Это разные ситуации: ни одна из них не требует начинать с переустановки драйверов.</p></header>
+
+
+        <figure class="article-image"><img src="/img/help/obs-webcam-black-screen.svg" width="1200" height="630" alt="Тёмный источник камеры в сцене и отдельная панель его свойств." decoding="async" fetchpriority="high"></figure>
+        <nav class="contents" aria-label="В этой инструкции"><h2>В этой инструкции</h2><ol><li><a href="#section-1">Сравните свойства источника и сцену</a></li><li><a href="#section-2">Проверьте на чистой сцене</a></li><li><a href="#section-3">Освободите камеру в других приложениях</a></li><li><a href="#section-4">Восстановите рабочую конфигурацию</a></li></ol></nav>
+        <section class="article-section" aria-labelledby="section-1"><h2 id="section-1">Сравните свойства источника и сцену</h2><p>Откройте свойства источника камеры и посмотрите на предпросмотр. Если там картинка есть, а в сцене её нет, проверьте видимость, порядок слоёв и трансформацию. Непрозрачное изображение выше камеры может полностью закрывать её.</p><p>Если предпросмотр в свойствах тоже пустой, уточните выбранное устройство. Виртуальная камера с похожим названием может не иметь отношения к подключённой USB-камере. До изменения настроек запишите текст ошибки.</p></section><section class="article-section" aria-labelledby="section-2"><h2 id="section-2">Проверьте на чистой сцене</h2><ol><li>Создайте временную сцену и добавьте в неё только существующий источник камеры. Исходную сцену сохраните.</li><li>Проверьте видимость источника. Если он оказался за пределами холста, сбросьте его трансформацию во временной сцене.</li><li>Начните с поддерживаемого режима по умолчанию. Если вручную задавали разрешение или частоту кадров, уберите это дополнительное условие и повторите проверку.</li></ol></section><section class="article-section" aria-labelledby="section-3"><h2 id="section-3">Освободите камеру в других приложениях</h2><p>Закройте браузерные тесты и предпросмотры в других программах, затем повторите попытку в OBS. Для сравнения с системным приложением сначала освободите камеру в OBS. Проверяйте по одной программе: занятость устройства — возможная причина, а не объяснение любого чёрного кадра.</p><p>Если системная программа тоже не работает, проверьте кабель, шторку и разрешения ОС. Если сбой только в OBS, сохраните параметры источника и версию приложения для обращения в поддержку.</p></section><section class="article-section" aria-labelledby="section-4"><h2 id="section-4">Восстановите рабочую конфигурацию</h2><p>Когда во временной сцене появится движущееся изображение, вернитесь в исходную и включайте слои по одному. Последнее действие перед исчезновением картинки поможет найти причину.</p><p>Не начинайте с загрузки случайных драйверов или плагинов. Сохраните временную сцену, пока результат не подтвердится после повторного запуска OBS. Эта процедура проверяет локальный захват, а не интернет-соединение или внешний сервис.</p></section>
+        <section class="sources" aria-labelledby="sources"><h2 id="sources">Официальная документация</h2><ul><li><a href="https://obsproject.com/kb/video-capture-sources" rel="noopener noreferrer">OBS: официальная документация по источникам и композиции</a></li><li><a href="https://obsproject.com/kb/sources-guide" rel="noopener noreferrer">OBS: официальная документация по источникам и композиции</a></li></ul></section>
+        <section aria-labelledby="related"><h2 id="related">Другие инструкции</h2><ul class="cards help-cards"><li><a href="/help/obs-webcam-setup/"><img src="/img/help/obs-webcam-setup.svg" width="1200" height="630" alt="" loading="lazy" decoding="async"><h3>Как добавить и проверить веб-камеру в OBS Studio</h3><p>Добавьте веб-камеру в сцену OBS, выберите нужное устройство и проверьте изображение, видимость, разрешение и расположение в локальном предпросмотре.</p></a></li><li><a href="/help/webcam-in-use/"><img src="/img/help/webcam-in-use.svg" width="1200" height="630" alt="" loading="lazy" decoding="async"><h3>Что делать, если камера занята другим приложением</h3><p>Проверьте, какое приложение использует веб-камеру, освободите устройство и отличите конфликт программ от ошибки разрешений или подключения.</p></a></li><li><a href="/help/webcam-black-screen/"><img src="/img/help/webcam-black-screen.svg" width="1200" height="630" alt="" loading="lazy" decoding="async"><h3>Почему веб-камера показывает чёрный экран</h3><p>Что проверить при чёрном экране камеры: шторку, выбранный источник, работу в другом приложении, системный доступ и USB-подключение.</p></a></li></ul></section>
+
+    </article>
+  </main>
+  <footer class="site-footer"><section id="privacy"><h2>Конфиденциальность</h2><p>Тест начинается только после нажатия кнопки запуска и разрешения браузера. Видео и звук обрабатываются локально в браузере: этот инструмент не записывает и не отправляет их на сервер. При загрузке страницы хостинг получает обычные HTTP-запросы.</p><nav class="footer-nav" aria-label="Разделы сайта"><a href="/">Главная</a><a href="/help/">Все инструкции</a></nav><nav class="footer-nav footer-nav--info" aria-label="О сайте"><a href="/o-sajte/">О сайте</a><a href="/politika-konfidencialnosti/">Политика конфиденциальности</a><a href="/otkaz-ot-otvetstvennosti/">Отказ от ответственности</a></nav><p dir="ltr">© 2026 Stripchat.su</p></section></footer>
+</body>
+</html>
