@@ -378,12 +378,18 @@ if (!errors.length) {
     fs.writeFileSync(out, PREVIEW_READY ? html.replace(/<meta name="robots"[^>]*>/, '<meta name="robots" content="noindex, nofollow">') : html);
   }
 
+  const sitemapCss = fs.readFileSync(path.join(ROOT, '_build', 'sitemap.css'), 'utf8')
+    .replaceAll('{{PAGE_COUNT}}', String(pages.length + help.pages.length))
+    .replaceAll('{{LANGUAGE_COUNT}}', String(SITE_LANGUAGES.length));
+  fs.writeFileSync(path.join(ROOT, 'assets', 'sitemap.css'), sitemapCss);
+  const sitemapCssVersion = crypto.createHash('sha256').update(sitemapCss).digest('hex').slice(0, 12);
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="/assets/sitemap.css?v=${sitemapCssVersion}"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 ${pages.map((p) => {
     const img = IMAGES[p.basePath];
-    const imgXml = img ? `\n    <image:image>\n      <image:loc>${abs(img.src)}</image:loc>\n    </image:image>` : '';
-    return `  <url>\n    <loc>${abs(p.urlPath)}</loc>${p.modified ? `\n    <lastmod>${p.modified}</lastmod>` : ''}${alternates(p).map(a=>`\n    <xhtml:link rel="alternate" hreflang="${a.lang}" href="${a.url}"/>`).join('')}${imgXml}\n  </url>`;
+    const imgXml = img ? `\n    <image:image>\n      <image:loc>${esc(abs(img.src))}</image:loc>\n    </image:image>` : '';
+    return `  <url>\n    <loc>${esc(abs(p.urlPath))}</loc>${p.modified ? `\n    <lastmod>${esc(p.modified)}</lastmod>` : ''}${alternates(p).map(a=>`\n    <xhtml:link rel="alternate" hreflang="${esc(a.lang)}" href="${esc(a.url)}"/>`).join('')}${imgXml}\n  </url>`;
   }).join('\n')}
 ${helpSitemapEntries(help, SITE.origin)}
 </urlset>

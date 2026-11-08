@@ -65,7 +65,7 @@ export function prepareHelpSite(root, origin, languages = LANGUAGES) {
   const css = fs.readFileSync(path.join(root, '_build/help.css'), 'utf8');
   const siteCss = fs.readFileSync(path.join(root, '_build/site.css'), 'utf8');
   const siteCssVersion = crypto.createHash('md5').update(siteCss).digest('hex').slice(0, 8);
-  const js = fs.readFileSync(path.join(root, '_build/device-test.js'), 'utf8');
+  const js = fs.readFileSync(path.join(root, '_build/device-test.js'), 'utf8').replace(/\r\n/g, '\n');
   const hash = s => crypto.createHash('sha256').update(s).digest('hex').slice(0, 10);
   const abs = url => origin + url;
   const pages = [];
@@ -167,5 +167,5 @@ export function writeHelpSite(root, help) {
 }
 
 export function helpSitemapEntries(help, origin) {
-  return help.pages.map(p => `  <url>\n    <loc>${origin + p.urlPath}</loc>\n    <lastmod>${p.lastmod}</lastmod>\n${p.alternates.map(a => `    <xhtml:link rel="alternate" hreflang="${a.lang}" href="${a.url}"/>`).join('\n')}\n    <image:image><image:loc>${origin + p.imagePath}</image:loc></image:image>\n  </url>`).join('\n');
+  return help.pages.map(p => `  <url>\n    <loc>${escapeHtml(origin + p.urlPath)}</loc>\n    <lastmod>${escapeHtml(p.lastmod)}</lastmod>\n${p.alternates.map(a => `    <xhtml:link rel="alternate" hreflang="${escapeHtml(a.lang)}" href="${escapeHtml(a.url)}"/>`).join('\n')}\n    <image:image><image:loc>${escapeHtml(origin + p.imagePath)}</image:loc></image:image>\n  </url>`).join('\n');
 }

@@ -3,6 +3,7 @@
 This checks translation coverage and technical consistency, not linguistic quality.
 """
 from html.parser import HTMLParser
+from datetime import date, datetime, timezone
 from pathlib import Path
 from urllib.parse import urlsplit, urljoin, unquote
 import json
@@ -41,6 +42,50 @@ def source_route(file):
     if parts[-1] == 'index':
         parts.pop()
     return '/' + '/'.join(parts) + ('/' if parts else '')
+
+
+def site_url(value):
+    """Sitemap URLs must be absolute canonical URLs on this HTTPS origin."""
+    if not isinstance(value, str) or re.search(r'\s', value):
+        return False
+    try:
+        parts = urlsplit(value)
+        return (parts.scheme == 'https' and parts.netloc == urlsplit(ORIGIN).netloc
+                and parts.path.startswith('/') and not parts.query and not parts.fragment)
+    except ValueError:
+        return False
+
+
+def check_sitemap_stylesheet(file):
+    """Keep the browser presentation available without changing the XML payload."""
+    stylesheets = []
+    for _, instruction in ET.iterparse(file, events=('pi',)):
+        pieces = (instruction.text or '').split(None, 1)
+        target = pieces[0] if pieces else ''
+        attributes = pieces[1] if len(pieces) == 2 else ''
+        if target == 'xml-stylesheet':
+            try:
+                stylesheets.append(ET.fromstring('<stylesheet ' + attributes + '/>').attrib)
+            except ET.ParseError:
+                errors.append('Invalid sitemap stylesheet processing instruction')
+    if len(stylesheets) != 1:
+        errors.append('Sitemap must reference one local CSS stylesheet')
+        return
+    stylesheet = stylesheets[0]
+    href = stylesheet.get('href', '')
+    try:
+        parts = urlsplit(href)
+        target = (ROOT / unquote(parts.path).lstrip('/')).resolve()
+        target.relative_to(ROOT.resolve())
+        local = (((not parts.scheme and not parts.netloc)
+                  or (parts.scheme == 'https' and parts.netloc == urlsplit(ORIGIN).netloc))
+                 and parts.path.startswith('/') and not parts.fragment)
+    except ValueError:
+        local = False
+        target = None
+    if (stylesheet.get('type') != 'text/css' or not local or not target
+            or target.suffix != '.css' or not target.is_file()):
+        errors.append('Sitemap stylesheet must reference an existing local CSS file: ' + href)
 
 
 class Page(HTMLParser):
@@ -167,12 +212,22 @@ help_routes = {'/help/'} | {'/help/' + article['id'] + '/' for article in help_d
 base_routes = main_routes | help_routes
 expected_routes = {localized(locale, route) for locale in SELECTED for route in base_routes}
 baselines = original_iframes(main_routes)
-tree = ET.parse(ROOT / 'sitemap.xml')
+sitemap_file = ROOT / 'sitemap.xml'
+tree = ET.parse(sitemap_file)
+if tree.getroot().tag != '{' + NS['s'] + '}urlset':
+    errors.append('Sitemap root must be urlset in the sitemap 0.9 namespace')
+if sitemap_file.stat().st_size > 50 * 1024 * 1024:
+    errors.append('Sitemap exceeds the 50 MB uncompressed size limit')
+check_sitemap_stylesheet(sitemap_file)
 records = tree.findall('s:url', NS)
+if len(records) > 50000:
+    errors.append('Sitemap exceeds the 50,000 URL limit')
+if len(records) != len(tree.getroot()):
+    errors.append('Sitemap contains an unexpected element outside its URL records')
 urls = [record.findtext('s:loc', namespaces=NS) for record in records]
 if len(urls) != len(set(urls)):
     errors.append('Duplicate sitemap URLs')
-actual_routes = {urlsplit(url).path for url in urls if url}
+actual_routes = {urlsplit(url).path for url in urls if site_url(url)}
 for missing in sorted(expected_routes - actual_routes):
     errors.append('Missing locale page in sitemap: ' + missing)
 for extra in sorted(actual_routes - expected_routes):
@@ -180,8 +235,8 @@ for extra in sorted(actual_routes - expected_routes):
 
 pages = {}
 for url in urls:
-    if not url or not url.startswith(ORIGIN + '/'):
-        errors.append('Unexpected sitemap origin: ' + str(url))
+    if not site_url(url):
+        errors.append('Sitemap URL must be absolute HTTPS on the canonical origin, without query or fragment: ' + str(url))
         continue
     parts = urlsplit(url)
     route = parts.path
@@ -308,7 +363,27 @@ for field in ('title', 'description'):
 
 for record in records:
     url = record.findtext('s:loc', namespaces=NS)
+    if len(record.findall('s:loc', NS)) != 1:
+        errors.append(f'{url}: sitemap entry must have exactly one loc')
+    dates = record.findall('s:lastmod', NS)
+    if len(dates) > 1:
+        errors.append(f'{url}: duplicate sitemap lastmod')
+    for element in dates:
+        value = element.text or ''
+        try:
+            if not re.fullmatch(r'\d{4}-\d{2}-\d{2}', value):
+                raise ValueError
+            modified = date.fromisoformat(value)
+            if modified > datetime.now(timezone.utc).date():
+                errors.append(f'{url}: sitemap lastmod is in the future: {value}')
+        except ValueError:
+            errors.append(f'{url}: sitemap lastmod must be a valid YYYY-MM-DD date: {value}')
     annotations_list = record.findall('x:link', NS)
+    for annotation in annotations_list:
+        if annotation.get('rel') != 'alternate':
+            errors.append(f'{url}: sitemap hreflang link must use rel="alternate"')
+        if not site_url(annotation.get('href')):
+            errors.append(f'{url}: sitemap hreflang target must be an absolute canonical HTTPS URL')
     annotations = {a.attrib.get('hreflang'): a.attrib.get('href') for a in annotations_list}
     if len(annotations) != len(annotations_list):
         errors.append(f'{url}: duplicate sitemap hreflang')
